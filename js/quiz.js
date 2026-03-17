@@ -78,30 +78,12 @@ const Quiz = (() => {
    * Returns { questionText, field, correct } or null.
    */
   function buildFactQuestion(animal) {
-    const name = animal.label;
-
-    if (animal.mass) {
-      return {
-        questionText: `Koľko priemerne váži ${name}?`,
-        field: 'mass',
-        correct: animal.mass,
-      };
-    }
-    if (animal.conserv) {
-      return {
-        questionText: `Aký je stupeň ohrozenia druhu ${name}?`,
-        field: 'conserv',
-        correct: animal.conserv,
-      };
-    }
-    if (animal.sciName) {
-      return {
-        questionText: `Aký je vedecký názov druhu ${name}?`,
-        field: 'sciName',
-        correct: animal.sciName,
-      };
-    }
-    return null;
+    if (!animal.sciName) return null;
+    return {
+      questionText: `Aký je vedecký názov druhu ${animal.label}?`,
+      field: 'sciName',
+      correct: animal.sciName,
+    };
   }
 
   /* ── Timer ── */
