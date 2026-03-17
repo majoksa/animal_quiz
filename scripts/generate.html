@@ -335,27 +335,27 @@ const ANIMALS_SEED = [
   { name:"Kiwi",                    continent:"Australia",     sciName:"Apteryx australis" },
   { name:"Tuatara",                 continent:"Australia",     sciName:"Sphenodon punctatus" },
 
-  // OCEAN / WORLDWIDE MARINE (assigned to nearest continent)
-  { name:"Orca",                    continent:"Antarctica",    sciName:"Orcinus orca" },
-  { name:"Humpback whale",          continent:"Antarctica",    sciName:"Megaptera novaeangliae" },
-  { name:"Blue whale",              continent:"Antarctica",    sciName:"Balaenoptera musculus" },
-  { name:"Sperm whale",             continent:"North America", sciName:"Physeter macrocephalus" },
-  { name:"Bottlenose dolphin",      continent:"Europe",        sciName:"Tursiops truncatus" },
-  { name:"Great white shark",       continent:"Africa",        sciName:"Carcharodon carcharias" },
-  { name:"Whale shark",             continent:"Asia",          sciName:"Rhincodon typus" },
-  { name:"Manta ray",               continent:"Asia",          sciName:"Mobula birostris" },
-  { name:"Hammerhead shark",        continent:"Africa",        sciName:"Sphyrna lewini" },
-  { name:"Green sea turtle",        continent:"Australia",     sciName:"Chelonia mydas" },
-  { name:"Leatherback sea turtle",  continent:"South America", sciName:"Dermochelys coriacea" },
-  { name:"Loggerhead sea turtle",   continent:"Europe",        sciName:"Caretta caretta" },
-  { name:"Narwhal",                 continent:"North America", sciName:"Monodon monoceros" },
-  { name:"Beluga whale",            continent:"North America", sciName:"Delphinapterus leucas" },
-  { name:"Common seal",             continent:"Europe",        sciName:"Phoca vitulina" },
-  { name:"Mediterranean monk seal", continent:"Europe",        sciName:"Monachus monachus" },
-  { name:"Common octopus",          continent:"Europe",        sciName:"Octopus vulgaris" },
-  { name:"Giant Pacific octopus",   continent:"North America", sciName:"Enteroctopus dofleini" },
-  { name:"Clownfish",               continent:"Australia",     sciName:"Amphiprion ocellaris" },
-  { name:"Lionfish",                continent:"Asia",          sciName:"Pterois volitans" },
+  // OCEAN / WORLDWIDE MARINE
+  { name:"Orca",                    continent:"Antarctica",    sciName:"Orcinus orca",              ocean:"Pacific Ocean" },
+  { name:"Humpback whale",          continent:"Antarctica",    sciName:"Megaptera novaeangliae",     ocean:"Atlantic Ocean" },
+  { name:"Blue whale",              continent:"Antarctica",    sciName:"Balaenoptera musculus",      ocean:"Southern Ocean" },
+  { name:"Sperm whale",             continent:"North America", sciName:"Physeter macrocephalus",     ocean:"Pacific Ocean" },
+  { name:"Bottlenose dolphin",      continent:"Europe",        sciName:"Tursiops truncatus",         ocean:"Atlantic Ocean" },
+  { name:"Great white shark",       continent:"Africa",        sciName:"Carcharodon carcharias",     ocean:"Pacific Ocean" },
+  { name:"Whale shark",             continent:"Asia",          sciName:"Rhincodon typus",            ocean:"Indian Ocean" },
+  { name:"Manta ray",               continent:"Asia",          sciName:"Mobula birostris",           ocean:"Pacific Ocean" },
+  { name:"Hammerhead shark",        continent:"Africa",        sciName:"Sphyrna lewini",             ocean:"Atlantic Ocean" },
+  { name:"Green sea turtle",        continent:"Australia",     sciName:"Chelonia mydas",             ocean:"Pacific Ocean" },
+  { name:"Leatherback sea turtle",  continent:"South America", sciName:"Dermochelys coriacea",       ocean:"Atlantic Ocean" },
+  { name:"Loggerhead sea turtle",   continent:"Europe",        sciName:"Caretta caretta",            ocean:"Mediterranean Sea" },
+  { name:"Narwhal",                 continent:"North America", sciName:"Monodon monoceros",          ocean:"Arctic Ocean" },
+  { name:"Beluga whale",            continent:"North America", sciName:"Delphinapterus leucas",      ocean:"Arctic Ocean" },
+  { name:"Common seal",             continent:"Europe",        sciName:"Phoca vitulina",             ocean:"Atlantic Ocean" },
+  { name:"Mediterranean monk seal", continent:"Europe",        sciName:"Monachus monachus",          ocean:"Mediterranean Sea" },
+  { name:"Common octopus",          continent:"Europe",        sciName:"Octopus vulgaris",           ocean:"Mediterranean Sea" },
+  { name:"Giant Pacific octopus",   continent:"North America", sciName:"Enteroctopus dofleini",      ocean:"Pacific Ocean" },
+  { name:"Clownfish",               continent:"Australia",     sciName:"Amphiprion ocellaris",       ocean:"Pacific Ocean" },
+  { name:"Lionfish",                continent:"Asia",          sciName:"Pterois volitans",           ocean:"Pacific Ocean" },
 
   // MORE AFRICA
   { name:"Pygmy hippopotamus",      continent:"Africa",        sciName:"Choeropsis liberiensis" },
@@ -401,6 +401,15 @@ function print(msg) {
   log.textContent += '\n' + msg;
   log.scrollTop = log.scrollHeight;
 }
+
+const OCEAN_SK = {
+  'Pacific Ocean':     'Tichý oceán',
+  'Atlantic Ocean':    'Atlantický oceán',
+  'Indian Ocean':      'Indický oceán',
+  'Arctic Ocean':      'Severný ľadový oceán',
+  'Southern Ocean':    'Antarktický oceán',
+  'Mediterranean Sea': 'Stredozemné more',
+};
 
 const CONTINENT_SK = {
   'Africa':        'Afrika',
@@ -513,6 +522,7 @@ document.getElementById('btnStart').addEventListener('click', async () => {
         continent: CONTINENT_SK[seed.continent] || seed.continent,
         sciName:   seed.sciName,
         fact:      fact || enFact || null,
+        ...(seed.ocean ? { ocean: OCEAN_SK[seed.ocean] || seed.ocean } : {}),
       });
       ok++;
     }));
