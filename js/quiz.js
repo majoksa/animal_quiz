@@ -80,16 +80,10 @@ const Quiz = (() => {
    */
   function buildFactQuestion(animal) {
     if (!animal.fact) return null;
-    const escaped  = animal.label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const blankFact = animal.fact.replace(new RegExp(escaped, 'gi'), '___');
-    // Slovak nouns decline – if the label doesn't appear in the fact sentence
-    // (different grammatical case), skip this question rather than showing a
-    // fill-in-the-blank with no blank.
-    if (blankFact === animal.fact) return null;
     return {
-      questionText: blankFact,
-      field: 'label',
-      correct: animal.label,
+      questionText: `Čo je pravda o ${animal.label}?`,
+      field:        'fact',
+      correct:      animal.fact,
     };
   }
 
@@ -167,9 +161,15 @@ const Quiz = (() => {
       field        = 'label';
       correct      = animal.label;
     } else if (type === 'habitat') {
-      questionText = `Na ktorom kontinente žije ${animal.label}?`;
-      field        = 'continent';
-      correct      = animal.continent;
+      if (animal.ocean) {
+        questionText = `V ktorom oceáne alebo mori žije ${animal.label}?`;
+        field        = 'ocean';
+        correct      = animal.ocean;
+      } else {
+        questionText = `Na ktorom kontinente žije ${animal.label}?`;
+        field        = 'continent';
+        correct      = animal.continent;
+      }
     } else {
       const factQ = buildFactQuestion(animal);
       if (!factQ) return null;
