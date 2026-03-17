@@ -410,22 +410,93 @@ const Regen = (() => {
     return fact.length >= 30 ? fact : null;
   }
 
+  /* ── Lingva Translate instances (Google Translate proxy, CORS, no API key) ── */
+  const LINGVA_INSTANCES = [
+    'lingva.ml',
+    'translate.plausibility.cloud',
+    'lingva.lunar.icu',
+  ];
+
   /**
-   * Translate text from English to Slovak using MyMemory API.
-   * Uses a random session email to avoid daily character limit resets.
-   * Returns original text on any failure.
+   * Translate text via Lingva Translate (Google Translate proxy).
+   * Tries multiple public instances with fallback.
+   * Returns null on failure (so caller can try next method).
+   */
+  async function translateViaLingva(text) {
+    if (!text) return null;
+    for (const host of LINGVA_INSTANCES) {
+      try {
+        const url = `https://${host}/api/v1/en/sk/${encodeURIComponent(text)}`;
+        const res = await fetch(url);
+        if (!res.ok) continue;
+        const data = await res.json();
+        if (data?.translation && data.translation !== text) return data.translation;
+      } catch { /* try next instance */ }
+    }
+    return null;
+  }
+
+  /**
+   * Translate text via MyMemory API (backup).
+   * Returns null on failure.
+   */
+  async function translateViaMyMemory(text, sessionEmail) {
+    if (!text) return null;
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=en|sk&de=${encodeURIComponent(sessionEmail)}`;
+        const res = await fetch(url);
+        if (!res.ok) { await new Promise(r => setTimeout(r, 1000 * attempt)); continue; }
+        const data = await res.json();
+        const translated = data?.responseData?.translatedText;
+        if (!translated || translated.startsWith('MYMEMORY WARNING') || translated.startsWith('PLEASE SELECT')) return null;
+        if (data?.responseStatus === 403 || data?.responseStatus === 429) return null;
+        return translated;
+      } catch { await new Promise(r => setTimeout(r, 1000 * attempt)); }
+    }
+    return null;
+  }
+
+  /**
+   * Translate text from English to Slovak.
+   * Strategy: Lingva (primary) → MyMemory (backup) → original text (fallback).
    */
   async function translateText(text, sessionEmail) {
     if (!text) return text;
-    try {
-      const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=en|sk&de=${encodeURIComponent(sessionEmail)}`;
-      const res = await fetch(url);
-      if (!res.ok) return text;
-      const data = await res.json();
-      const translated = data?.responseData?.translatedText;
-      if (!translated || translated.startsWith('MYMEMORY WARNING')) return text;
-      return translated;
-    } catch { return text; }
+    const lingvaResult = await translateViaLingva(text);
+    if (lingvaResult) return lingvaResult;
+    const myMemoryResult = await translateViaMyMemory(text, sessionEmail);
+    if (myMemoryResult) return myMemoryResult;
+    return text;
+  }
+
+  /**
+   * Fetch Slovak labels from Wikidata API in bulk (up to 50 IDs per call).
+   * Returns Map<wikidataId, slovakLabel>.
+   */
+  async function fetchWikidataLabels(wikidataIds) {
+    const labels = new Map();
+    const BATCH_SIZE = 50;
+    for (let i = 0; i < wikidataIds.length; i += BATCH_SIZE) {
+      const batch = wikidataIds.slice(i, i + BATCH_SIZE);
+      try {
+        const ids = batch.join('|');
+        const url = `https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${ids}&languages=sk&props=labels&format=json&origin=*`;
+        const res = await fetch(url);
+        if (!res.ok) continue;
+        const data = await res.json();
+        if (data?.entities) {
+          for (const [id, entity] of Object.entries(data.entities)) {
+            const skLabel = entity?.labels?.sk?.value;
+            if (skLabel) labels.set(id, skLabel);
+          }
+        }
+      } catch { /* continue with next batch */ }
+      if (i + BATCH_SIZE < wikidataIds.length) {
+        await new Promise(r => setTimeout(r, 200));
+      }
+    }
+    return labels;
   }
 
   async function fetchWikiSummary(title, retries = 3) {
@@ -453,53 +524,85 @@ const Regen = (() => {
    *   onError(msg)                – called on failure
    */
   async function run(onProgress, onDone, onError) {
-    const results = [];
-    const seenTitles = new Set();
-    let ok = 0, skip = 0;
-
-    // Random email per session → each run gets a fresh 50 000-char quota
     const sessionEmail = `quiz_${Math.random().toString(36).slice(2, 10)}@gmail.com`;
+    const seenTitles = new Set();
 
+    // Phase 1: Fetch all Wikipedia summaries and collect wikidata IDs
+    const rawAnimals = [];
     const BATCH = 5;
     for (let i = 0; i < ANIMALS_SEED.length; i += BATCH) {
       const batch = ANIMALS_SEED.slice(i, i + BATCH);
       await Promise.all(batch.map(async seed => {
-        if (seenTitles.has(seed.name)) { skip++; return; }
+        if (seenTitles.has(seed.name)) return;
         seenTitles.add(seed.name);
 
         const summary = await fetchWikiSummary(seed.name);
-        if (!summary) { skip++; return; }
+        if (!summary) return;
 
         const imageUrl = buildImageUrl(summary);
-        if (!imageUrl) { skip++; return; }
+        if (!imageUrl) return;
 
-        const wikidataId = summary.wikibase_item
-          ? `http://www.wikidata.org/entity/${summary.wikibase_item}`
+        const wikidataQid = summary.wikibase_item || null;
+        const wikidataId = wikidataQid
+          ? `http://www.wikidata.org/entity/${wikidataQid}`
           : `https://en.wikipedia.org/wiki/${encodeURIComponent(seed.name)}`;
 
-        const enFact = extractFact(summary);
-
-        // Translate name and fact to Slovak (fallback to English on error)
-        const [label, fact] = await Promise.all([
-          translateText(seed.name, sessionEmail),
-          enFact ? translateText(enFact, sessionEmail) : Promise.resolve(null),
-        ]);
-        // Small extra delay to be polite to the translation API
-        await new Promise(r => setTimeout(r, 50));
-
-        results.push({
-          id:        wikidataId,
-          label:     label || seed.name,
-          imageUrl,
-          continent: translateHabitat(seed.continent, CONTINENT_SK),
-          sciName:   seed.sciName,
-          fact:      fact || enFact || null,
-          ...(seed.ocean ? { ocean: translateHabitat(seed.ocean, OCEAN_SK) } : {}),
+        rawAnimals.push({
+          seed, wikidataId, wikidataQid, imageUrl,
+          enFact: extractFact(summary),
         });
-        ok++;
       }));
 
-      onProgress(Math.min(i + BATCH, ANIMALS_SEED.length), ANIMALS_SEED.length, ok);
+      onProgress(Math.min(i + BATCH, ANIMALS_SEED.length), ANIMALS_SEED.length, rawAnimals.length);
+      await new Promise(r => setTimeout(r, 200));
+    }
+
+    if (rawAnimals.length < 15) {
+      onError(`Príliš málo zvierat (${rawAnimals.length}). Skontroluj internetové pripojenie.`);
+      return;
+    }
+
+    // Phase 2: Bulk-fetch Slovak labels from Wikidata
+    const wikidataQids = rawAnimals
+      .filter(a => a.wikidataQid)
+      .map(a => a.wikidataQid);
+    const skLabels = await fetchWikidataLabels(wikidataQids);
+
+    // Phase 3: Translate facts (and names missing from Wikidata) via Lingva/MyMemory
+    const results = [];
+    for (let i = 0; i < rawAnimals.length; i += BATCH) {
+      const batch = rawAnimals.slice(i, i + BATCH);
+      await Promise.all(batch.map(async raw => {
+        // Slovak name: prefer Wikidata label, fallback to translation
+        let label = raw.wikidataQid ? skLabels.get(raw.wikidataQid) : null;
+        if (!label) {
+          label = await translateText(raw.seed.name, sessionEmail);
+        }
+
+        // Slovak fact: translate via Lingva/MyMemory
+        let fact = null;
+        if (raw.enFact) {
+          fact = await translateText(raw.enFact, sessionEmail);
+        }
+
+        await new Promise(r => setTimeout(r, 300));
+
+        results.push({
+          id:        raw.wikidataId,
+          label:     label || raw.seed.name,
+          imageUrl:  raw.imageUrl,
+          continent: translateHabitat(raw.seed.continent, CONTINENT_SK),
+          sciName:   raw.seed.sciName,
+          fact:      fact || raw.enFact || null,
+          ...(raw.seed.ocean ? { ocean: translateHabitat(raw.seed.ocean, OCEAN_SK) } : {}),
+        });
+      }));
+
+      onProgress(
+        ANIMALS_SEED.length,
+        ANIMALS_SEED.length,
+        results.length
+      );
       await new Promise(r => setTimeout(r, 200));
     }
 
