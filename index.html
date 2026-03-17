@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zvieracie Kvízy 🐾</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════ START SCREEN ═══════════════ -->
+  <div id="screen-start" class="screen active">
+    <div class="card start-card">
+      <div class="logo">🐾</div>
+      <h1>Zvieracie Kvízy</h1>
+      <p class="subtitle">Spoznaj zvieratá celého sveta!</p>
+
+      <div class="name-input-group">
+        <label for="player-name">Ako sa voláš?</label>
+        <input
+          type="text"
+          id="player-name"
+          placeholder="Zadaj svoje meno..."
+          maxlength="20"
+          autocomplete="off"
+        />
+      </div>
+
+      <button id="btn-start" class="btn btn-primary" disabled>
+        Hrať! 🎮
+      </button>
+      <button id="btn-show-leaderboard" class="btn btn-secondary">
+        Rebríček 🏆
+      </button>
+    </div>
+  </div>
+
+  <!-- ═══════════════ LOADING SCREEN ═══════════════ -->
+  <div id="screen-loading" class="screen">
+    <div class="loading-content">
+      <div class="spinner"></div>
+      <p id="loading-text">Načítavam zvieratá z celého sveta…</p>
+      <p id="loading-sub">Prosím čakaj, kontaktujem Wikidata…</p>
+    </div>
+  </div>
+
+  <!-- ═══════════════ ERROR SCREEN ═══════════════ -->
+  <div id="screen-error" class="screen">
+    <div class="card">
+      <div class="logo">😢</div>
+      <h2>Ups! Niečo sa pokazilo</h2>
+      <p id="error-message">Nepodarilo sa načítať zvieratá. Skontroluj internetové pripojenie a skús znova.</p>
+      <p class="error-hint">💡 Aplikácia musí byť spustená cez lokálny server (nie priamo ako súbor).</p>
+      <p class="error-hint">Spusti: <code>python3 -m http.server 8080</code></p>
+      <button id="btn-retry" class="btn btn-primary">Skúsiť znova 🔄</button>
+    </div>
+  </div>
+
+  <!-- ═══════════════ QUESTION SCREEN ═══════════════ -->
+  <div id="screen-question" class="screen">
+    <header class="quiz-header">
+      <div class="progress-info">
+        <span id="animal-counter">Zviera 1 z 15</span>
+        <span id="current-score">Skóre: 0</span>
+      </div>
+      <div class="progress-bar-outer">
+        <div id="progress-bar" class="progress-bar-inner"></div>
+      </div>
+    </header>
+
+    <main class="quiz-main">
+      <div class="animal-image-wrap">
+        <img id="animal-image" src="" alt="Zviera" />
+        <div id="image-loader" class="image-loader">
+          <div class="spinner small"></div>
+        </div>
+      </div>
+
+      <div class="question-card">
+        <p id="question-text" class="question-text">Aké zviera je na fotografii?</p>
+
+        <div id="timer-bar-outer" class="timer-bar-outer">
+          <div id="timer-bar" class="timer-bar-inner"></div>
+        </div>
+
+        <div id="answers-grid" class="answers-grid">
+          <!-- 5 answer buttons injected by ui.js -->
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- ═══════════════ END SCREEN ═══════════════ -->
+  <div id="screen-end" class="screen">
+    <div id="confetti-container"></div>
+    <div class="card end-card">
+      <div class="logo">🎉</div>
+      <h2 id="end-title">Výborne!</h2>
+      <div class="score-display">
+        <span id="end-score">0</span>
+        <span class="score-max">/ 1 050</span>
+      </div>
+      <div id="end-grade" class="grade-badge">Začiatočník</div>
+
+      <div id="animal-summary" class="animal-summary">
+        <!-- mini dots for each animal injected by ui.js -->
+      </div>
+
+      <div class="end-buttons">
+        <button id="btn-save-leaderboard" class="btn btn-primary">Uložiť do rebríčka 🏆</button>
+        <button id="btn-play-again" class="btn btn-secondary">Hrať znova 🔄</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════ LEADERBOARD OVERLAY ═══════════════ -->
+  <div id="overlay-leaderboard" class="overlay hidden">
+    <div class="overlay-backdrop"></div>
+    <div class="overlay-card">
+      <h2>🏆 Rebríček top 10</h2>
+      <table id="leaderboard-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Meno</th>
+            <th>Body</th>
+            <th>Stupeň</th>
+            <th>Dátum</th>
+          </tr>
+        </thead>
+        <tbody id="leaderboard-body">
+          <!-- rows injected by ui.js -->
+        </tbody>
+      </table>
+      <p id="leaderboard-empty" class="leaderboard-empty hidden">Zatiaľ žiadne záznamy. Buď prvý!</p>
+      <button id="btn-close-leaderboard" class="btn btn-secondary">Zavrieť ✕</button>
+    </div>
+  </div>
+
+  <!-- Scripts — order matters -->
+  <script src="js/leaderboard.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/ui.js"></script>
+</body>
+</html>
