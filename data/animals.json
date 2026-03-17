@@ -1,491 +1,491 @@
 [
   {
-    "id": "http://www.wikidata.org/entity/Q34505",
-    "label": "Hippopotamus",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Portrait_Hippopotamus_in_the_water.jpg/500px-Portrait_Hippopotamus_in_the_water.jpg",
+    "id": "http://www.wikidata.org/entity/Q185038",
+    "label": "African elephant",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg/1920px-African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg",
     "continent": "Africa",
-    "sciName": "Hippopotamus amphibius"
+    "sciName": "Loxodonta africana"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q140",
+    "label": "Lion",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "continent": "Africa",
+    "sciName": "Panthera leo"
   },
   {
     "id": "http://www.wikidata.org/entity/Q862089",
     "label": "Giraffe",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/500px-Giraffe_Mikumi_National_Park.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Giraffe_Mikumi_National_Park.jpg",
     "continent": "Africa",
     "sciName": "Giraffa camelopardalis"
   },
   {
     "id": "http://www.wikidata.org/entity/Q245305",
     "label": "Plains zebra",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Equus_quagga_burchellii_-_Etosha%2C_2014.jpg/500px-Equus_quagga_burchellii_-_Etosha%2C_2014.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Equus_quagga_burchellii_-_Etosha%2C_2014.jpg",
     "continent": "Africa",
     "sciName": "Equus quagga"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q140",
-    "label": "Lion",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "id": "http://www.wikidata.org/entity/Q34505",
+    "label": "Hippopotamus",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Portrait_Hippopotamus_in_the_water.jpg",
     "continent": "Africa",
-    "sciName": "Panthera leo"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q185038",
-    "label": "African elephant",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg/500px-African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg",
-    "continent": "Africa",
-    "sciName": "Loxodonta africana"
+    "sciName": "Hippopotamus amphibius"
   },
   {
     "id": "http://www.wikidata.org/entity/Q737838",
     "label": "Western gorilla",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Male_gorilla_in_SF_zoo.jpg/500px-Male_gorilla_in_SF_zoo.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Male_gorilla_in_SF_zoo.jpg/1920px-Male_gorilla_in_SF_zoo.jpg",
     "continent": "Africa",
     "sciName": "Gorilla gorilla"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q34706",
-    "label": "Leopard",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/African_leopard_male_%28cropped%29.jpg/500px-African_leopard_male_%28cropped%29.jpg",
-    "continent": "Africa",
-    "sciName": "Panthera pardus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q178089",
-    "label": "Spotted hyena",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Spotted_hyena_%28Crocuta_crocuta%29.jpg/500px-Spotted_hyena_%28Crocuta_crocuta%29.jpg",
-    "continent": "Africa",
-    "sciName": "Crocuta crocuta"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q160042",
-    "label": "African buffalo",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/African_buffalo_%28Syncerus_caffer_caffer%29_male_with_cattle_egret.jpg/500px-African_buffalo_%28Syncerus_caffer_caffer%29_male_with_cattle_egret.jpg",
-    "continent": "Africa",
-    "sciName": "Syncerus caffer"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q23907",
     "label": "Cheetah",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Male_cheetah_facing_left_in_South_Africa.jpg/500px-Male_cheetah_facing_left_in_South_Africa.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Male_cheetah_facing_left_in_South_Africa.jpg",
     "continent": "Africa",
     "sciName": "Acinonyx jubatus"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q34706",
+    "label": "Leopard",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/African_leopard_male_%28cropped%29.jpg",
+    "continent": "Africa",
+    "sciName": "Panthera pardus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q160042",
+    "label": "African buffalo",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/African_buffalo_%28Syncerus_caffer_caffer%29_male_with_cattle_egret.jpg/3840px-African_buffalo_%28Syncerus_caffer_caffer%29_male_with_cattle_egret.jpg",
+    "continent": "Africa",
+    "sciName": "Syncerus caffer"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q178089",
+    "label": "Spotted hyena",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Spotted_hyena_%28Crocuta_crocuta%29.jpg/3840px-Spotted_hyena_%28Crocuta_crocuta%29.jpg",
+    "continent": "Africa",
+    "sciName": "Crocuta crocuta"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q189868",
     "label": "Mandrill",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Mandrill_Albert_September_2015_Zoo_Berlin_%282%29.jpg/500px-Mandrill_Albert_September_2015_Zoo_Berlin_%282%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Mandrill_Albert_September_2015_Zoo_Berlin_%282%29.jpg",
     "continent": "Africa",
     "sciName": "Mandrillus sphinx"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q173651",
-    "label": "African wild dog",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/African_Wild_Dog_at_Working_with_Wildlife.jpg/500px-African_Wild_Dog_at_Working_with_Wildlife.jpg",
-    "continent": "Africa",
-    "sciName": "Lycaon pictus"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q134015",
     "label": "Meerkat",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Meerkat_%28Suricata_suricatta%29_Tswalu.jpg/500px-Meerkat_%28Suricata_suricatta%29_Tswalu.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Meerkat_%28Suricata_suricatta%29_Tswalu.jpg",
     "continent": "Africa",
     "sciName": "Suricata suricatta"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q168745",
-    "label": "Nile crocodile",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/NileCrocodile.jpg/500px-NileCrocodile.jpg",
+    "id": "http://www.wikidata.org/entity/Q173651",
+    "label": "African wild dog",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/African_Wild_Dog_at_Working_with_Wildlife.jpg/1920px-African_Wild_Dog_at_Working_with_Wildlife.jpg",
     "continent": "Africa",
-    "sciName": "Crocodylus niloticus"
+    "sciName": "Lycaon pictus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q95036",
     "label": "Black rhinoceros",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Black_Rhino_at_Working_with_Wildlife.jpg/500px-Black_Rhino_at_Working_with_Wildlife.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Black_Rhino_at_Working_with_Wildlife.jpg/3840px-Black_Rhino_at_Working_with_Wildlife.jpg",
     "continent": "Africa",
     "sciName": "Diceros bicornis"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q179863",
-    "label": "Greater flamingo",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg/500px-010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg",
+    "id": "http://www.wikidata.org/entity/Q168745",
+    "label": "Nile crocodile",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/NileCrocodile.jpg/1280px-NileCrocodile.jpg",
     "continent": "Africa",
-    "sciName": "Phoenicopterus roseus"
+    "sciName": "Crocodylus niloticus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q17592",
     "label": "Common ostrich",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Struthio_camelus_-_Etosha_2014_%283%29.jpg/500px-Struthio_camelus_-_Etosha_2014_%283%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Struthio_camelus_-_Etosha_2014_%283%29.jpg/1280px-Struthio_camelus_-_Etosha_2014_%283%29.jpg",
     "continent": "Africa",
     "sciName": "Struthio camelus"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q179863",
+    "label": "Greater flamingo",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg/3840px-010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg",
+    "continent": "Africa",
+    "sciName": "Phoenicopterus roseus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q213084",
+    "label": "Springbok",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/174_Male_Springbok_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+    "continent": "Africa",
+    "sciName": "Antidorcas marsupialis"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q3645260",
     "label": "Warthog",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Southern_warthog_%28Phacochoerus_africanus_sundevallii%29_male.jpg/500px-Southern_warthog_%28Phacochoerus_africanus_sundevallii%29_male.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Southern_warthog_%28Phacochoerus_africanus_sundevallii%29_male.jpg",
     "continent": "Africa",
     "sciName": "Phacochoerus africanus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q328809",
     "label": "Blue wildebeest",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Blue_Wildebeest%2C_Ngorongoro.jpg/500px-Blue_Wildebeest%2C_Ngorongoro.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Blue_Wildebeest%2C_Ngorongoro.jpg",
     "continent": "Africa",
     "sciName": "Connochaetes taurinus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q213084",
-    "label": "Springbok",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/174_Male_Springbok_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg/500px-174_Male_Springbok_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+    "id": "http://www.wikidata.org/entity/Q173128",
+    "label": "Honey badger",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Honey_Badger.jpg/3840px-Honey_Badger.jpg",
     "continent": "Africa",
-    "sciName": "Antidorcas marsupialis"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q18700",
-    "label": "Shoebill",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Balaeniceps_rex_-Ueno_Zoo%2C_Tokyo%2C_Japan-8a.jpg/500px-Balaeniceps_rex_-Ueno_Zoo%2C_Tokyo%2C_Japan-8a.jpg",
-    "continent": "Africa",
-    "sciName": "Balaeniceps rex"
+    "sciName": "Mellivora capensis"
   },
   {
     "id": "http://www.wikidata.org/entity/Q46212",
     "label": "Aardvark",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Orycteropus_afer_175359469.jpg/500px-Orycteropus_afer_175359469.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Orycteropus_afer_175359469.jpg",
     "continent": "Africa",
     "sciName": "Orycteropus afer"
   },
   {
     "id": "http://www.wikidata.org/entity/Q82037",
     "label": "Okapi",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Saint-Aignan_%28Loir-et-Cher%29._Okapi.jpg/500px-Saint-Aignan_%28Loir-et-Cher%29._Okapi.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Saint-Aignan_%28Loir-et-Cher%29._Okapi.jpg",
     "continent": "Africa",
     "sciName": "Okapia johnstoni"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q18700",
+    "label": "Shoebill",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Balaeniceps_rex_-Ueno_Zoo%2C_Tokyo%2C_Japan-8a.jpg",
+    "continent": "Africa",
+    "sciName": "Balaeniceps rex"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q244813",
     "label": "African penguin",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Wikimania_2018%2C_Cape_Town_%28_1050602%29%2C_crop.jpg/500px-Wikimania_2018%2C_Cape_Town_%28_1050602%29%2C_crop.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Wikimania_2018%2C_Cape_Town_%28_1050602%29%2C_crop.jpg/1280px-Wikimania_2018%2C_Cape_Town_%28_1050602%29%2C_crop.jpg",
     "continent": "Africa",
     "sciName": "Spheniscus demersus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q173128",
-    "label": "Honey badger",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Honey_Badger.jpg/500px-Honey_Badger.jpg",
+    "id": "http://www.wikidata.org/entity/Q208112",
+    "label": "Gerenuk",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/San_Diego_Zoo_Avril_2013_05.JPG",
     "continent": "Africa",
-    "sciName": "Mellivora capensis"
+    "sciName": "Litocranius walleri"
   },
   {
     "id": "http://www.wikidata.org/entity/Q30847",
     "label": "Caracal",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Caracal_on_the_road%2C_early_morning_in_Kgalagadi_%2836173878220%29_%28cropped%29.jpg/500px-Caracal_on_the_road%2C_early_morning_in_Kgalagadi_%2836173878220%29_%28cropped%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Caracal_on_the_road%2C_early_morning_in_Kgalagadi_%2836173878220%29_%28cropped%29.jpg",
     "continent": "Africa",
     "sciName": "Caracal caracal"
   },
   {
     "id": "http://www.wikidata.org/entity/Q42699",
     "label": "Serval",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Servalcropped.png/500px-Servalcropped.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Servalcropped.png",
     "continent": "Africa",
     "sciName": "Leptailurus serval"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q132576",
-    "label": "Impala",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Impala_%28Aepyceros_melampus%29_male_Kruger.jpg/500px-Impala_%28Aepyceros_melampus%29_male_Kruger.jpg",
-    "continent": "Africa",
-    "sciName": "Aepyceros melampus"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q168748",
     "label": "Secretary bird",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Secretary_bird_Mara_for_WC.jpg/500px-Secretary_bird_Mara_for_WC.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Secretary_bird_Mara_for_WC.jpg/3840px-Secretary_bird_Mara_for_WC.jpg",
     "continent": "Africa",
     "sciName": "Sagittarius serpentarius"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q208112",
-    "label": "Gerenuk",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/San_Diego_Zoo_Avril_2013_05.JPG/500px-San_Diego_Zoo_Avril_2013_05.JPG",
+    "id": "http://www.wikidata.org/entity/Q132576",
+    "label": "Impala",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Impala_%28Aepyceros_melampus%29_male_Kruger.jpg",
     "continent": "Africa",
-    "sciName": "Litocranius walleri"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q30197",
-    "label": "Snow leopard",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Irbis4.JPG/500px-Irbis4.JPG",
-    "continent": "Asia",
-    "sciName": "Panthera uncia"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q33602",
-    "label": "Giant panda",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/500px-Grosser_Panda.JPG",
-    "continent": "Asia",
-    "sciName": "Ailuropoda melanoleuca"
+    "sciName": "Aepyceros melampus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q133006",
     "label": "Asian elephant",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Elephas_maximus_%28Bandipur%29.jpg/500px-Elephas_maximus_%28Bandipur%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Elephas_maximus_%28Bandipur%29.jpg",
     "continent": "Asia",
     "sciName": "Elephas maximus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q80952",
     "label": "Bengal tiger",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Bengal_tiger_in_Sanjay_Dubri_Tiger_Reserve_December_2024_by_Tisha_Mukherjee_11.jpg/500px-Bengal_tiger_in_Sanjay_Dubri_Tiger_Reserve_December_2024_by_Tisha_Mukherjee_11.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Bengal_tiger_in_Sanjay_Dubri_Tiger_Reserve_December_2024_by_Tisha_Mukherjee_11.jpg",
     "continent": "Asia",
     "sciName": "Panthera tigris tigris"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q33602",
+    "label": "Giant panda",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Grosser_Panda.JPG",
+    "continent": "Asia",
+    "sciName": "Ailuropoda melanoleuca"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q30197",
+    "label": "Snow leopard",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Irbis4.JPG/1280px-Irbis4.JPG",
+    "continent": "Asia",
+    "sciName": "Panthera uncia"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q4504",
     "label": "Komodo dragon",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/202306_Varanus_komodoensis.jpg/500px-202306_Varanus_komodoensis.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/202306_Varanus_komodoensis.jpg/1920px-202306_Varanus_komodoensis.jpg",
     "continent": "Asia",
     "sciName": "Varanus komodoensis"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q41050",
-    "label": "Orangutan",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Orang_Utan%2C_Semenggok_Forest_Reserve%2C_Sarawak%2C_Borneo%2C_Malaysia.JPG/500px-Orang_Utan%2C_Semenggok_Forest_Reserve%2C_Sarawak%2C_Borneo%2C_Malaysia.JPG",
-    "continent": "Asia",
-    "sciName": "Pongo pygmaeus"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q48186",
     "label": "King cobra",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg/500px-12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg",
     "continent": "Asia",
     "sciName": "Ophiophagus hannah"
   },
   {
     "id": "http://www.wikidata.org/entity/Q192029",
     "label": "Proboscis monkey",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Proboscis_Monkey_in_Borneo.jpg/500px-Proboscis_Monkey_in_Borneo.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Proboscis_Monkey_in_Borneo.jpg/3840px-Proboscis_Monkey_in_Borneo.jpg",
     "continent": "Asia",
     "sciName": "Nasalis larvatus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q41960",
-    "label": "Red panda",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Red_Panda%2C_Gentle_Tree-Dweller_of_the_Himalayas.jpg/500px-Red_Panda%2C_Gentle_Tree-Dweller_of_the_Himalayas.jpg",
-    "continent": "Asia",
-    "sciName": "Ailurus fulgens"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q47910",
     "label": "Indian rhinoceros",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Great-Indian-one-horned-rhinoceros-at-Kaziranga-national-park-in-Assam-India.jpg/500px-Great-Indian-one-horned-rhinoceros-at-Kaziranga-national-park-in-Assam-India.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Great-Indian-one-horned-rhinoceros-at-Kaziranga-national-park-in-Assam-India.jpg",
     "continent": "Asia",
     "sciName": "Rhinoceros unicornis"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q41960",
+    "label": "Red panda",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Red_Panda%2C_Gentle_Tree-Dweller_of_the_Himalayas.jpg/3840px-Red_Panda%2C_Gentle_Tree-Dweller_of_the_Himalayas.jpg",
+    "continent": "Asia",
+    "sciName": "Ailurus fulgens"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q41050",
+    "label": "Orangutan",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Orang_Utan%2C_Semenggok_Forest_Reserve%2C_Sarawak%2C_Borneo%2C_Malaysia.JPG",
+    "continent": "Asia",
+    "sciName": "Pongo pygmaeus"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q191781",
     "label": "Japanese macaque",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Japanese_Snow_Monkey_%28Macaque%29_Mother_Grooms_Her_Young.jpg/500px-Japanese_Snow_Monkey_%28Macaque%29_Mother_Grooms_Her_Young.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Japanese_Snow_Monkey_%28Macaque%29_Mother_Grooms_Her_Young.jpg/1920px-Japanese_Snow_Monkey_%28Macaque%29_Mother_Grooms_Her_Young.jpg",
     "continent": "Asia",
     "sciName": "Macaca fuscata"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q61865",
+    "label": "Indian peafowl",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Peacock_on_tree_%2852077240794%29.jpg/1920px-Peacock_on_tree_%2852077240794%29.jpg",
+    "continent": "Asia",
+    "sciName": "Pavo cristatus"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q213141",
     "label": "Binturong",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Binturong_in_Overloon.jpg/500px-Binturong_in_Overloon.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Binturong_in_Overloon.jpg",
     "continent": "Asia",
     "sciName": "Arctictis binturong"
   },
   {
     "id": "http://www.wikidata.org/entity/Q192710",
     "label": "Malayan tapir",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Schabrackentapir_Tapirus_indicus_Tiergarten-Nuernberg-1.jpg/500px-Schabrackentapir_Tapirus_indicus_Tiergarten-Nuernberg-1.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Schabrackentapir_Tapirus_indicus_Tiergarten-Nuernberg-1.jpg/3840px-Schabrackentapir_Tapirus_indicus_Tiergarten-Nuernberg-1.jpg",
     "continent": "Asia",
     "sciName": "Tapirus indicus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q61865",
-    "label": "Indian peafowl",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Peacock_on_tree_%2852077240794%29.jpg/500px-Peacock_on_tree_%2852077240794%29.jpg",
-    "continent": "Asia",
-    "sciName": "Pavo cristatus"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q144923",
     "label": "Sun bear",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sun-bear.jpg/500px-Sun-bear.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sun-bear.jpg/1920px-Sun-bear.jpg",
     "continent": "Asia",
     "sciName": "Helarctos malayanus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q17134",
-    "label": "Gharial",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Gharial_%28Gavialis_gangeticus%29_male.jpg/500px-Gharial_%28Gavialis_gangeticus%29_male.jpg",
-    "continent": "Asia",
-    "sciName": "Gavialis gangeticus"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q213889",
     "label": "Siamang",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Siamang_Tierpark_Hellabrunn-4.jpg/500px-Siamang_Tierpark_Hellabrunn-4.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Siamang_Tierpark_Hellabrunn-4.jpg",
     "continent": "Asia",
     "sciName": "Symphalangus syndactylus"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q126683",
+    "label": "Saiga antelope",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Saiga_antelope_at_the_Stepnoi_Sanctuary.jpg/1920px-Saiga_antelope_at_the_Stepnoi_Sanctuary.jpg",
+    "continent": "Asia",
+    "sciName": "Saiga tatarica"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q17134",
+    "label": "Gharial",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Gharial_%28Gavialis_gangeticus%29_male.jpg",
+    "continent": "Asia",
+    "sciName": "Gavialis gangeticus"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q132922",
     "label": "Bactrian camel",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Camelus_bactrianus_%2855026866188%29.jpg/500px-Camelus_bactrianus_%2855026866188%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Camelus_bactrianus_%2855026866188%29.jpg/3840px-Camelus_bactrianus_%2855026866188%29.jpg",
     "continent": "Asia",
     "sciName": "Camelus bactrianus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q200339",
     "label": "Mandarin duck",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Mandarin_duck_%28Aix_galericulata%29.jpg/500px-Mandarin_duck_%28Aix_galericulata%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Mandarin_duck_%28Aix_galericulata%29.jpg",
     "continent": "Asia",
     "sciName": "Aix galericulata"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q126683",
-    "label": "Saiga antelope",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Saiga_antelope_at_the_Stepnoi_Sanctuary.jpg/500px-Saiga_antelope_at_the_Stepnoi_Sanctuary.jpg",
-    "continent": "Asia",
-    "sciName": "Saiga tatarica"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q13408062",
-    "label": "Yak",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Sarlyk_Yak2.jpg/500px-Sarlyk_Yak2.jpg",
-    "continent": "Asia",
-    "sciName": "Bos grunniens"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q187927",
-    "label": "Markhor",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg/500px-Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg",
-    "continent": "Asia",
-    "sciName": "Capra falconeri"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q232558",
-    "label": "Babirusa",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Hirscheber1a.jpg/500px-Hirscheber1a.jpg",
-    "continent": "Asia",
-    "sciName": "Babyrousa babyrussa"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q166794",
-    "label": "Pallas's cat",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Manoel.jpg/500px-Manoel.jpg",
-    "continent": "Asia",
-    "sciName": "Otocolobus manul"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q36135",
     "label": "Clouded leopard",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Neofelis_nebulosa%2C_Clouded_leopard.jpg/500px-Neofelis_nebulosa%2C_Clouded_leopard.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Neofelis_nebulosa%2C_Clouded_leopard.jpg/3840px-Neofelis_nebulosa%2C_Clouded_leopard.jpg",
     "continent": "Asia",
     "sciName": "Neofelis nebulosa"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q182599",
-    "label": "Saltwater crocodile",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/SaltwaterCrocodile%28%27Maximo%27%29.jpg/500px-SaltwaterCrocodile%28%27Maximo%27%29.jpg",
+    "id": "http://www.wikidata.org/entity/Q187927",
+    "label": "Markhor",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg",
     "continent": "Asia",
-    "sciName": "Crocodylus porosus"
+    "sciName": "Capra falconeri"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q1114471",
-    "label": "Tarsier",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Tarsier-GG.jpg/500px-Tarsier-GG.jpg",
+    "id": "http://www.wikidata.org/entity/Q166794",
+    "label": "Pallas's cat",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Manoel.jpg/1920px-Manoel.jpg",
     "continent": "Asia",
-    "sciName": "Tarsius tarsier"
+    "sciName": "Otocolobus manul"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q232558",
+    "label": "Babirusa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hirscheber1a.jpg",
+    "continent": "Asia",
+    "sciName": "Babyrousa babyrussa"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q13408062",
+    "label": "Yak",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Sarlyk_Yak2.jpg",
+    "continent": "Asia",
+    "sciName": "Bos grunniens"
   },
   {
     "id": "http://www.wikidata.org/entity/Q74941",
     "label": "Slow loris",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Nycticebus_coucang_002.jpg/500px-Nycticebus_coucang_002.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Nycticebus_coucang_002.jpg",
     "continent": "Asia",
     "sciName": "Nycticebus coucang"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q1114471",
+    "label": "Tarsier",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Tarsier-GG.jpg",
+    "continent": "Asia",
+    "sciName": "Tarsius tarsier"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q182599",
+    "label": "Saltwater crocodile",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/SaltwaterCrocodile%28%27Maximo%27%29.jpg/1920px-SaltwaterCrocodile%28%27Maximo%27%29.jpg",
+    "continent": "Asia",
+    "sciName": "Crocodylus porosus"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q183383",
     "label": "Flying lemur",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Colugo_%28Galeopterus_variegatus%2C_adult_female%29%2C_Central_Catchment_Area%2C_Singapore_-_20060618.jpg/500px-Colugo_%28Galeopterus_variegatus%2C_adult_female%29%2C_Central_Catchment_Area%2C_Singapore_-_20060618.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Colugo_%28Galeopterus_variegatus%2C_adult_female%29%2C_Central_Catchment_Area%2C_Singapore_-_20060618.jpg",
     "continent": "Asia",
     "sciName": "Galeopterus variegatus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q1142794",
     "label": "Draco lizard",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Draco_taeniopterus_Gunther%2C_1861_from_Bulon.jpg/500px-Draco_taeniopterus_Gunther%2C_1861_from_Bulon.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Draco_taeniopterus_Gunther%2C_1861_from_Bulon.jpg",
     "continent": "Asia",
     "sciName": "Draco volans"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q81091",
-    "label": "European bison",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/European_bison_%28Bison_bonasus%29_male_Bia%C5%82owieza.jpg/500px-European_bison_%28Bison_bonasus%29_male_Bia%C5%82owieza.jpg",
-    "continent": "Europe",
-    "sciName": "Bison bonasus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q58697",
-    "label": "Wild boar",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Wildschwein%2C_N%C3%A4he_Pulverstampftor_%28cropped%29.jpg/500px-Wildschwein%2C_N%C3%A4he_Pulverstampftor_%28cropped%29.jpg",
-    "continent": "Europe",
-    "sciName": "Sus scrofa"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q36341",
-    "label": "Brown bear",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/500px-2010-kodiak-bear-1.jpg",
-    "continent": "Europe",
-    "sciName": "Ursus arctos"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q43375",
     "label": "Eurasian lynx",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Lynx_Nationalpark_Bayerischer_Wald_01.jpg/500px-Lynx_Nationalpark_Bayerischer_Wald_01.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Lynx_Nationalpark_Bayerischer_Wald_01.jpg/3840px-Lynx_Nationalpark_Bayerischer_Wald_01.jpg",
     "continent": "Europe",
     "sciName": "Lynx lynx"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q81091",
+    "label": "European bison",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/European_bison_%28Bison_bonasus%29_male_Bia%C5%82owieza.jpg/3840px-European_bison_%28Bison_bonasus%29_male_Bia%C5%82owieza.jpg",
+    "continent": "Europe",
+    "sciName": "Bison bonasus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q36341",
+    "label": "Brown bear",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/2010-kodiak-bear-1.jpg",
+    "continent": "Europe",
+    "sciName": "Ursus arctos"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q58697",
+    "label": "Wild boar",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Wildschwein%2C_N%C3%A4he_Pulverstampftor_%28cropped%29.jpg/1920px-Wildschwein%2C_N%C3%A4he_Pulverstampftor_%28cropped%29.jpg",
+    "continent": "Europe",
+    "sciName": "Sus scrofa"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q18498",
     "label": "Grey wolf",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Eurasian_wolf_2.jpg/500px-Eurasian_wolf_2.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Eurasian_wolf_2.jpg",
     "continent": "Europe",
     "sciName": "Canis lupus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q8332",
-    "label": "Red fox",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg/500px-Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg",
-    "continent": "Europe",
-    "sciName": "Vulpes vulpes"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q122069",
-    "label": "Roe deer",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Roe_deer_%28Capreolus_capreolus%29_young_male_Cumnor.jpg/500px-Roe_deer_%28Capreolus_capreolus%29_young_male_Cumnor.jpg",
-    "continent": "Europe",
-    "sciName": "Capreolus capreolus"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q25352",
     "label": "White stork",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/White_stork_%28Ciconia_ciconia%29_Bia%C5%82owieza.jpg/500px-White_stork_%28Ciconia_ciconia%29_Bia%C5%82owieza.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/White_stork_%28Ciconia_ciconia%29_Bia%C5%82owieza.jpg/1920px-White_stork_%28Ciconia_ciconia%29_Bia%C5%82owieza.jpg",
     "continent": "Europe",
     "sciName": "Ciconia ciconia"
   },
   {
     "id": "http://www.wikidata.org/entity/Q181191",
     "label": "European beaver",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Beaver_pho34.jpg/500px-Beaver_pho34.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Beaver_pho34.jpg",
     "continent": "Europe",
     "sciName": "Castor fiber"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q8332",
+    "label": "Red fox",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg/1920px-Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg",
+    "continent": "Europe",
+    "sciName": "Vulpes vulpes"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q122069",
+    "label": "Roe deer",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Roe_deer_%28Capreolus_capreolus%29_young_male_Cumnor.jpg",
+    "continent": "Europe",
+    "sciName": "Capreolus capreolus"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q184751",
     "label": "Dalmatian pelican",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Dalmatian_Pelican_Pelecanus_crispus_by_Dr._Raju_Kasambe_DSCN6899_%283%29.jpg/500px-Dalmatian_Pelican_Pelecanus_crispus_by_Dr._Raju_Kasambe_DSCN6899_%283%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Dalmatian_Pelican_Pelecanus_crispus_by_Dr._Raju_Kasambe_DSCN6899_%283%29.jpg/1920px-Dalmatian_Pelican_Pelecanus_crispus_by_Dr._Raju_Kasambe_DSCN6899_%283%29.jpg",
     "continent": "Europe",
     "sciName": "Pelecanus crispus"
   },
@@ -497,39 +497,32 @@
     "sciName": "Bubo bubo"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q26685",
-    "label": "Atlantic puffin",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Puffin_%28Fratercula_arctica%29.jpg/500px-Puffin_%28Fratercula_arctica%29.jpg",
-    "continent": "Europe",
-    "sciName": "Fratercula arctica"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q6145",
-    "label": "European hedgehog",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Erinaceus_europaeus_LC0119.jpg/500px-Erinaceus_europaeus_LC0119.jpg",
-    "continent": "Europe",
-    "sciName": "Erinaceus europaeus"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q168327",
     "label": "Alpine ibex",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/003_Wild_Alpine_Ibex_Sunset_Creux_du_Van_Mont_Racine_Photo_by_Giles_Laurent.jpg/500px-003_Wild_Alpine_Ibex_Sunset_Creux_du_Van_Mont_Racine_Photo_by_Giles_Laurent.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/003_Wild_Alpine_Ibex_Sunset_Creux_du_Van_Mont_Racine_Photo_by_Giles_Laurent.jpg/3840px-003_Wild_Alpine_Ibex_Sunset_Creux_du_Van_Mont_Racine_Photo_by_Giles_Laurent.jpg",
     "continent": "Europe",
     "sciName": "Capra ibex"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q190294",
-    "label": "Mouflon",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Cyprus_mouflon_%28Ovis_gmelini_ophion%29.jpg/500px-Cyprus_mouflon_%28Ovis_gmelini_ophion%29.jpg",
+    "id": "http://www.wikidata.org/entity/Q6145",
+    "label": "European hedgehog",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Erinaceus_europaeus_LC0119.jpg/1920px-Erinaceus_europaeus_LC0119.jpg",
     "continent": "Europe",
-    "sciName": "Ovis gmelini"
+    "sciName": "Erinaceus europaeus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q131340",
-    "label": "Chamois",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/064_Wild_Chamois_Parc_r%C3%A9gional_Chasseral_Photo_by_Giles_Laurent.jpg/500px-064_Wild_Chamois_Parc_r%C3%A9gional_Chasseral_Photo_by_Giles_Laurent.jpg",
+    "id": "http://www.wikidata.org/entity/Q26685",
+    "label": "Atlantic puffin",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Puffin_%28Fratercula_arctica%29.jpg",
     "continent": "Europe",
-    "sciName": "Rupicapra rupicapra"
+    "sciName": "Fratercula arctica"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q190294",
+    "label": "Mouflon",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Cyprus_mouflon_%28Ovis_gmelini_ophion%29.jpg",
+    "continent": "Europe",
+    "sciName": "Ovis gmelini"
   },
   {
     "id": "http://www.wikidata.org/entity/Q29995",
@@ -539,9 +532,16 @@
     "sciName": "Lutra lutra"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q131340",
+    "label": "Chamois",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/064_Wild_Chamois_Parc_r%C3%A9gional_Chasseral_Photo_by_Giles_Laurent.jpg",
+    "continent": "Europe",
+    "sciName": "Rupicapra rupicapra"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q14334",
     "label": "Wolverine",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Gulo_gulo_2.jpg/500px-Gulo_gulo_2.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Gulo_gulo_2.jpg",
     "continent": "Europe",
     "sciName": "Gulo gulo"
   },
@@ -553,179 +553,186 @@
     "sciName": "Mustela lutreola"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q82728",
-    "label": "American bison",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/American_bison_k5680-1.jpg/500px-American_bison_k5680-1.jpg",
-    "continent": "North America",
-    "sciName": "Bison bison"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q35517",
-    "label": "Moose",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Alaska_moose.jpg/500px-Alaska_moose.jpg",
-    "continent": "North America",
-    "sciName": "Alces alces"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q127216",
     "label": "Bald eagle",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg/500px-Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg/3840px-Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg",
     "continent": "North America",
     "sciName": "Haliaeetus leucocephalus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q215887",
-    "label": "White-tailed deer",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/White-tailed_deer.jpg/500px-White-tailed_deer.jpg",
-    "continent": "North America",
-    "sciName": "Odocoileus virginianus"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q171004",
     "label": "Grizzly bear",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/GrizzlyBearJeanBeaufort.jpg/500px-GrizzlyBearJeanBeaufort.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/GrizzlyBearJeanBeaufort.jpg",
     "continent": "North America",
     "sciName": "Ursus arctos horribilis"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q35517",
+    "label": "Moose",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Alaska_moose.jpg",
+    "continent": "North America",
+    "sciName": "Alces alces"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q215887",
+    "label": "White-tailed deer",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/White-tailed_deer.jpg",
+    "continent": "North America",
+    "sciName": "Odocoileus virginianus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q82728",
+    "label": "American bison",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/American_bison_k5680-1.jpg",
+    "continent": "North America",
+    "sciName": "Bison bison"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q35255",
     "label": "Cougar",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mountain_Lion_in_Glacier_National_Park.jpg/500px-Mountain_Lion_in_Glacier_National_Park.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Mountain_Lion_in_Glacier_National_Park.jpg",
     "continent": "North America",
     "sciName": "Puma concolor"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q193327",
-    "label": "American alligator",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/American_Alligator.jpg/500px-American_Alligator.jpg",
-    "continent": "North America",
-    "sciName": "Alligator mississippiensis"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q122783",
     "label": "American black bear",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/01_Schwarzb%C3%A4r.jpg/500px-01_Schwarzb%C3%A4r.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/01_Schwarzb%C3%A4r.jpg/330px-01_Schwarzb%C3%A4r.jpg",
     "continent": "North America",
     "sciName": "Ursus americanus"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q193327",
+    "label": "American alligator",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/American_Alligator.jpg",
+    "continent": "North America",
+    "sciName": "Alligator mississippiensis"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q194314",
     "label": "California condor",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/California-condor-gymnogyps-californianus-078_%2821196759264%29.jpg/500px-California-condor-gymnogyps-californianus-078_%2821196759264%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/California-condor-gymnogyps-californianus-078_%2821196759264%29.jpg",
     "continent": "North America",
     "sciName": "Gymnogyps californianus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q327028",
-    "label": "North American river otter",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Northern_River_Otter_on_Seedskadee_NWR_%2822802102984%29.jpg/500px-Northern_River_Otter_on_Seedskadee_NWR_%2822802102984%29.jpg",
-    "continent": "North America",
-    "sciName": "Lontra canadensis"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q368495",
-    "label": "Striped skunk",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Skunk_about_to_spray.jpg/500px-Skunk_about_to_spray.jpg",
-    "continent": "North America",
-    "sciName": "Mephitis mephitis"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q147267",
-    "label": "Virginia opossum",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Opossum_2.jpg/500px-Opossum_2.jpg",
-    "continent": "North America",
-    "sciName": "Didelphis virginiana"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q81056",
-    "label": "American beaver",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/American_Beaver.jpg/500px-American_Beaver.jpg",
-    "continent": "North America",
-    "sciName": "Castor canadensis"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q26844",
     "label": "Wild turkey",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Gall-dindi.jpg/500px-Gall-dindi.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Gall-dindi.jpg",
     "continent": "North America",
     "sciName": "Meleagris gallopavo"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q41407",
-    "label": "Sea otter",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg/500px-Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg",
+    "id": "http://www.wikidata.org/entity/Q327028",
+    "label": "North American river otter",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Northern_River_Otter_on_Seedskadee_NWR_%2822802102984%29.jpg/1920px-Northern_River_Otter_on_Seedskadee_NWR_%2822802102984%29.jpg",
     "continent": "North America",
-    "sciName": "Enhydra lutris"
+    "sciName": "Lontra canadensis"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q649549",
-    "label": "Nine-banded armadillo",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Tatu_%28dasypus_novemcinctus%29%2C_Uruguay%2C_2020.jpg/500px-Tatu_%28dasypus_novemcinctus%29%2C_Uruguay%2C_2020.jpg",
+    "id": "http://www.wikidata.org/entity/Q81056",
+    "label": "American beaver",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/American_Beaver.jpg",
     "continent": "North America",
-    "sciName": "Dasypus novemcinctus"
+    "sciName": "Castor canadensis"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q247142",
-    "label": "Black-tailed prairie dog",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Cynomys_ludovicianus_%2854906540630%29.jpg/500px-Cynomys_ludovicianus_%2854906540630%29.jpg",
+    "id": "http://www.wikidata.org/entity/Q147267",
+    "label": "Virginia opossum",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Opossum_2.jpg",
     "continent": "North America",
-    "sciName": "Cynomys ludovicianus"
+    "sciName": "Didelphis virginiana"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q626023",
-    "label": "Northern elephant seal",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mating_scene_with_elevated_Alpha_Male._Elephant_Seals_of_Piedras_Blancas.jpg/500px-Mating_scene_with_elevated_Alpha_Male._Elephant_Seals_of_Piedras_Blancas.jpg",
+    "id": "http://www.wikidata.org/entity/Q368495",
+    "label": "Striped skunk",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Skunk_about_to_spray.jpg",
     "continent": "North America",
-    "sciName": "Mirounga angustirostris"
+    "sciName": "Mephitis mephitis"
   },
   {
     "id": "http://www.wikidata.org/entity/Q121439",
     "label": "Common raccoon",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Raccoon_in_Central_Park_%2835264%29.jpg/500px-Raccoon_in_Central_Park_%2835264%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Raccoon_in_Central_Park_%2835264%29.jpg",
     "continent": "North America",
     "sciName": "Procyon lotor"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q131907",
-    "label": "Bobcat",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Bobcat_at_Columbus_Zoo_Boo.jpg/500px-Bobcat_at_Columbus_Zoo_Boo.jpg",
+    "id": "http://www.wikidata.org/entity/Q247142",
+    "label": "Black-tailed prairie dog",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Cynomys_ludovicianus_%2854906540630%29.jpg",
     "continent": "North America",
-    "sciName": "Lynx rufus"
+    "sciName": "Cynomys ludovicianus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q232129",
-    "label": "American badger",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Taxidea_taxus_%28Point_Reyes%2C_2007%29.jpg/500px-Taxidea_taxus_%28Point_Reyes%2C_2007%29.jpg",
+    "id": "http://www.wikidata.org/entity/Q649549",
+    "label": "Nine-banded armadillo",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Tatu_%28dasypus_novemcinctus%29%2C_Uruguay%2C_2020.jpg",
     "continent": "North America",
-    "sciName": "Taxidea taxus"
+    "sciName": "Dasypus novemcinctus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q41407",
+    "label": "Sea otter",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg",
+    "continent": "North America",
+    "sciName": "Enhydra lutris"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q626023",
+    "label": "Northern elephant seal",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Mating_scene_with_elevated_Alpha_Male._Elephant_Seals_of_Piedras_Blancas.jpg",
+    "continent": "North America",
+    "sciName": "Mirounga angustirostris"
   },
   {
     "id": "http://www.wikidata.org/entity/Q146457",
     "label": "Canada lynx",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Canada_lynx_by_Michael_Zahra_%28cropped%29.jpg/500px-Canada_lynx_by_Michael_Zahra_%28cropped%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Canada_lynx_by_Michael_Zahra_%28cropped%29.jpg/1920px-Canada_lynx_by_Michael_Zahra_%28cropped%29.jpg",
     "continent": "North America",
     "sciName": "Lynx canadensis"
   },
   {
     "id": "http://www.wikidata.org/entity/Q170177",
     "label": "Snowy owl",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/SnowyOwlAmericanBlackDuck.jpg/500px-SnowyOwlAmericanBlackDuck.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/SnowyOwlAmericanBlackDuck.jpg",
     "continent": "North America",
     "sciName": "Bubo scandiacus"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q232129",
+    "label": "American badger",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Taxidea_taxus_%28Point_Reyes%2C_2007%29.jpg/1920px-Taxidea_taxus_%28Point_Reyes%2C_2007%29.jpg",
+    "continent": "North America",
+    "sciName": "Taxidea taxus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q131907",
+    "label": "Bobcat",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Bobcat_at_Columbus_Zoo_Boo.jpg",
+    "continent": "North America",
+    "sciName": "Lynx rufus"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q35694",
     "label": "Jaguar",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Standing_jaguar.jpg/500px-Standing_jaguar.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Standing_jaguar.jpg",
     "continent": "South America",
     "sciName": "Panthera onca"
   },
   {
     "id": "http://www.wikidata.org/entity/Q131538",
     "label": "Capybara",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Capybaracropped.jpg/500px-Capybaracropped.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Capybaracropped.jpg",
     "continent": "South America",
     "sciName": "Hydrochoerus hydrochaeris"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q220271",
+    "label": "South American tapir",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/South_American_tapir_%28Tapirus_terrestris%29.JPG",
+    "continent": "South America",
+    "sciName": "Tapirus terrestris"
   },
   {
     "id": "http://www.wikidata.org/entity/Q203033",
@@ -737,23 +744,23 @@
   {
     "id": "http://www.wikidata.org/entity/Q42569",
     "label": "Llama",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Llamas%2C_Vernagt-Stausee%2C_Italy.jpg/500px-Llamas%2C_Vernagt-Stausee%2C_Italy.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Llamas%2C_Vernagt-Stausee%2C_Italy.jpg",
     "continent": "South America",
     "sciName": "Lama glama"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q220271",
-    "label": "South American tapir",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/South_American_tapir_%28Tapirus_terrestris%29.JPG/500px-South_American_tapir_%28Tapirus_terrestris%29.JPG",
+    "id": "http://www.wikidata.org/entity/Q142715",
+    "label": "Pale-throated sloth",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Bradypus_tridactylus_-Parque_del_Este%2C_Caracas%2C_Venezuela-8_%282%29.jpg",
     "continent": "South America",
-    "sciName": "Tapirus terrestris"
+    "sciName": "Bradypus tridactylus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q207347",
-    "label": "Green anaconda",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sucuri_verde.jpg/500px-Sucuri_verde.jpg",
+    "id": "http://www.wikidata.org/entity/Q376038",
+    "label": "Toco toucan",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
     "continent": "South America",
-    "sciName": "Eunectes murinus"
+    "sciName": "Ramphastos toco"
   },
   {
     "id": "http://www.wikidata.org/entity/Q53745",
@@ -763,109 +770,95 @@
     "sciName": "Harpia harpyja"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q207347",
+    "label": "Green anaconda",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Sucuri_verde.jpg",
+    "continent": "South America",
+    "sciName": "Eunectes murinus"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q755719",
     "label": "Giant armadillo",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Priodontes_maximus_at_R%C3%A9gina.jpg/500px-Priodontes_maximus_at_R%C3%A9gina.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Priodontes_maximus_at_R%C3%A9gina.jpg",
     "continent": "South America",
     "sciName": "Priodontes maximus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q376038",
-    "label": "Toco toucan",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/500px-006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+    "id": "http://www.wikidata.org/entity/Q137641",
+    "label": "Spectacled bear",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tremarctos_ornatus_in_Jardim_Zool%C3%B3gico_de_Curitiba.jpg/3840px-Tremarctos_ornatus_in_Jardim_Zool%C3%B3gico_de_Curitiba.jpg",
     "continent": "South America",
-    "sciName": "Ramphastos toco"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q142715",
-    "label": "Pale-throated sloth",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Bradypus_tridactylus_-Parque_del_Este%2C_Caracas%2C_Venezuela-8_%282%29.jpg/500px-Bradypus_tridactylus_-Parque_del_Este%2C_Caracas%2C_Venezuela-8_%282%29.jpg",
-    "continent": "South America",
-    "sciName": "Bradypus tridactylus"
+    "sciName": "Tremarctos ornatus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q122181742",
     "label": "Alpaca",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Alpaca_in_Higashiyama_Zoo_-_1.jpg/500px-Alpaca_in_Higashiyama_Zoo_-_1.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alpaca_in_Higashiyama_Zoo_-_1.jpg",
     "continent": "South America",
     "sciName": "Vicugna pacos"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q83774",
+    "label": "Giant river otter",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Giant_otters_%28Pteronura_brasiliensis%29.jpg",
+    "continent": "South America",
+    "sciName": "Pteronura brasiliensis"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q33261",
     "label": "Ocelot",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/016_Ocelot_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/500px-016_Ocelot_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/016_Ocelot_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
     "continent": "South America",
     "sciName": "Leopardus pardalis"
   },
   {
     "id": "http://www.wikidata.org/entity/Q184389",
     "label": "Maned wolf",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/San_Diego_Zoo_%288678865731%29.jpg/500px-San_Diego_Zoo_%288678865731%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/San_Diego_Zoo_%288678865731%29.jpg/1920px-San_Diego_Zoo_%288678865731%29.jpg",
     "continent": "South America",
     "sciName": "Chrysocyon brachyurus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q137641",
-    "label": "Spectacled bear",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tremarctos_ornatus_in_Jardim_Zool%C3%B3gico_de_Curitiba.jpg/500px-Tremarctos_ornatus_in_Jardim_Zool%C3%B3gico_de_Curitiba.jpg",
-    "continent": "South America",
-    "sciName": "Tremarctos ornatus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q83774",
-    "label": "Giant river otter",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Giant_otters_%28Pteronura_brasiliensis%29.jpg/500px-Giant_otters_%28Pteronura_brasiliensis%29.jpg",
-    "continent": "South America",
-    "sciName": "Pteronura brasiliensis"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q205329",
-    "label": "Amazon river dolphin",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Amazonas-Flussdelfin_Orinoko3.jpg/500px-Amazonas-Flussdelfin_Orinoko3.jpg",
-    "continent": "South America",
-    "sciName": "Inia geoffrensis"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q172886",
-    "label": "Guanaco",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Guanaco_%28Lama_guanicoe%29_Leona_Amarga.jpg/500px-Guanaco_%28Lama_guanicoe%29_Leona_Amarga.jpg",
-    "continent": "South America",
-    "sciName": "Lama guanicoe"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q9948893",
-    "label": "Arapaima",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Arapaima_gigas_at_Beijing_aquarium.JPG/500px-Arapaima_gigas_at_Beijing_aquarium.JPG",
-    "continent": "South America",
-    "sciName": "Arapaima gigas"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q3561017",
     "label": "Viscacha",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Vizcacha_in_the_Atacama.jpg/500px-Vizcacha_in_the_Atacama.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Vizcacha_in_the_Atacama.jpg",
     "continent": "South America",
     "sciName": "Lagidium viscacia"
   },
   {
     "id": "http://www.wikidata.org/entity/Q928382",
     "label": "Red-bellied piranha",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg/500px-Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg",
     "continent": "South America",
     "sciName": "Pygocentrus nattereri"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q148462",
-    "label": "South American coati",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Nasenbaer_Nasua_nasua_Zoo_Augsburg-04.jpg/500px-Nasenbaer_Nasua_nasua_Zoo_Augsburg-04.jpg",
+    "id": "http://www.wikidata.org/entity/Q9948893",
+    "label": "Arapaima",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Arapaima_gigas_at_Beijing_aquarium.JPG",
     "continent": "South America",
-    "sciName": "Nasua nasua"
+    "sciName": "Arapaima gigas"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q504501",
-    "label": "Marsh deer",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Cervo_do_pantano.jpg/500px-Cervo_do_pantano.jpg",
+    "id": "http://www.wikidata.org/entity/Q172886",
+    "label": "Guanaco",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Guanaco_%28Lama_guanicoe%29_Leona_Amarga.jpg",
     "continent": "South America",
-    "sciName": "Blastocerus dichotomus"
+    "sciName": "Lama guanicoe"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q205329",
+    "label": "Amazon river dolphin",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Amazonas-Flussdelfin_Orinoko3.jpg/1920px-Amazonas-Flussdelfin_Orinoko3.jpg",
+    "continent": "South America",
+    "sciName": "Inia geoffrensis"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q674003",
+    "label": "Pampas deer",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/O._bezoarticus_buck.jpg",
+    "continent": "South America",
+    "sciName": "Ozotoceros bezoarticus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q53750",
@@ -875,333 +868,347 @@
     "sciName": "Dendrobates tinctorius"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q148462",
+    "label": "South American coati",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Nasenbaer_Nasua_nasua_Zoo_Augsburg-04.jpg/1920px-Nasenbaer_Nasua_nasua_Zoo_Augsburg-04.jpg",
+    "continent": "South America",
+    "sciName": "Nasua nasua"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q194313",
     "label": "Patagonian mara",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Dolichotis_patagonum_99386074.jpg/500px-Dolichotis_patagonum_99386074.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Dolichotis_patagonum_99386074.jpg/1920px-Dolichotis_patagonum_99386074.jpg",
     "continent": "South America",
     "sciName": "Dolichotis patagonum"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q674003",
-    "label": "Pampas deer",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/O._bezoarticus_buck.jpg/500px-O._bezoarticus_buck.jpg",
+    "id": "http://www.wikidata.org/entity/Q504501",
+    "label": "Marsh deer",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Cervo_do_pantano.jpg",
     "continent": "South America",
-    "sciName": "Ozotoceros bezoarticus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q53462",
-    "label": "Red kangaroo",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Red_kangaroo_-_melbourne_zoo.jpg/500px-Red_kangaroo_-_melbourne_zoo.jpg",
-    "continent": "Australia",
-    "sciName": "Osphranter rufus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q752436",
-    "label": "Common wombat",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Vombatus_ursinus_-Maria_Island_National_Park.jpg/500px-Vombatus_ursinus_-Maria_Island_National_Park.jpg",
-    "continent": "Australia",
-    "sciName": "Vombatus ursinus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q134964",
-    "label": "Tasmanian devil",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Sarcophilus_harrisii_taranna.jpg/500px-Sarcophilus_harrisii_taranna.jpg",
-    "continent": "Australia",
-    "sciName": "Sarcophilus harrisii"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q15343",
-    "label": "Platypus",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Duck-billed_platypus_%28Ornithorhynchus_anatinus%29_Scottsdale.jpg/500px-Duck-billed_platypus_%28Ornithorhynchus_anatinus%29_Scottsdale.jpg",
-    "continent": "Australia",
-    "sciName": "Ornithorhynchus anatinus"
+    "sciName": "Blastocerus dichotomus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q36101",
     "label": "Koala",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/500px-Koala_climbing_tree.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Koala_climbing_tree.jpg",
     "continent": "Australia",
     "sciName": "Phascolarctos cinereus"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q134964",
+    "label": "Tasmanian devil",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Sarcophilus_harrisii_taranna.jpg/1920px-Sarcophilus_harrisii_taranna.jpg",
+    "continent": "Australia",
+    "sciName": "Sarcophilus harrisii"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q752436",
+    "label": "Common wombat",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Vombatus_ursinus_-Maria_Island_National_Park.jpg/1280px-Vombatus_ursinus_-Maria_Island_National_Park.jpg",
+    "continent": "Australia",
+    "sciName": "Vombatus ursinus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q15343",
+    "label": "Platypus",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Duck-billed_platypus_%28Ornithorhynchus_anatinus%29_Scottsdale.jpg",
+    "continent": "Australia",
+    "sciName": "Ornithorhynchus anatinus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q53462",
+    "label": "Red kangaroo",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Red_kangaroo_-_melbourne_zoo.jpg",
+    "continent": "Australia",
+    "sciName": "Osphranter rufus"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q93208",
     "label": "Emu",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Emu_1_-_Tidbinbilla.jpg/500px-Emu_1_-_Tidbinbilla.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Emu_1_-_Tidbinbilla.jpg",
     "continent": "Australia",
     "sciName": "Dromaius novaehollandiae"
   },
   {
     "id": "http://www.wikidata.org/entity/Q193182",
     "label": "Short-beaked echidna",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wild_shortbeak_echidna.jpg/500px-Wild_shortbeak_echidna.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wild_shortbeak_echidna.jpg/1280px-Wild_shortbeak_echidna.jpg",
     "continent": "Australia",
     "sciName": "Tachyglossus aculeatus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q320665",
-    "label": "Thorny devil",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Thornydevil.jpg/500px-Thornydevil.jpg",
-    "continent": "Australia",
-    "sciName": "Moloch horridus"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q824974",
     "label": "Laughing kookaburra",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Laughing_Kookaburra_1.jpg/500px-Laughing_Kookaburra_1.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Laughing_Kookaburra_1.jpg/1920px-Laughing_Kookaburra_1.jpg",
     "continent": "Australia",
     "sciName": "Dacelo novaeguineae"
   },
   {
     "id": "http://www.wikidata.org/entity/Q375790",
     "label": "Southern cassowary",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Southern_Cassowary_7071.jpg/500px-Southern_Cassowary_7071.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Southern_Cassowary_7071.jpg",
     "continent": "Australia",
     "sciName": "Casuarius casuarius"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q242419",
-    "label": "Numbat",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Numbat%2C_Dryandra_Woodland%2C_Western_Australia.jpg/500px-Numbat%2C_Dryandra_Woodland%2C_Western_Australia.jpg",
+    "id": "http://www.wikidata.org/entity/Q320665",
+    "label": "Thorny devil",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Thornydevil.jpg/1280px-Thornydevil.jpg",
     "continent": "Australia",
-    "sciName": "Myrmecobius fasciatus"
+    "sciName": "Moloch horridus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q38584",
-    "label": "Dingo",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Dingo_%28Canis_lupus_dingo%29_Kakadu_2.jpg/500px-Dingo_%28Canis_lupus_dingo%29_Kakadu_2.jpg",
+    "id": "http://www.wikidata.org/entity/Q723435",
+    "label": "Sugar glider",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Petaurus_breviceps-Cayley.jpg/330px-Petaurus_breviceps-Cayley.jpg",
     "continent": "Australia",
-    "sciName": "Canis lupus dingo"
+    "sciName": "Petaurus breviceps"
   },
   {
     "id": "http://www.wikidata.org/entity/Q726151",
     "label": "Quokka",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Quokka_at_rottnest_%28cropped%29.jpg/500px-Quokka_at_rottnest_%28cropped%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Quokka_at_rottnest_%28cropped%29.jpg",
     "continent": "Australia",
     "sciName": "Setonix brachyurus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q501566",
     "label": "Frilled-neck lizard",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Frill-necked_Lizard_%28Chlamydosaurus_kingii%29_%288692622586%29.jpg/500px-Frill-necked_Lizard_%28Chlamydosaurus_kingii%29_%288692622586%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Frill-necked_Lizard_%28Chlamydosaurus_kingii%29_%288692622586%29.jpg",
     "continent": "Australia",
     "sciName": "Chlamydosaurus kingii"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q723435",
-    "label": "Sugar glider",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Petaurus_breviceps-Cayley.jpg/500px-Petaurus_breviceps-Cayley.jpg",
+    "id": "http://www.wikidata.org/entity/Q242419",
+    "label": "Numbat",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Numbat%2C_Dryandra_Woodland%2C_Western_Australia.jpg",
     "continent": "Australia",
-    "sciName": "Petaurus breviceps"
+    "sciName": "Myrmecobius fasciatus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q752465",
-    "label": "Wedge-tailed eagle",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Aquila_audax_-_Captain%27s_Flat.jpg/500px-Aquila_audax_-_Captain%27s_Flat.jpg",
+    "id": "http://www.wikidata.org/entity/Q38584",
+    "label": "Dingo",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Dingo_%28Canis_lupus_dingo%29_Kakadu_2.jpg",
     "continent": "Australia",
-    "sciName": "Aquila audax"
+    "sciName": "Canis lupus dingo"
   },
   {
     "id": "http://www.wikidata.org/entity/Q617087",
     "label": "Bilby",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/%281%29Bilby-5.jpg/500px-%281%29Bilby-5.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/%281%29Bilby-5.jpg/3840px-%281%29Bilby-5.jpg",
     "continent": "Australia",
     "sciName": "Macrotis lagotis"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q270098",
-    "label": "Eastern grey kangaroo",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Macropus_giganteus_-_Brunkerville.jpg/500px-Macropus_giganteus_-_Brunkerville.jpg",
+    "id": "http://www.wikidata.org/entity/Q752465",
+    "label": "Wedge-tailed eagle",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Aquila_audax_-_Captain%27s_Flat.jpg",
     "continent": "Australia",
-    "sciName": "Macropus giganteus"
+    "sciName": "Aquila audax"
   },
   {
     "id": "http://www.wikidata.org/entity/Q379740",
     "label": "Quoll",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Eastern_quoll_%28Dasyurus_viverrinus%29_fawn_morph_Esk_Valley.jpg/500px-Eastern_quoll_%28Dasyurus_viverrinus%29_fawn_morph_Esk_Valley.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Eastern_quoll_%28Dasyurus_viverrinus%29_fawn_morph_Esk_Valley.jpg",
     "continent": "Australia",
     "sciName": "Dasyurus viverrinus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q325064",
     "label": "Tree kangaroo",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Matschies_tree_kangaroo_Dendrolagus_matschiei_at_Bronx_Zoo_1_cropped.jpg/500px-Matschies_tree_kangaroo_Dendrolagus_matschiei_at_Bronx_Zoo_1_cropped.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Matschies_tree_kangaroo_Dendrolagus_matschiei_at_Bronx_Zoo_1_cropped.jpg",
     "continent": "Australia",
     "sciName": "Dendrolagus lumholtzi"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q216815",
-    "label": "Common eland",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Taurotragus_oryx_-_young_bull_-_Etosha_2015.jpg/500px-Taurotragus_oryx_-_young_bull_-_Etosha_2015.jpg",
-    "continent": "Africa",
-    "sciName": "Tragelaphus oryx"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q217497",
-    "label": "African fish eagle",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/African_fish_eagle%2C_Haliaeetus_vocifer%2C_at_Chobe_National_Park%2C_Botswana_%2833516612831%29.jpg/500px-African_fish_eagle%2C_Haliaeetus_vocifer%2C_at_Chobe_National_Park%2C_Botswana_%2833516612831%29.jpg",
-    "continent": "Africa",
-    "sciName": "Haliaeetus vocifer"
+    "id": "http://www.wikidata.org/entity/Q270098",
+    "label": "Eastern grey kangaroo",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Macropus_giganteus_-_Brunkerville.jpg",
+    "continent": "Australia",
+    "sciName": "Macropus giganteus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q10809423",
     "label": "African grey parrot",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Psittacus_erithacus_-perching_on_tray-8d.jpg/500px-Psittacus_erithacus_-perching_on_tray-8d.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Psittacus_erithacus_-perching_on_tray-8d.jpg/1920px-Psittacus_erithacus_-perching_on_tray-8d.jpg",
     "continent": "Africa",
     "sciName": "Psittacus erithacus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q139487",
     "label": "Greater kudu",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Male_greater_kudu.jpg/500px-Male_greater_kudu.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Male_greater_kudu.jpg/1920px-Male_greater_kudu.jpg",
     "continent": "Africa",
     "sciName": "Tragelaphus strepsiceros"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q207043",
-    "label": "Gemsbok",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Gemsbok_%28Oryx_gazella%29_male.jpg/500px-Gemsbok_%28Oryx_gazella%29_male.jpg",
+    "id": "http://www.wikidata.org/entity/Q216815",
+    "label": "Common eland",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Taurotragus_oryx_-_young_bull_-_Etosha_2015.jpg/1920px-Taurotragus_oryx_-_young_bull_-_Etosha_2015.jpg",
     "continent": "Africa",
-    "sciName": "Oryx gazella"
+    "sciName": "Tragelaphus oryx"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q239381",
-    "label": "Sable antelope",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Sable_antelope_%28Hippotragus_niger%29_adult_male.jpg/500px-Sable_antelope_%28Hippotragus_niger%29_adult_male.jpg",
+    "id": "http://www.wikidata.org/entity/Q217497",
+    "label": "African fish eagle",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/African_fish_eagle%2C_Haliaeetus_vocifer%2C_at_Chobe_National_Park%2C_Botswana_%2833516612831%29.jpg/1920px-African_fish_eagle%2C_Haliaeetus_vocifer%2C_at_Chobe_National_Park%2C_Botswana_%2833516612831%29.jpg",
     "continent": "Africa",
-    "sciName": "Hippotragus niger"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q854779",
-    "label": "Red hartebeest",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/2011-Red-Hartebeest.jpg/500px-2011-Red-Hartebeest.jpg",
-    "continent": "Africa",
-    "sciName": "Alcelaphus buselaphus caama"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q12745019",
-    "label": "Topi",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Topi_%28Damaliscus_lunatus_jimela%29_female.jpg/500px-Topi_%28Damaliscus_lunatus_jimela%29_female.jpg",
-    "continent": "Africa",
-    "sciName": "Damaliscus lunatus"
+    "sciName": "Haliaeetus vocifer"
   },
   {
     "id": "http://www.wikidata.org/entity/Q833607",
     "label": "Kirk's dik-dik",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Madoqua_kirkii_-_male_%28Namutoni%29.jpg/500px-Madoqua_kirkii_-_male_%28Namutoni%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Madoqua_kirkii_-_male_%28Namutoni%29.jpg",
     "continent": "Africa",
     "sciName": "Madoqua kirkii"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q12745019",
+    "label": "Topi",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Topi_%28Damaliscus_lunatus_jimela%29_female.jpg",
+    "continent": "Africa",
+    "sciName": "Damaliscus lunatus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q854779",
+    "label": "Red hartebeest",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/2011-Red-Hartebeest.jpg",
+    "continent": "Africa",
+    "sciName": "Alcelaphus buselaphus caama"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q239381",
+    "label": "Sable antelope",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Sable_antelope_%28Hippotragus_niger%29_adult_male.jpg/3840px-Sable_antelope_%28Hippotragus_niger%29_adult_male.jpg",
+    "continent": "Africa",
+    "sciName": "Hippotragus niger"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q207043",
+    "label": "Gemsbok",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Gemsbok_%28Oryx_gazella%29_male.jpg",
+    "continent": "Africa",
+    "sciName": "Oryx gazella"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q241256",
     "label": "African civet",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Civettictis_civetta_11.jpg/500px-Civettictis_civetta_11.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Civettictis_civetta_11.jpg",
     "continent": "Africa",
     "sciName": "Civettictis civetta"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q732544",
-    "label": "Yellow mongoose",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/082_Yellow_mongoose_in_Khomas_Region_Photo_by_Giles_Laurent.jpg/500px-082_Yellow_mongoose_in_Khomas_Region_Photo_by_Giles_Laurent.jpg",
-    "continent": "Africa",
-    "sciName": "Cynictis penicillata"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q261574",
     "label": "Common genet",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Genetta_genetta_felina_%28Wroclaw_zoo%29.JPG/500px-Genetta_genetta_felina_%28Wroclaw_zoo%29.JPG",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Genetta_genetta_felina_%28Wroclaw_zoo%29.JPG/1920px-Genetta_genetta_felina_%28Wroclaw_zoo%29.JPG",
     "continent": "Africa",
     "sciName": "Genetta genetta"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q323847",
-    "label": "Rock hyrax",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/188_Rock_hyrax_in_Damaraland_Photo_by_Giles_Laurent.jpg/500px-188_Rock_hyrax_in_Damaraland_Photo_by_Giles_Laurent.jpg",
+    "id": "http://www.wikidata.org/entity/Q732544",
+    "label": "Yellow mongoose",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/082_Yellow_mongoose_in_Khomas_Region_Photo_by_Giles_Laurent.jpg/1920px-082_Yellow_mongoose_in_Khomas_Region_Photo_by_Giles_Laurent.jpg",
     "continent": "Africa",
-    "sciName": "Procavia capensis"
+    "sciName": "Cynictis penicillata"
   },
   {
     "id": "http://www.wikidata.org/entity/Q844420",
     "label": "Cape porcupine",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Hystrix_africaeaustralis_Blijdorp_Rotterdam.JPG/500px-Hystrix_africaeaustralis_Blijdorp_Rotterdam.JPG",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Hystrix_africaeaustralis_Blijdorp_Rotterdam.JPG",
     "continent": "Africa",
     "sciName": "Hystrix africaeaustralis"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q726387",
-    "label": "Bateleur",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Bataleur_-_Kruger_National_park_%2837161617713%29.jpg/500px-Bataleur_-_Kruger_National_park_%2837161617713%29.jpg",
+    "id": "http://www.wikidata.org/entity/Q323847",
+    "label": "Rock hyrax",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/188_Rock_hyrax_in_Damaraland_Photo_by_Giles_Laurent.jpg/3840px-188_Rock_hyrax_in_Damaraland_Photo_by_Giles_Laurent.jpg",
     "continent": "Africa",
-    "sciName": "Terathopius ecaudatus"
+    "sciName": "Procavia capensis"
   },
   {
     "id": "http://www.wikidata.org/entity/Q512737",
     "label": "Marabou stork",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Marabou_stork_%28Leptoptilos_crumenifer%29.jpg/500px-Marabou_stork_%28Leptoptilos_crumenifer%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Marabou_stork_%28Leptoptilos_crumenifer%29.jpg/1920px-Marabou_stork_%28Leptoptilos_crumenifer%29.jpg",
     "continent": "Africa",
     "sciName": "Leptoptilos crumenifer"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q686287",
-    "label": "Kori bustard",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ardeotis_kori_Etosha.JPG/500px-Ardeotis_kori_Etosha.JPG",
-    "continent": "Africa",
-    "sciName": "Ardeotis kori"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q1219291",
-    "label": "Saddle-billed stork",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ephippiorhynchus_senegalensis_-Kruger_National_Park%2C_Limpopo%2C_South_Africa-8.jpg/500px-Ephippiorhynchus_senegalensis_-Kruger_National_Park%2C_Limpopo%2C_South_Africa-8.jpg",
-    "continent": "Africa",
-    "sciName": "Ephippiorhynchus senegalensis"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q46148",
     "label": "African clawless otter",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Aonyx_capensis%2C_male%2C_Shamvura.jpg/500px-Aonyx_capensis%2C_male%2C_Shamvura.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Aonyx_capensis%2C_male%2C_Shamvura.jpg",
     "continent": "Africa",
     "sciName": "Aonyx capensis"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q44023",
-    "label": "Lilac-breasted roller",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/143_Lilac-breasted_roller_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg/500px-143_Lilac-breasted_roller_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+    "id": "http://www.wikidata.org/entity/Q726387",
+    "label": "Bateleur",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Bataleur_-_Kruger_National_park_%2837161617713%29.jpg",
     "continent": "Africa",
-    "sciName": "Coracias caudatus"
+    "sciName": "Terathopius ecaudatus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q737896",
-    "label": "Nile monitor",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Nile_monitor_%28Varanus_niloticus%29_2.jpg/500px-Nile_monitor_%28Varanus_niloticus%29_2.jpg",
+    "id": "http://www.wikidata.org/entity/Q1219291",
+    "label": "Saddle-billed stork",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ephippiorhynchus_senegalensis_-Kruger_National_Park%2C_Limpopo%2C_South_Africa-8.jpg/1280px-Ephippiorhynchus_senegalensis_-Kruger_National_Park%2C_Limpopo%2C_South_Africa-8.jpg",
     "continent": "Africa",
-    "sciName": "Varanus niloticus"
+    "sciName": "Ephippiorhynchus senegalensis"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q838162",
-    "label": "Lappet-faced vulture",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/2012-lappet-faced-vulture.jpg/500px-2012-lappet-faced-vulture.jpg",
+    "id": "http://www.wikidata.org/entity/Q686287",
+    "label": "Kori bustard",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ardeotis_kori_Etosha.JPG/1920px-Ardeotis_kori_Etosha.JPG",
     "continent": "Africa",
-    "sciName": "Torgos tracheliotos"
+    "sciName": "Ardeotis kori"
   },
   {
     "id": "http://www.wikidata.org/entity/Q28173017",
     "label": "Ground pangolin",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Manis_temminckii_%2829645803646%29.jpg/500px-Manis_temminckii_%2829645803646%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Manis_temminckii_%2829645803646%29.jpg",
     "continent": "Africa",
     "sciName": "Smutsia temminckii"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q838162",
+    "label": "Lappet-faced vulture",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/2012-lappet-faced-vulture.jpg/960px-2012-lappet-faced-vulture.jpg",
+    "continent": "Africa",
+    "sciName": "Torgos tracheliotos"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q47482585",
     "label": "African wild cat",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Southern_African_Wildcat_%28Felis_sylvestris_cafra%29_female_..._%28captive_specimen%29_%2839789072173%29.jpg/500px-Southern_African_Wildcat_%28Felis_sylvestris_cafra%29_female_..._%28captive_specimen%29_%2839789072173%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Southern_African_Wildcat_%28Felis_sylvestris_cafra%29_female_..._%28captive_specimen%29_%2839789072173%29.jpg",
     "continent": "Africa",
     "sciName": "Felis lybica"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q132585",
-    "label": "Dhole",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Dhole_in_its_habitat_%28cropped%29.jpg/500px-Dhole_in_its_habitat_%28cropped%29.jpg",
+    "id": "http://www.wikidata.org/entity/Q737896",
+    "label": "Nile monitor",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Nile_monitor_%28Varanus_niloticus%29_2.jpg/3840px-Nile_monitor_%28Varanus_niloticus%29_2.jpg",
+    "continent": "Africa",
+    "sciName": "Varanus niloticus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q44023",
+    "label": "Lilac-breasted roller",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/143_Lilac-breasted_roller_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg/3840px-143_Lilac-breasted_roller_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+    "continent": "Africa",
+    "sciName": "Coracias caudatus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q192967",
+    "label": "Amur leopard",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Panthera_pardus_orientalis_Colchester_Zoo_%281%29.jpg/3840px-Panthera_pardus_orientalis_Colchester_Zoo_%281%29.jpg",
     "continent": "Asia",
-    "sciName": "Cuon alpinus"
+    "sciName": "Panthera pardus orientalis"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q124410",
+    "label": "Asian black bear",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ursus_thibetanus_3_%28Wroclaw_zoo%29.JPG/1920px-Ursus_thibetanus_3_%28Wroclaw_zoo%29.JPG",
+    "continent": "Asia",
+    "sciName": "Ursus thibetanus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q190674",
@@ -1211,46 +1218,39 @@
     "sciName": "Prionailurus viverrinus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q192967",
-    "label": "Amur leopard",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Panthera_pardus_orientalis_Colchester_Zoo_%281%29.jpg/500px-Panthera_pardus_orientalis_Colchester_Zoo_%281%29.jpg",
-    "continent": "Asia",
-    "sciName": "Panthera pardus orientalis"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q124410",
-    "label": "Asian black bear",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ursus_thibetanus_3_%28Wroclaw_zoo%29.JPG/500px-Ursus_thibetanus_3_%28Wroclaw_zoo%29.JPG",
-    "continent": "Asia",
-    "sciName": "Ursus thibetanus"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q273331",
     "label": "Irrawaddy dolphin",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Irrawaddy_dolphin-Orcaella_brevirostris_by_2eight.jpg/500px-Irrawaddy_dolphin-Orcaella_brevirostris_by_2eight.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Irrawaddy_dolphin-Orcaella_brevirostris_by_2eight.jpg",
     "continent": "Asia",
     "sciName": "Orcaella brevirostris"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q129544",
-    "label": "Dugong",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Dugong.JPG/500px-Dugong.JPG",
+    "id": "http://www.wikidata.org/entity/Q132585",
+    "label": "Dhole",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Dhole_in_its_habitat_%28cropped%29.jpg",
     "continent": "Asia",
-    "sciName": "Dugong dugon"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q285810",
-    "label": "Indian flying fox",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/047_Indian_flying_fox_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg/500px-047_Indian_flying_fox_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg",
-    "continent": "Asia",
-    "sciName": "Pteropus giganteus"
+    "sciName": "Cuon alpinus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q244277",
     "label": "Asian small-clawed otter",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Otter_-_melbourne_zoo.jpg/500px-Otter_-_melbourne_zoo.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Otter_-_melbourne_zoo.jpg",
     "continent": "Asia",
     "sciName": "Aonyx cinereus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q285810",
+    "label": "Indian flying fox",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/047_Indian_flying_fox_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg/3840px-047_Indian_flying_fox_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg",
+    "continent": "Asia",
+    "sciName": "Pteropus giganteus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q129544",
+    "label": "Dugong",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Dugong.JPG",
+    "continent": "Asia",
+    "sciName": "Dugong dugon"
   },
   {
     "id": "http://www.wikidata.org/entity/Q756080",
@@ -1267,11 +1267,11 @@
     "sciName": "Vulpes ferrilata"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q221380",
-    "label": "Kiang",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Kiang_in_Hellabrunn.jpg/500px-Kiang_in_Hellabrunn.jpg",
+    "id": "http://www.wikidata.org/entity/Q728636",
+    "label": "Himalayan tahr",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Himalayan_Tahr_at_Sagarmatha_National_Park%2C_Nepal_01.jpg",
     "continent": "Asia",
-    "sciName": "Equus kiang"
+    "sciName": "Hemitragus jemlahicus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q272293",
@@ -1281,30 +1281,44 @@
     "sciName": "Pantholops hodgsonii"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q221380",
+    "label": "Kiang",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Kiang_in_Hellabrunn.jpg",
+    "continent": "Asia",
+    "sciName": "Equus kiang"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q174296",
     "label": "Gaur",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Indian_Gaur_from_anaimalai_hills_JEG5290.jpg/500px-Indian_Gaur_from_anaimalai_hills_JEG5290.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Indian_Gaur_from_anaimalai_hills_JEG5290.jpg",
     "continent": "Asia",
     "sciName": "Bos gaurus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q194422",
     "label": "Chinese alligator",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/ChineseAlligator15.JPG/500px-ChineseAlligator15.JPG",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/ChineseAlligator15.JPG",
     "continent": "Asia",
     "sciName": "Alligator sinensis"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q728636",
-    "label": "Himalayan tahr",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Himalayan_Tahr_at_Sagarmatha_National_Park%2C_Nepal_01.jpg/500px-Himalayan_Tahr_at_Sagarmatha_National_Park%2C_Nepal_01.jpg",
+    "id": "http://www.wikidata.org/entity/Q245183",
+    "label": "Indian python",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Pratik_jain_dahod_python.JPG/3840px-Pratik_jain_dahod_python.JPG",
     "continent": "Asia",
-    "sciName": "Hemitragus jemlahicus"
+    "sciName": "Python molurus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q216136",
+    "label": "Reticulated python",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Python_reticulatus_%D1%81%D0%B5%D1%82%D1%87%D0%B0%D1%82%D1%8B%D0%B9_%D0%BF%D0%B8%D1%82%D0%BE%D0%BD-2.jpg",
+    "continent": "Asia",
+    "sciName": "Malayopython reticulatus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q29220",
     "label": "Sumatran rhinoceros",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Sumatran_Rhinoceros_at_Sumatran_Rhino_Sanctuary_Lampung_Indonesia_2013.JPG/500px-Sumatran_Rhinoceros_at_Sumatran_Rhino_Sanctuary_Lampung_Indonesia_2013.JPG",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Sumatran_Rhinoceros_at_Sumatran_Rhino_Sanctuary_Lampung_Indonesia_2013.JPG",
     "continent": "Asia",
     "sciName": "Dicerorhinus sumatrensis"
   },
@@ -1316,128 +1330,135 @@
     "sciName": "Rhinoceros sondaicus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q245183",
-    "label": "Indian python",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Pratik_jain_dahod_python.JPG/500px-Pratik_jain_dahod_python.JPG",
-    "continent": "Asia",
-    "sciName": "Python molurus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q216136",
-    "label": "Reticulated python",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Python_reticulatus_%D1%81%D0%B5%D1%82%D1%87%D0%B0%D1%82%D1%8B%D0%B9_%D0%BF%D0%B8%D1%82%D0%BE%D0%BD-2.jpg/500px-Python_reticulatus_%D1%81%D0%B5%D1%82%D1%87%D0%B0%D1%82%D1%8B%D0%B9_%D0%BF%D0%B8%D1%82%D0%BE%D0%BD-2.jpg",
-    "continent": "Asia",
-    "sciName": "Malayopython reticulatus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q599672",
-    "label": "Bornean orangutan",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Tanjung_Puting30477.jpg/500px-Tanjung_Puting30477.jpg",
-    "continent": "Asia",
-    "sciName": "Pongo pygmaeus"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q208043",
     "label": "Lar gibbon",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Hylobates_lar_pair_of_white_and_black_01.jpg/500px-Hylobates_lar_pair_of_white_and_black_01.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Hylobates_lar_pair_of_white_and_black_01.jpg/1920px-Hylobates_lar_pair_of_white_and_black_01.jpg",
     "continent": "Asia",
     "sciName": "Hylobates lar"
   },
   {
     "id": "http://www.wikidata.org/entity/Q191129",
     "label": "Sumatran tiger",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumatran_Tiger_Berlin_Tierpark.jpg/500px-Sumatran_Tiger_Berlin_Tierpark.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Sumatran_Tiger_Berlin_Tierpark.jpg",
     "continent": "Asia",
     "sciName": "Panthera tigris sumatrae"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q42710",
-    "label": "Asian water buffalo",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Water_buffalo_at_Rinca.jpg/500px-Water_buffalo_at_Rinca.jpg",
+    "id": "http://www.wikidata.org/entity/Q599672",
+    "label": "Bornean orangutan",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Tanjung_Puting30477.jpg",
     "continent": "Asia",
-    "sciName": "Bubalus bubalis"
+    "sciName": "Pongo pygmaeus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q47910",
     "label": "Greater one-horned rhinoceros",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Great-Indian-one-horned-rhinoceros-at-Kaziranga-national-park-in-Assam-India.jpg/500px-Great-Indian-one-horned-rhinoceros-at-Kaziranga-national-park-in-Assam-India.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Great-Indian-one-horned-rhinoceros-at-Kaziranga-national-park-in-Assam-India.jpg",
     "continent": "Asia",
     "sciName": "Rhinoceros unicornis"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q82738",
-    "label": "Arctic fox",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Vulpes_lagopus_in_Iceland_%28cropped_3%29.jpg/500px-Vulpes_lagopus_in_Iceland_%28cropped_3%29.jpg",
-    "continent": "Europe",
-    "sciName": "Vulpes lagopus"
+    "id": "http://www.wikidata.org/entity/Q42710",
+    "label": "Asian water buffalo",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Water_buffalo_at_Rinca.jpg",
+    "continent": "Asia",
+    "sciName": "Bubalus bubalis"
   },
   {
     "id": "http://www.wikidata.org/entity/Q912336",
     "label": "Fallow deer",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/D%C3%BClmen%2C_Wildpark_--_2018_--_3762.jpg/500px-D%C3%BClmen%2C_Wildpark_--_2018_--_3762.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/D%C3%BClmen%2C_Wildpark_--_2018_--_3762.jpg",
     "continent": "Europe",
     "sciName": "Dama dama"
   },
   {
     "id": "http://www.wikidata.org/entity/Q79794",
     "label": "Red deer",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cervus_elaphus_Luc_Viatour_6.jpg/500px-Cervus_elaphus_Luc_Viatour_6.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cervus_elaphus_Luc_Viatour_6.jpg/3840px-Cervus_elaphus_Luc_Viatour_6.jpg",
     "continent": "Europe",
     "sciName": "Cervus elaphus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q39624",
     "label": "Reindeer",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Reinbukken_p%C3%A5_frisk_gr%C3%B8nt_beite._-_panoramio.jpg/500px-Reinbukken_p%C3%A5_frisk_gr%C3%B8nt_beite._-_panoramio.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Reinbukken_p%C3%A5_frisk_gr%C3%B8nt_beite._-_panoramio.jpg",
     "continent": "Europe",
     "sciName": "Rangifer tarandus"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q82738",
+    "label": "Arctic fox",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Vulpes_lagopus_in_Iceland_%28cropped_3%29.jpg/1920px-Vulpes_lagopus_in_Iceland_%28cropped_3%29.jpg",
+    "continent": "Europe",
+    "sciName": "Vulpes lagopus"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q41181",
     "label": "Golden eagle",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/015_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg/500px-015_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/015_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg",
     "continent": "Europe",
     "sciName": "Aquila chrysaetos"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q79915",
-    "label": "Common kingfisher",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Alcedo_atthis_-England-8_%28cropped%29.jpg/500px-Alcedo_atthis_-England-8_%28cropped%29.jpg",
-    "continent": "Europe",
-    "sciName": "Alcedo atthis"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q30535",
-    "label": "Peregrine falcon",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg/500px-Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg",
-    "continent": "Europe",
-    "sciName": "Falco peregrinus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q20977",
-    "label": "Hoopoe",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Upupa_epops_Madrid_01.jpg/500px-Upupa_epops_Madrid_01.jpg",
-    "continent": "Europe",
-    "sciName": "Upupa epops"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q170718",
-    "label": "European bee-eater",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Guepier_d%27europe_au_parc_national_Ichkeul.jpg/500px-Guepier_d%27europe_au_parc_national_Ichkeul.jpg",
-    "continent": "Europe",
-    "sciName": "Merops apiaster"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q25438",
     "label": "White-tailed eagle",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/NZ7_5265_%2852812350718%29.jpg/500px-NZ7_5265_%2852812350718%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/NZ7_5265_%2852812350718%29.jpg/1920px-NZ7_5265_%2852812350718%29.jpg",
     "continent": "Europe",
     "sciName": "Haliaeetus albicilla"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q79915",
+    "label": "Common kingfisher",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Alcedo_atthis_-England-8_%28cropped%29.jpg/1280px-Alcedo_atthis_-England-8_%28cropped%29.jpg",
+    "continent": "Europe",
+    "sciName": "Alcedo atthis"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q170718",
+    "label": "European bee-eater",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Guepier_d%27europe_au_parc_national_Ichkeul.jpg/1920px-Guepier_d%27europe_au_parc_national_Ichkeul.jpg",
+    "continent": "Europe",
+    "sciName": "Merops apiaster"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q20977",
+    "label": "Hoopoe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Upupa_epops_Madrid_01.jpg",
+    "continent": "Europe",
+    "sciName": "Upupa epops"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q30535",
+    "label": "Peregrine falcon",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg/1280px-Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg",
+    "continent": "Europe",
+    "sciName": "Falco peregrinus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q171360",
+    "label": "Eurasian spoonbill",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Eurasian_Spoonbill-2.jpg/1920px-Eurasian_Spoonbill-2.jpg",
+    "continent": "Europe",
+    "sciName": "Platalea leucorodia"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q27066",
+    "label": "European badger",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/M%C3%A4yr%C3%A4_%C3%84ht%C3%A4ri_4.jpg/1920px-M%C3%A4yr%C3%A4_%C3%84ht%C3%A4ri_4.jpg",
+    "continent": "Europe",
+    "sciName": "Meles meles"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q26582",
+    "label": "European polecat",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Storm_the_polecat.jpg/500px-Storm_the_polecat.jpg",
+    "continent": "Europe",
+    "sciName": "Mustela putorius"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q4764",
     "label": "Common crane",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Common_crane_grus_grus.jpg/500px-Common_crane_grus_grus.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Common_crane_grus_grus.jpg/1920px-Common_crane_grus_grus.jpg",
     "continent": "Europe",
     "sciName": "Grus grus"
   },
@@ -1449,95 +1470,81 @@
     "sciName": "Martes foina"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q171360",
-    "label": "Eurasian spoonbill",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Eurasian_Spoonbill-2.jpg/500px-Eurasian_Spoonbill-2.jpg",
-    "continent": "Europe",
-    "sciName": "Platalea leucorodia"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q26582",
-    "label": "European polecat",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Storm_the_polecat.jpg/500px-Storm_the_polecat.jpg",
-    "continent": "Europe",
-    "sciName": "Mustela putorius"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q27066",
-    "label": "European badger",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/M%C3%A4yr%C3%A4_%C3%84ht%C3%A4ri_4.jpg/500px-M%C3%A4yr%C3%A4_%C3%84ht%C3%A4ri_4.jpg",
-    "continent": "Europe",
-    "sciName": "Meles meles"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q623466",
-    "label": "European ground squirrel",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/European_souslik_%28Spermophilus_citellus%29_Obrovisko.jpg/500px-European_souslik_%28Spermophilus_citellus%29_Obrovisko.jpg",
-    "continent": "Europe",
-    "sciName": "Spermophilus citellus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q26490",
-    "label": "Common kestrel",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Common_kestrel_falco_tinnunculus.jpg/500px-Common_kestrel_falco_tinnunculus.jpg",
-    "continent": "Europe",
-    "sciName": "Falco tinnunculus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q200724",
-    "label": "Great grey owl",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D0%B0%D1%82%D0%B0%D1%8F_%D0%BD%D0%B5%D1%8F%D1%81%D1%8B%D1%82%D1%8C_%28Strix_nebulosa%2C_m%29%2C_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%B0%D0%B4.jpg/500px-%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D0%B0%D1%82%D0%B0%D1%8F_%D0%BD%D0%B5%D1%8F%D1%81%D1%8B%D1%82%D1%8C_%28Strix_nebulosa%2C_m%29%2C_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%B0%D0%B4.jpg",
-    "continent": "Europe",
-    "sciName": "Strix nebulosa"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q25398",
     "label": "Black stork",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ciconia_nigra_-Kruger_National_Park-8.jpg/500px-Ciconia_nigra_-Kruger_National_Park-8.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ciconia_nigra_-Kruger_National_Park-8.jpg/1920px-Ciconia_nigra_-Kruger_National_Park-8.jpg",
     "continent": "Europe",
     "sciName": "Ciconia nigra"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q26490",
+    "label": "Common kestrel",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Common_kestrel_falco_tinnunculus.jpg",
+    "continent": "Europe",
+    "sciName": "Falco tinnunculus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q623466",
+    "label": "European ground squirrel",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/European_souslik_%28Spermophilus_citellus%29_Obrovisko.jpg",
+    "continent": "Europe",
+    "sciName": "Spermophilus citellus"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q27016",
     "label": "Eurasian water vole",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Water_Vole_on_Boot_Hill_%285592665124%29.jpg/500px-Water_Vole_on_Boot_Hill_%285592665124%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Water_Vole_on_Boot_Hill_%285592665124%29.jpg",
     "continent": "Europe",
     "sciName": "Arvicola amphibius"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q200724",
+    "label": "Great grey owl",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D0%B0%D1%82%D0%B0%D1%8F_%D0%BD%D0%B5%D1%8F%D1%81%D1%8B%D1%82%D1%8C_%28Strix_nebulosa%2C_m%29%2C_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%B0%D0%B4.jpg/1920px-%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D0%B0%D1%82%D0%B0%D1%8F_%D0%BD%D0%B5%D1%8F%D1%81%D1%8B%D1%82%D1%8C_%28Strix_nebulosa%2C_m%29%2C_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%B0%D0%B4.jpg",
+    "continent": "Europe",
+    "sciName": "Strix nebulosa"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q184004",
+    "label": "Musk ox",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Muskox_%28Ovibos_moschatus%29_male_Dovrefjell_4.jpg",
+    "continent": "North America",
+    "sciName": "Ovibos moschatus"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q33609",
     "label": "Polar bear",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg/500px-Polar_Bear_-_Alaska_%28cropped%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg",
     "continent": "North America",
     "sciName": "Ursus maritimus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q26913",
-    "label": "Harbor seal",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Common_seal_%28Phoca_vitulina%29_2.jpg/500px-Common_seal_%28Phoca_vitulina%29_2.jpg",
-    "continent": "North America",
-    "sciName": "Phoca vitulina"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q39624",
     "label": "Caribou",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Reinbukken_p%C3%A5_frisk_gr%C3%B8nt_beite._-_panoramio.jpg/500px-Reinbukken_p%C3%A5_frisk_gr%C3%B8nt_beite._-_panoramio.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Reinbukken_p%C3%A5_frisk_gr%C3%B8nt_beite._-_panoramio.jpg/1920px-Reinbukken_p%C3%A5_frisk_gr%C3%B8nt_beite._-_panoramio.jpg",
     "continent": "North America",
     "sciName": "Rangifer tarandus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q40994",
     "label": "Walrus",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg/500px-Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg",
     "continent": "North America",
     "sciName": "Odobenus rosmarus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q184004",
-    "label": "Musk ox",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Muskox_%28Ovibos_moschatus%29_male_Dovrefjell_4.jpg/500px-Muskox_%28Ovibos_moschatus%29_male_Dovrefjell_4.jpg",
+    "id": "http://www.wikidata.org/entity/Q26913",
+    "label": "Harbor seal",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Common_seal_%28Phoca_vitulina%29_2.jpg",
     "continent": "North America",
-    "sciName": "Ovibos moschatus"
+    "sciName": "Phoca vitulina"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q457477",
+    "label": "Whooping crane",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Grus_americana_Sasata.jpg",
+    "continent": "North America",
+    "sciName": "Grus americana"
   },
   {
     "id": "http://www.wikidata.org/entity/Q431981",
@@ -1549,212 +1556,184 @@
   {
     "id": "http://www.wikidata.org/entity/Q27179",
     "label": "American mink",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/MinkforWiki.jpg/500px-MinkforWiki.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/MinkforWiki.jpg/1280px-MinkforWiki.jpg",
     "continent": "North America",
     "sciName": "Neovison vison"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q457477",
-    "label": "Whooping crane",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Grus_americana_Sasata.jpg/500px-Grus_americana_Sasata.jpg",
-    "continent": "North America",
-    "sciName": "Grus americana"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q503804",
-    "label": "Sandhill crane",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Sandhill_Crane_JG.jpg/500px-Sandhill_Crane_JG.jpg",
-    "continent": "North America",
-    "sciName": "Antigone canadensis"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q333796",
     "label": "Great blue heron",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/GreatBlueHeronInARiver.jpg/500px-GreatBlueHeronInARiver.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/GreatBlueHeronInARiver.jpg/3840px-GreatBlueHeronInARiver.jpg",
     "continent": "North America",
     "sciName": "Ardea herodias"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q469908",
-    "label": "American pika",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ochotona_princeps_rockies.JPG/500px-Ochotona_princeps_rockies.JPG",
+    "id": "http://www.wikidata.org/entity/Q503804",
+    "label": "Sandhill crane",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Sandhill_Crane_JG.jpg/1280px-Sandhill_Crane_JG.jpg",
     "continent": "North America",
-    "sciName": "Ochotona princeps"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q389664",
-    "label": "Roseate spoonbill",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Roseate_Spoonbill_Platalea_ajaja_JG.jpg/500px-Roseate_Spoonbill_Platalea_ajaja_JG.jpg",
-    "continent": "North America",
-    "sciName": "Platalea ajaja"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q242602",
-    "label": "Mountain goat",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Mountain_Goat%2C_Enchantments_Basin.jpg/500px-Mountain_Goat%2C_Enchantments_Basin.jpg",
-    "continent": "North America",
-    "sciName": "Oreamnos americanus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q189466",
-    "label": "Bighorn sheep",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/New_Mexico_Bighorn_Sheep.JPG/500px-New_Mexico_Bighorn_Sheep.JPG",
-    "continent": "North America",
-    "sciName": "Ovis canadensis"
+    "sciName": "Antigone canadensis"
   },
   {
     "id": "http://www.wikidata.org/entity/Q322159",
     "label": "Wood duck",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Wood_Duck_Wissahickon_Creek.png/500px-Wood_Duck_Wissahickon_Creek.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Wood_Duck_Wissahickon_Creek.png",
     "continent": "North America",
     "sciName": "Aix sponsa"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q834843",
-    "label": "Ruby-throated hummingbird",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Archilochus_colubris_-flying_-male-8.jpg/500px-Archilochus_colubris_-flying_-male-8.jpg",
+    "id": "http://www.wikidata.org/entity/Q189466",
+    "label": "Bighorn sheep",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/New_Mexico_Bighorn_Sheep.JPG",
     "continent": "North America",
-    "sciName": "Archilochus colubris"
+    "sciName": "Ovis canadensis"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q829683",
-    "label": "Northern mockingbird",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Mockingbird_in_Bay_Ridge_%2885082%29.jpg/500px-Mockingbird_in_Bay_Ridge_%2885082%29.jpg",
+    "id": "http://www.wikidata.org/entity/Q242602",
+    "label": "Mountain goat",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Mountain_Goat%2C_Enchantments_Basin.jpg/960px-Mountain_Goat%2C_Enchantments_Basin.jpg",
     "continent": "North America",
-    "sciName": "Mimus polyglottos"
+    "sciName": "Oreamnos americanus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q389664",
+    "label": "Roseate spoonbill",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Roseate_Spoonbill_Platalea_ajaja_JG.jpg/1920px-Roseate_Spoonbill_Platalea_ajaja_JG.jpg",
+    "continent": "North America",
+    "sciName": "Platalea ajaja"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q469908",
+    "label": "American pika",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ochotona_princeps_rockies.JPG/1280px-Ochotona_princeps_rockies.JPG",
+    "continent": "North America",
+    "sciName": "Ochotona princeps"
   },
   {
     "id": "http://www.wikidata.org/entity/Q3768639",
     "label": "Eastern box turtle",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Eastern_Box_Turtle%2C_North_Carolina%2C_US_imported_from_iNaturalist_photo_71168521_%28cropped%29.jpg/500px-Eastern_Box_Turtle%2C_North_Carolina%2C_US_imported_from_iNaturalist_photo_71168521_%28cropped%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Eastern_Box_Turtle%2C_North_Carolina%2C_US_imported_from_iNaturalist_photo_71168521_%28cropped%29.jpg",
     "continent": "North America",
     "sciName": "Terrapene carolina"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q829683",
+    "label": "Northern mockingbird",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Mockingbird_in_Bay_Ridge_%2885082%29.jpg/3840px-Mockingbird_in_Bay_Ridge_%2885082%29.jpg",
+    "continent": "North America",
+    "sciName": "Mimus polyglottos"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q159404",
     "label": "American bullfrog",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/North-American-bullfrog1.jpg/500px-North-American-bullfrog1.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/North-American-bullfrog1.jpg",
     "continent": "North America",
     "sciName": "Lithobates catesbeianus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q170598",
-    "label": "Andean condor",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/AndeanCondorMale.jpg/500px-AndeanCondorMale.jpg",
-    "continent": "South America",
-    "sciName": "Vultur gryphus"
+    "id": "http://www.wikidata.org/entity/Q834843",
+    "label": "Ruby-throated hummingbird",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Archilochus_colubris_-flying_-male-8.jpg",
+    "continent": "North America",
+    "sciName": "Archilochus colubris"
   },
   {
     "id": "http://www.wikidata.org/entity/Q17970",
     "label": "Jabiru",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/002_Jabiru_feeding_its_babies_in_their_nest_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/500px-002_Jabiru_feeding_its_babies_in_their_nest_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/002_Jabiru_feeding_its_babies_in_their_nest_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
     "continent": "South America",
     "sciName": "Jabiru mycteria"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q243761",
-    "label": "Scarlet macaw",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg/500px-Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg",
-    "continent": "South America",
-    "sciName": "Ara macao"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q205477",
     "label": "Blue-and-yellow macaw",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Ara_ararauna_Luc_Viatour.jpg/500px-Ara_ararauna_Luc_Viatour.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Ara_ararauna_Luc_Viatour.jpg/1920px-Ara_ararauna_Luc_Viatour.jpg",
     "continent": "South America",
     "sciName": "Ara ararauna"
   },
   {
     "id": "http://www.wikidata.org/entity/Q463154",
     "label": "Hyacinth macaw",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Hyacinth_macaw_%28Anodorhynchus_hyacinthinus%29_head.JPG/500px-Hyacinth_macaw_%28Anodorhynchus_hyacinthinus%29_head.JPG",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Hyacinth_macaw_%28Anodorhynchus_hyacinthinus%29_head.JPG/1920px-Hyacinth_macaw_%28Anodorhynchus_hyacinthinus%29_head.JPG",
     "continent": "South America",
     "sciName": "Anodorhynchus hyacinthinus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q188660",
-    "label": "Hoatzin",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hoatzin_%28Opisthocomus_hoazin%29_Rio_Napo.jpg/500px-Hoatzin_%28Opisthocomus_hoazin%29_Rio_Napo.jpg",
+    "id": "http://www.wikidata.org/entity/Q170598",
+    "label": "Andean condor",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/AndeanCondorMale.jpg/1920px-AndeanCondorMale.jpg",
     "continent": "South America",
-    "sciName": "Opisthocomus hoazin"
+    "sciName": "Vultur gryphus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q243761",
+    "label": "Scarlet macaw",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg/3840px-Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg",
+    "continent": "South America",
+    "sciName": "Ara macao"
   },
   {
     "id": "http://www.wikidata.org/entity/Q601107",
     "label": "Sunbittern",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Sunbittern_%28Eurypyga_helias%29.JPG/500px-Sunbittern_%28Eurypyga_helias%29.JPG",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Sunbittern_%28Eurypyga_helias%29.JPG",
     "continent": "South America",
     "sciName": "Eurypyga helias"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q467996",
+    "label": "Scarlet ibis",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Oceanografic_Scarlet_Ibis_02.jpg",
+    "continent": "South America",
+    "sciName": "Eudocimus ruber"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q423800",
     "label": "Andean flamingo",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Andean_Flamingo%2C_Salta%2C_AR_imported_from_iNaturalist_photo_171995487.jpg/500px-Andean_Flamingo%2C_Salta%2C_AR_imported_from_iNaturalist_photo_171995487.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Andean_Flamingo%2C_Salta%2C_AR_imported_from_iNaturalist_photo_171995487.jpg",
     "continent": "South America",
     "sciName": "Phoenicoparrus andinus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q317220",
     "label": "Chilean flamingo",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Chilean_Flamingo%2C_Poza_La_Arenilla%2C_El_Callao_imported_from_iNaturalist_photo_517735784.jpg/500px-Chilean_Flamingo%2C_Poza_La_Arenilla%2C_El_Callao_imported_from_iNaturalist_photo_517735784.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Chilean_Flamingo%2C_Poza_La_Arenilla%2C_El_Callao_imported_from_iNaturalist_photo_517735784.jpg/1920px-Chilean_Flamingo%2C_Poza_La_Arenilla%2C_El_Callao_imported_from_iNaturalist_photo_517735784.jpg",
     "continent": "South America",
     "sciName": "Phoenicopterus chilensis"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q467996",
-    "label": "Scarlet ibis",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Oceanografic_Scarlet_Ibis_02.jpg/500px-Oceanografic_Scarlet_Ibis_02.jpg",
+    "id": "http://www.wikidata.org/entity/Q188660",
+    "label": "Hoatzin",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Hoatzin_%28Opisthocomus_hoazin%29_Rio_Napo.jpg",
     "continent": "South America",
-    "sciName": "Eudocimus ruber"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q244432",
-    "label": "Black-necked swan",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Black-necked_swan_%28Cygnus_melancoryphus%29_Santiago.jpg/500px-Black-necked_swan_%28Cygnus_melancoryphus%29_Santiago.jpg",
-    "continent": "South America",
-    "sciName": "Cygnus melancoryphus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q733120",
-    "label": "Darwin's rhea",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Lesser_rhea_%28Rhea_pennata_pennata%29_Torres_del_Paine.jpg/500px-Lesser_rhea_%28Rhea_pennata_pennata%29_Torres_del_Paine.jpg",
-    "continent": "South America",
-    "sciName": "Rhea pennata"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q223960",
-    "label": "Mountain tapir",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tapirus_pinchaque_portrait.jpg/500px-Tapirus_pinchaque_portrait.jpg",
-    "continent": "South America",
-    "sciName": "Tapirus pinchaque"
+    "sciName": "Opisthocomus hoazin"
   },
   {
     "id": "http://www.wikidata.org/entity/Q321087",
     "label": "Giant toad",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Canetoadmale.jpg/500px-Canetoadmale.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Canetoadmale.jpg",
     "continent": "South America",
     "sciName": "Rhinella marina"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q185215",
-    "label": "Piranha",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg/500px-Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg",
+    "id": "http://www.wikidata.org/entity/Q244432",
+    "label": "Black-necked swan",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Black-necked_swan_%28Cygnus_melancoryphus%29_Santiago.jpg",
     "continent": "South America",
-    "sciName": "Serrasalmidae"
+    "sciName": "Cygnus melancoryphus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q691739",
-    "label": "Matamata",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Matamata_i-SITE.jpg/500px-Matamata_i-SITE.jpg",
+    "id": "http://www.wikidata.org/entity/Q223960",
+    "label": "Mountain tapir",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Tapirus_pinchaque_portrait.jpg",
     "continent": "South America",
-    "sciName": "Chelus fimbriata"
+    "sciName": "Tapirus pinchaque"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q333649",
-    "label": "South American sea lion",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Southern_Sea_Lions.jpg/500px-Southern_Sea_Lions.jpg",
+    "id": "http://www.wikidata.org/entity/Q733120",
+    "label": "Darwin's rhea",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Lesser_rhea_%28Rhea_pennata_pennata%29_Torres_del_Paine.jpg/3840px-Lesser_rhea_%28Rhea_pennata_pennata%29_Torres_del_Paine.jpg",
     "continent": "South America",
-    "sciName": "Otaria flavescens"
+    "sciName": "Rhea pennata"
   },
   {
     "id": "http://www.wikidata.org/entity/Q53752",
@@ -1764,326 +1743,347 @@
     "sciName": "Centrolenidae"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q691739",
+    "label": "Matamata",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Matamata_i-SITE.jpg",
+    "continent": "South America",
+    "sciName": "Chelus fimbriata"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q333649",
+    "label": "South American sea lion",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Southern_Sea_Lions.jpg/1920px-Southern_Sea_Lions.jpg",
+    "continent": "South America",
+    "sciName": "Otaria flavescens"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q185215",
+    "label": "Piranha",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg",
+    "continent": "South America",
+    "sciName": "Serrasalmidae"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q935931",
     "label": "Boto",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Inia.jpg/500px-Inia.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Inia.jpg/1920px-Inia.jpg",
     "continent": "South America",
     "sciName": "Inia geoffrensis"
   },
   {
     "id": "http://www.wikidata.org/entity/Q623169",
     "label": "Wallaby",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Red_necked_wallaby444.jpg/500px-Red_necked_wallaby444.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Red_necked_wallaby444.jpg",
     "continent": "Australia",
     "sciName": "Notamacropus agilis"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q194526",
-    "label": "Spotted-tailed quoll",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Dasyurus_maculatus_398569942.jpg/500px-Dasyurus_maculatus_398569942.jpg",
-    "continent": "Australia",
-    "sciName": "Dasyurus maculatus"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q928390",
     "label": "Common ringtail possum",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Possum_Ring-tailed444.jpg/500px-Possum_Ring-tailed444.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Possum_Ring-tailed444.jpg/1280px-Possum_Ring-tailed444.jpg",
     "continent": "Australia",
     "sciName": "Pseudocheirus peregrinus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q732477",
-    "label": "Common brushtail possum",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Trichosurus_vulpecula_1.jpg/500px-Trichosurus_vulpecula_1.jpg",
-    "continent": "Australia",
-    "sciName": "Trichosurus vulpecula"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q194516",
     "label": "Eastern quoll",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Eastern_quoll_%28Dasyurus_viverrinus%29_fawn_morph_Esk_Valley.jpg/500px-Eastern_quoll_%28Dasyurus_viverrinus%29_fawn_morph_Esk_Valley.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Eastern_quoll_%28Dasyurus_viverrinus%29_fawn_morph_Esk_Valley.jpg",
     "continent": "Australia",
     "sciName": "Dasyurus viverrinus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q788512",
-    "label": "Tawny frogmouth",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Tawny_Frogmouth_-_Sydney_Olympic_Park.jpg/500px-Tawny_Frogmouth_-_Sydney_Olympic_Park.jpg",
+    "id": "http://www.wikidata.org/entity/Q194526",
+    "label": "Spotted-tailed quoll",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Dasyurus_maculatus_398569942.jpg/1920px-Dasyurus_maculatus_398569942.jpg",
     "continent": "Australia",
-    "sciName": "Podargus strigoides"
+    "sciName": "Dasyurus maculatus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q1140949",
-    "label": "Australian magpie",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Cracticus_tibicen_hypoleuca_male_domain.jpg/500px-Cracticus_tibicen_hypoleuca_male_domain.jpg",
+    "id": "http://www.wikidata.org/entity/Q732477",
+    "label": "Common brushtail possum",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Trichosurus_vulpecula_1.jpg/960px-Trichosurus_vulpecula_1.jpg",
     "continent": "Australia",
-    "sciName": "Gymnorhina tibicen"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q926178",
-    "label": "Brolga",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Brolga-1-Healesville%2C-Vic%2C-3.1.2008_edit.jpg/500px-Brolga-1-Healesville%2C-Vic%2C-3.1.2008_edit.jpg",
-    "continent": "Australia",
-    "sciName": "Antigone rubicunda"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q26063",
-    "label": "Australian pelican",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Pelecanus_conspicillatus_-_Doughboy_Head.jpg/500px-Pelecanus_conspicillatus_-_Doughboy_Head.jpg",
-    "continent": "Australia",
-    "sciName": "Pelecanus conspicillatus"
+    "sciName": "Trichosurus vulpecula"
   },
   {
     "id": "http://www.wikidata.org/entity/Q207107",
     "label": "Sulphur-crested cockatoo",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Cacatua_galerita_Tas_2.jpg/500px-Cacatua_galerita_Tas_2.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Cacatua_galerita_Tas_2.jpg",
     "continent": "Australia",
     "sciName": "Cacatua galerita"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q926178",
+    "label": "Brolga",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Brolga-1-Healesville%2C-Vic%2C-3.1.2008_edit.jpg",
+    "continent": "Australia",
+    "sciName": "Antigone rubicunda"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q1140949",
+    "label": "Australian magpie",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cracticus_tibicen_hypoleuca_male_domain.jpg",
+    "continent": "Australia",
+    "sciName": "Gymnorhina tibicen"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q26063",
+    "label": "Australian pelican",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Pelecanus_conspicillatus_-_Doughboy_Head.jpg/1920px-Pelecanus_conspicillatus_-_Doughboy_Head.jpg",
+    "continent": "Australia",
+    "sciName": "Pelecanus conspicillatus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q788512",
+    "label": "Tawny frogmouth",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Tawny_Frogmouth_-_Sydney_Olympic_Park.jpg",
+    "continent": "Australia",
+    "sciName": "Podargus strigoides"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q1253755",
     "label": "Galah",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Galah_%28Eolophus_roseicapilla_albiceps%29_male_Adelaide.jpg/500px-Galah_%28Eolophus_roseicapilla_albiceps%29_male_Adelaide.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Galah_%28Eolophus_roseicapilla_albiceps%29_male_Adelaide.jpg",
     "continent": "Australia",
     "sciName": "Eolophus roseicapilla"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q420813",
-    "label": "Superb fairywren",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Malurus_cyaneus_cyanochlamys_.jpg/500px-Malurus_cyaneus_cyanochlamys_.jpg",
-    "continent": "Australia",
-    "sciName": "Malurus cyaneus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q163283",
-    "label": "Tuatara",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Tuatara_%285205719005%29.jpg/500px-Tuatara_%285205719005%29.jpg",
-    "continent": "Australia",
-    "sciName": "Sphenodon punctatus"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q179959",
     "label": "Kakapo",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Sirocco_full_length_portrait.jpg/500px-Sirocco_full_length_portrait.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Sirocco_full_length_portrait.jpg/330px-Sirocco_full_length_portrait.jpg",
     "continent": "Australia",
     "sciName": "Strigops habroptilus"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q163283",
+    "label": "Tuatara",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Tuatara_%285205719005%29.jpg",
+    "continent": "Australia",
+    "sciName": "Sphenodon punctatus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q420813",
+    "label": "Superb fairywren",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Malurus_cyaneus_cyanochlamys_.jpg",
+    "continent": "Australia",
+    "sciName": "Malurus cyaneus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q42196",
+    "label": "Blue whale",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg",
+    "continent": "Antarctica",
+    "sciName": "Balaenoptera musculus"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q26843",
     "label": "Orca",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Killerwhales_jumping.jpg/500px-Killerwhales_jumping.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Killerwhales_jumping.jpg",
     "continent": "Antarctica",
     "sciName": "Orcinus orca"
   },
   {
     "id": "http://www.wikidata.org/entity/Q132905",
     "label": "Humpback whale",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Humpback_Whale_underwater_shot.jpg/500px-Humpback_Whale_underwater_shot.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Humpback_Whale_underwater_shot.jpg/960px-Humpback_Whale_underwater_shot.jpg",
     "continent": "Antarctica",
     "sciName": "Megaptera novaeangliae"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q42196",
-    "label": "Blue whale",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg/500px-Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg",
-    "continent": "Antarctica",
-    "sciName": "Balaenoptera musculus"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q81214",
     "label": "Sperm whale",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Mother_and_baby_sperm_whale.jpg/500px-Mother_and_baby_sperm_whale.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Mother_and_baby_sperm_whale.jpg/3840px-Mother_and_baby_sperm_whale.jpg",
     "continent": "North America",
     "sciName": "Physeter macrocephalus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q149069",
     "label": "Bottlenose dolphin",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tursiops_truncatus_01.jpg/500px-Tursiops_truncatus_01.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tursiops_truncatus_01.jpg/1920px-Tursiops_truncatus_01.jpg",
     "continent": "Europe",
     "sciName": "Tursiops truncatus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q129026",
     "label": "Great white shark",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/500px-White_shark.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/White_shark.jpg",
     "continent": "Africa",
     "sciName": "Carcharodon carcharias"
   },
   {
     "id": "http://www.wikidata.org/entity/Q80378",
     "label": "Whale shark",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Similan_Dive_Center_-_great_whale_shark.jpg/500px-Similan_Dive_Center_-_great_whale_shark.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Similan_Dive_Center_-_great_whale_shark.jpg",
     "continent": "Asia",
     "sciName": "Rhincodon typus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q208490",
-    "label": "Hammerhead shark",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Scalloped_Hammerhead_Shark_Sphyrna_Lewini_%28226845659%29.jpeg/500px-Scalloped_Hammerhead_Shark_Sphyrna_Lewini_%28226845659%29.jpeg",
-    "continent": "Africa",
-    "sciName": "Sphyrna lewini"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q1536199",
     "label": "Manta ray",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Dharavandhoo_Thila_-_Manata_Black_Pearl.JPG/500px-Dharavandhoo_Thila_-_Manata_Black_Pearl.JPG",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Dharavandhoo_Thila_-_Manata_Black_Pearl.JPG",
     "continent": "Asia",
     "sciName": "Mobula birostris"
   },
   {
     "id": "http://www.wikidata.org/entity/Q199458",
     "label": "Green sea turtle",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/500px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/3840px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg",
     "continent": "Australia",
     "sciName": "Chelonia mydas"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q159426",
-    "label": "Narwhal",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/%D0%9D%D0%B0%D1%80%D0%B2%D0%B0%D0%BB_%D0%B2_%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B5.jpg/500px-%D0%9D%D0%B0%D1%80%D0%B2%D0%B0%D0%BB_%D0%B2_%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B5.jpg",
-    "continent": "North America",
-    "sciName": "Monodon monoceros"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q120043",
-    "label": "Leatherback sea turtle",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Leatherback_sea_turtle_Tinglar%2C_USVI_%285839996547%29.jpg/500px-Leatherback_sea_turtle_Tinglar%2C_USVI_%285839996547%29.jpg",
-    "continent": "South America",
-    "sciName": "Dermochelys coriacea"
+    "id": "http://www.wikidata.org/entity/Q208490",
+    "label": "Hammerhead shark",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Scalloped_Hammerhead_Shark_Sphyrna_Lewini_%28226845659%29.jpeg",
+    "continent": "Africa",
+    "sciName": "Sphyrna lewini"
   },
   {
     "id": "http://www.wikidata.org/entity/Q26913",
     "label": "Common seal",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Common_seal_%28Phoca_vitulina%29_2.jpg/500px-Common_seal_%28Phoca_vitulina%29_2.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Common_seal_%28Phoca_vitulina%29_2.jpg/3840px-Common_seal_%28Phoca_vitulina%29_2.jpg",
     "continent": "Europe",
     "sciName": "Phoca vitulina"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q120043",
+    "label": "Leatherback sea turtle",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Leatherback_sea_turtle_Tinglar%2C_USVI_%285839996547%29.jpg/1280px-Leatherback_sea_turtle_Tinglar%2C_USVI_%285839996547%29.jpg",
+    "continent": "South America",
+    "sciName": "Dermochelys coriacea"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q192095",
     "label": "Loggerhead sea turtle",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Loggerhead_sea_turtle.jpg/500px-Loggerhead_sea_turtle.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Loggerhead_sea_turtle.jpg/1920px-Loggerhead_sea_turtle.jpg",
     "continent": "Europe",
     "sciName": "Caretta caretta"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q159426",
+    "label": "Narwhal",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%D0%9D%D0%B0%D1%80%D0%B2%D0%B0%D0%BB_%D0%B2_%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B5.jpg",
+    "continent": "North America",
+    "sciName": "Monodon monoceros"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q132072",
     "label": "Beluga whale",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Oceanogr%C3%A0fic_29102004.jpg/500px-Oceanogr%C3%A0fic_29102004.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Oceanogr%C3%A0fic_29102004.jpg/1920px-Oceanogr%C3%A0fic_29102004.jpg",
     "continent": "North America",
     "sciName": "Delphinapterus leucas"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q208549",
-    "label": "Mediterranean monk seal",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Monachus_monachus_DSC_0274.jpg/500px-Monachus_monachus_DSC_0274.jpg",
-    "continent": "Europe",
-    "sciName": "Monachus monachus"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q912404",
     "label": "Giant Pacific octopus",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Enteroctopus_dolfeini.jpg/500px-Enteroctopus_dolfeini.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Enteroctopus_dolfeini.jpg/960px-Enteroctopus_dolfeini.jpg",
     "continent": "North America",
     "sciName": "Enteroctopus dofleini"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q208549",
+    "label": "Mediterranean monk seal",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Monachus_monachus_DSC_0274.jpg",
+    "continent": "Europe",
+    "sciName": "Monachus monachus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q651361",
+    "label": "Common octopus",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Octopus2.jpg/1920px-Octopus2.jpg",
+    "continent": "Europe",
+    "sciName": "Octopus vulgaris"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q472616",
     "label": "Clownfish",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg/500px-Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg",
     "continent": "Australia",
     "sciName": "Amphiprion ocellaris"
   },
   {
     "id": "http://www.wikidata.org/entity/Q475711",
     "label": "Lionfish",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Red_lionfish_near_Gilli_Banta_Island.JPG/500px-Red_lionfish_near_Gilli_Banta_Island.JPG",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Red_lionfish_near_Gilli_Banta_Island.JPG",
     "continent": "Asia",
     "sciName": "Pterois volitans"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q651361",
-    "label": "Common octopus",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Octopus2.jpg/500px-Octopus2.jpg",
-    "continent": "Europe",
-    "sciName": "Octopus vulgaris"
+    "id": "http://www.wikidata.org/entity/Q4126704",
+    "label": "Common chimpanzee",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg",
+    "continent": "Africa",
+    "sciName": "Pan troglodytes"
   },
   {
     "id": "http://www.wikidata.org/entity/Q22110899",
     "label": "Pygmy hippopotamus",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Hexaprotodon_liberiensis_in_Edinburgh_Zoo.JPG/500px-Hexaprotodon_liberiensis_in_Edinburgh_Zoo.JPG",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Hexaprotodon_liberiensis_in_Edinburgh_Zoo.JPG/3840px-Hexaprotodon_liberiensis_in_Edinburgh_Zoo.JPG",
     "continent": "Africa",
     "sciName": "Choeropsis liberiensis"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q189514",
+    "label": "African forest elephant",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Loxodontacyclotis.jpg/1920px-Loxodontacyclotis.jpg",
+    "continent": "Africa",
+    "sciName": "Loxodonta cyclotis"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q19537",
     "label": "Bonobo",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Apeldoorn_Apenheul_zoo_Bonobo.jpg/500px-Apeldoorn_Apenheul_zoo_Bonobo.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Apeldoorn_Apenheul_zoo_Bonobo.jpg",
     "continent": "Africa",
     "sciName": "Pan paniscus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q159918",
     "label": "White rhinoceros",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg/500px-109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg/3840px-109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg",
     "continent": "Africa",
     "sciName": "Ceratotherium simum"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q189514",
-    "label": "African forest elephant",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Loxodontacyclotis.jpg/500px-Loxodontacyclotis.jpg",
-    "continent": "Africa",
-    "sciName": "Loxodonta cyclotis"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q4126704",
-    "label": "Common chimpanzee",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg/500px-015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg",
-    "continent": "Africa",
-    "sciName": "Pan troglodytes"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q387319",
-    "label": "African bullfrog",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Pyxicephalus_adspersus_2zz.jpg/500px-Pyxicephalus_adspersus_2zz.jpg",
-    "continent": "Africa",
-    "sciName": "Pyxicephalus adspersus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q188690",
-    "label": "Black mamba",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Dendroaspis_polylepis_%2814%29.jpg/500px-Dendroaspis_polylepis_%2814%29.jpg",
-    "continent": "Africa",
-    "sciName": "Dendroaspis polylepis"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q208561",
     "label": "Olive baboon",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Olive_baboon_Ngorongoro.jpg/500px-Olive_baboon_Ngorongoro.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Olive_baboon_Ngorongoro.jpg/1280px-Olive_baboon_Ngorongoro.jpg",
     "continent": "Africa",
     "sciName": "Papio anubis"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q311170",
-    "label": "Nile tilapia",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Til%C3%A1pia_ou_Sarotherodon_niloticus_2.jpg/500px-Til%C3%A1pia_ou_Sarotherodon_niloticus_2.jpg",
+    "id": "http://www.wikidata.org/entity/Q188690",
+    "label": "Black mamba",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Dendroaspis_polylepis_%2814%29.jpg/1920px-Dendroaspis_polylepis_%2814%29.jpg",
     "continent": "Africa",
-    "sciName": "Oreochromis niloticus"
+    "sciName": "Dendroaspis polylepis"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q387319",
+    "label": "African bullfrog",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Pyxicephalus_adspersus_2zz.jpg/960px-Pyxicephalus_adspersus_2zz.jpg",
+    "continent": "Africa",
+    "sciName": "Pyxicephalus adspersus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q369667",
     "label": "Puff adder",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bitis_arietans_by_Danny_S._1.JPG/500px-Bitis_arietans_by_Danny_S._1.JPG",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bitis_arietans_by_Danny_S._1.JPG/960px-Bitis_arietans_by_Danny_S._1.JPG",
     "continent": "Africa",
     "sciName": "Bitis arietans"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q194080",
-    "label": "Gelada",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Gelada_%28Theropithecus_gelada_gelada%29_male_2.jpg/500px-Gelada_%28Theropithecus_gelada_gelada%29_male_2.jpg",
+    "id": "http://www.wikidata.org/entity/Q311170",
+    "label": "Nile tilapia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Til%C3%A1pia_ou_Sarotherodon_niloticus_2.jpg/1280px-Til%C3%A1pia_ou_Sarotherodon_niloticus_2.jpg",
     "continent": "Africa",
-    "sciName": "Theropithecus gelada"
+    "sciName": "Oreochromis niloticus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q756868",
+    "label": "Bali myna",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Bali_Myna_0A2A9443.jpg",
+    "continent": "Asia",
+    "sciName": "Leucopsar rothschildi"
   },
   {
     "id": "http://www.wikidata.org/entity/Q269728",
@@ -2095,93 +2095,107 @@
   {
     "id": "http://www.wikidata.org/entity/Q111446938",
     "label": "Pygmy slow loris",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Nycticebus_pygmaeus_004.jpg/500px-Nycticebus_pygmaeus_004.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Nycticebus_pygmaeus_004.jpg",
     "continent": "Asia",
     "sciName": "Nycticebus pygmaeus"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q756868",
-    "label": "Bali myna",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bali_Myna_0A2A9443.jpg/500px-Bali_Myna_0A2A9443.jpg",
-    "continent": "Asia",
-    "sciName": "Leucopsar rothschildi"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q931759",
     "label": "Giant ibis",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/ThaumantibisGiganteaGronvold.jpg/500px-ThaumantibisGiganteaGronvold.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/ThaumantibisGiganteaGronvold.jpg",
     "continent": "Asia",
     "sciName": "Thaumatibis gigantea"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q194080",
+    "label": "Gelada",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Gelada_%28Theropithecus_gelada_gelada%29_male_2.jpg",
+    "continent": "Africa",
+    "sciName": "Theropithecus gelada"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q161829",
+    "label": "Emperor penguin",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg",
+    "continent": "Antarctica",
+    "sciName": "Aptenodytes forsteri"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q846461",
     "label": "Indian star tortoise",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Indian_star_tortoise_%282016%29_7365.jpg/500px-Indian_star_tortoise_%282016%29_7365.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Indian_star_tortoise_%282016%29_7365.jpg/3840px-Indian_star_tortoise_%282016%29_7365.jpg",
     "continent": "Asia",
     "sciName": "Geochelone elegans"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q313166",
-    "label": "Weddell seal",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Mikkelsen_Harbour-2016-Trinity_Island_%28D%27Hainaut_Island%29%E2%80%93Weddell_seal_%28Leptonychotes_weddellii%29_03.jpg/500px-Mikkelsen_Harbour-2016-Trinity_Island_%28D%27Hainaut_Island%29%E2%80%93Weddell_seal_%28Leptonychotes_weddellii%29_03.jpg",
-    "continent": "Antarctica",
-    "sciName": "Leptonychotes weddellii"
-  },
-  {
     "id": "http://www.wikidata.org/entity/Q186663",
     "label": "Leopard seal",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Antarctic_Sound-2016-Brown_Bluff%E2%80%93Leopard_seal_%28Hydrurga_leptonyx%29_04.jpg/500px-Antarctic_Sound-2016-Brown_Bluff%E2%80%93Leopard_seal_%28Hydrurga_leptonyx%29_04.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Antarctic_Sound-2016-Brown_Bluff%E2%80%93Leopard_seal_%28Hydrurga_leptonyx%29_04.jpg/1920px-Antarctic_Sound-2016-Brown_Bluff%E2%80%93Leopard_seal_%28Hydrurga_leptonyx%29_04.jpg",
     "continent": "Antarctica",
     "sciName": "Hydrurga leptonyx"
   },
   {
     "id": "http://www.wikidata.org/entity/Q626027",
     "label": "Crabeater seal",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crabeater_Seal_in_Pl%C3%A9neau_Bay%2C_Antarctica_%286059168728%29.jpg/500px-Crabeater_Seal_in_Pl%C3%A9neau_Bay%2C_Antarctica_%286059168728%29.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Crabeater_Seal_in_Pl%C3%A9neau_Bay%2C_Antarctica_%286059168728%29.jpg",
     "continent": "Antarctica",
     "sciName": "Lobodon carcinophaga"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q161829",
-    "label": "Emperor penguin",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg/500px-Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg",
+    "id": "http://www.wikidata.org/entity/Q313166",
+    "label": "Weddell seal",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Mikkelsen_Harbour-2016-Trinity_Island_%28D%27Hainaut_Island%29%E2%80%93Weddell_seal_%28Leptonychotes_weddellii%29_03.jpg/3840px-Mikkelsen_Harbour-2016-Trinity_Island_%28D%27Hainaut_Island%29%E2%80%93Weddell_seal_%28Leptonychotes_weddellii%29_03.jpg",
     "continent": "Antarctica",
-    "sciName": "Aptenodytes forsteri"
+    "sciName": "Leptonychotes weddellii"
   },
   {
     "id": "http://www.wikidata.org/entity/Q571449",
     "label": "Antarctic fur seal",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Seeb%C3%A4r_%28Arctocephalus%29_01.jpg/500px-Seeb%C3%A4r_%28Arctocephalus%29_01.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Seeb%C3%A4r_%28Arctocephalus%29_01.jpg/3840px-Seeb%C3%A4r_%28Arctocephalus%29_01.jpg",
     "continent": "Antarctica",
     "sciName": "Arctocephalus gazella"
   },
   {
+    "id": "http://www.wikidata.org/entity/Q215343",
+    "label": "Southern elephant seal",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2020-11_Kerguelen_Islands_-_Southern_elephant_seal_30.jpg",
+    "continent": "Antarctica",
+    "sciName": "Mirounga leonina"
+  },
+  {
     "id": "http://www.wikidata.org/entity/Q126643",
     "label": "Chinstrap penguin",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg/500px-South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg/1920px-South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg",
     "continent": "Antarctica",
     "sciName": "Pygoscelis antarcticus"
   },
   {
     "id": "http://www.wikidata.org/entity/Q213021",
     "label": "Gentoo penguin",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Gentoo_penguin_distribution.svg/500px-Gentoo_penguin_distribution.svg.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Gentoo_penguin_distribution.svg/960px-Gentoo_penguin_distribution.svg.png",
     "continent": "Antarctica",
     "sciName": "Pygoscelis papua"
   },
   {
     "id": "http://www.wikidata.org/entity/Q187958",
     "label": "Adélie penguin",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Hope_Bay-2016-Trinity_Peninsula%E2%80%93Ad%C3%A9lie_penguin_%28Pygoscelis_adeliae%29_04.jpg/500px-Hope_Bay-2016-Trinity_Peninsula%E2%80%93Ad%C3%A9lie_penguin_%28Pygoscelis_adeliae%29_04.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Hope_Bay-2016-Trinity_Peninsula%E2%80%93Ad%C3%A9lie_penguin_%28Pygoscelis_adeliae%29_04.jpg",
     "continent": "Antarctica",
     "sciName": "Pygoscelis adeliae"
   },
   {
-    "id": "http://www.wikidata.org/entity/Q215343",
-    "label": "Southern elephant seal",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/2020-11_Kerguelen_Islands_-_Southern_elephant_seal_30.jpg/500px-2020-11_Kerguelen_Islands_-_Southern_elephant_seal_30.jpg",
+    "id": "http://www.wikidata.org/entity/Q182209",
+    "label": "King penguin",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SGI-2016-South_Georgia_%28Fortuna_Bay%29%E2%80%93King_penguin_%28Aptenodytes_patagonicus%29_04.jpg/3840px-SGI-2016-South_Georgia_%28Fortuna_Bay%29%E2%80%93King_penguin_%28Aptenodytes_patagonicus%29_04.jpg",
     "continent": "Antarctica",
-    "sciName": "Mirounga leonina"
+    "sciName": "Aptenodytes patagonicus"
+  },
+  {
+    "id": "http://www.wikidata.org/entity/Q571268",
+    "label": "South Polar skua",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/South_polar_skua.jpg",
+    "continent": "Antarctica",
+    "sciName": "Stercorarius maccormicki"
   },
   {
     "id": "http://www.wikidata.org/entity/Q166442",
@@ -2193,22 +2207,8 @@
   {
     "id": "http://www.wikidata.org/entity/Q217494",
     "label": "Macaroni penguin",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/SGI-2016-South_Georgia_%28Cooper_Bay%29%E2%80%93Macaroni_penguin_%28Eudyptes_chrysolophus%29_01.jpg/500px-SGI-2016-South_Georgia_%28Cooper_Bay%29%E2%80%93Macaroni_penguin_%28Eudyptes_chrysolophus%29_01.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/SGI-2016-South_Georgia_%28Cooper_Bay%29%E2%80%93Macaroni_penguin_%28Eudyptes_chrysolophus%29_01.jpg/3840px-SGI-2016-South_Georgia_%28Cooper_Bay%29%E2%80%93Macaroni_penguin_%28Eudyptes_chrysolophus%29_01.jpg",
     "continent": "Antarctica",
     "sciName": "Eudyptes chrysolophus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q182209",
-    "label": "King penguin",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SGI-2016-South_Georgia_%28Fortuna_Bay%29%E2%80%93King_penguin_%28Aptenodytes_patagonicus%29_04.jpg/500px-SGI-2016-South_Georgia_%28Fortuna_Bay%29%E2%80%93King_penguin_%28Aptenodytes_patagonicus%29_04.jpg",
-    "continent": "Antarctica",
-    "sciName": "Aptenodytes patagonicus"
-  },
-  {
-    "id": "http://www.wikidata.org/entity/Q571268",
-    "label": "South Polar skua",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/South_polar_skua.jpg/500px-South_polar_skua.jpg",
-    "continent": "Antarctica",
-    "sciName": "Stercorarius maccormicki"
   }
 ]
