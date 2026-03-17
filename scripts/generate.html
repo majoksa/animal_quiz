@@ -19,7 +19,7 @@
 
 <div class="instructions">
   <strong>Postup:</strong><br>
-  1. Klikni "Start" – script stiahne ~700 zvierat z Wikidata (7 kontinent × 100)<br>
+  1. Klikni "Start" – script stiahne až 500 zvierat z Wikidata (en.wikipedia)<br>
   2. Po skončení klikni "Download animals.json"<br>
   3. Uložený súbor presuň do priečinka <code>data/</code> v projekte
 </div>
@@ -29,17 +29,6 @@
 <a id="download">⬇ Download animals.json</a>
 
 <script>
-const CONTINENTS = [
-  { qid: 'Q15',  name: 'Africa'        },
-  { qid: 'Q48',  name: 'Asia'          },
-  { qid: 'Q46',  name: 'Europe'        },
-  { qid: 'Q49',  name: 'North America' },
-  { qid: 'Q18',  name: 'South America' },
-  { qid: 'Q538', name: 'Australia'     },
-  { qid: 'Q51',  name: 'Antarctica'    },
-];
-
-const LIMIT = 100;
 const log = document.getElementById('log');
 
 function print(msg) {
@@ -47,48 +36,54 @@ function print(msg) {
   log.scrollTop = log.scrollHeight;
 }
 
-function buildQuery(qid) {
-  return `
-SELECT DISTINCT ?animal ?label ?image ?sciName WHERE {
+/*
+ * Single broad query – no continent filter.
+ * wdt:P30 ?continent  gets ANY continent; SERVICE label gives English name.
+ * Previous approach (7 × per-continent QID) returned 0 for most continents
+ * because most animal entries in Wikidata don't have P30 set to the top-level
+ * continent entity (they may use sub-regions or skip P30 altogether).
+ * This broad query matches anything with P30 set and gets the label via SERVICE.
+ */
+const SPARQL_QUERY = `
+SELECT DISTINCT ?animal ?label ?image ?continentLabel ?sciName WHERE {
   ?animal wdt:P31  wd:Q16521 ;
           wdt:P105 wd:Q7432  ;
           wdt:P18  ?image    ;
-          wdt:P30  wd:${qid} .
+          wdt:P30  ?continent .
+
   ?en schema:about    ?animal ;
       schema:isPartOf <https://en.wikipedia.org/> ;
       schema:name     ?label .
+
   OPTIONAL { ?animal wdt:P225 ?sciName . }
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . }
+
+  BIND(MD5(CONCAT(STR(RAND()), STR(?animal))) AS ?rand)
 }
-LIMIT ${LIMIT}`.trim();
-}
+ORDER BY ?rand
+LIMIT 500
+`.trim();
 
 function buildImageUrl(raw) {
   return raw.replace(/^http:\/\//, 'https://') + '?width=500';
 }
 
-async function fetchContinent(continent) {
+async function fetchAnimals() {
   const url = 'https://query.wikidata.org/sparql?format=json&query=' +
-    encodeURIComponent(buildQuery(continent.qid));
+    encodeURIComponent(SPARQL_QUERY);
 
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
+      print(`  Pokus ${attempt}: posielam dotaz na Wikidata…`);
       const res = await fetch(url, { headers: { Accept: 'application/sparql-results+json' } });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
-
-      return data.results.bindings
-        .filter(b => b.label?.value && b.image?.value && b.animal?.value)
-        .map(b => ({
-          id:        b.animal.value,
-          label:     b.label.value,
-          imageUrl:  buildImageUrl(b.image.value),
-          continent: continent.name,
-          sciName:   b.sciName?.value || null,
-        }));
+      return data.results.bindings;
     } catch (err) {
       if (attempt < 3) {
-        print(`  ⚠ Pokus ${attempt} zlyhal: ${err.message}. Čakám 2s…`);
-        await new Promise(r => setTimeout(r, 2000));
+        print(`  ⚠ Zlyhalo: ${err.message}. Čakám 3s…`);
+        await new Promise(r => setTimeout(r, 3000));
       } else {
         throw err;
       }
@@ -101,34 +96,48 @@ document.getElementById('btnStart').addEventListener('click', async () => {
   btn.disabled = true;
   log.textContent = 'Štartujem…';
 
-  const allAnimals = [];
-  const seenIds = new Set();
+  let bindings;
+  try {
+    bindings = await fetchAnimals();
+  } catch (err) {
+    print(`✗ Chyba: ${err.message}`);
+    btn.disabled = false;
+    return;
+  }
 
-  for (const continent of CONTINENTS) {
-    print(`\nSťahujem: ${continent.name} (${continent.qid})…`);
-    try {
-      const animals = await fetchContinent(continent);
-      let added = 0;
-      for (const a of animals) {
-        if (!seenIds.has(a.id)) {
-          seenIds.add(a.id);
-          allAnimals.push(a);
-          added++;
-        }
-      }
-      print(`  ✓ ${continent.name}: ${added} unikátnych (${animals.length} raw)`);
-    } catch (err) {
-      print(`  ✗ Zlyhalo pre ${continent.name}: ${err.message}`);
-    }
-    // Polite pause between requests
-    await new Promise(r => setTimeout(r, 800));
+  print(`  Wikidata vrátila ${bindings.length} riadkov, spracúvam…`);
+
+  const seenIds = new Set();
+  const allAnimals = [];
+
+  for (const b of bindings) {
+    const id        = b.animal?.value;
+    const label     = b.label?.value;
+    const image     = b.image?.value;
+    const continent = b.continentLabel?.value;
+    const sciName   = b.sciName?.value || null;
+
+    if (!id || !label || !image || !continent) continue;
+    // Skip entries where continent label is still a QID (no label found)
+    if (/^Q\d+$/.test(continent)) continue;
+    if (seenIds.has(id)) continue;
+
+    seenIds.add(id);
+    allAnimals.push({ id, label, imageUrl: buildImageUrl(image), continent, sciName });
   }
 
   print(`\n=== HOTOVO ===`);
-  print(`Celkovo unikátnych zvierat: ${allAnimals.length}`);
+  print(`Unikátnych zvierat: ${allAnimals.length}`);
+
+  // Summary by continent
+  const byCont = {};
+  for (const a of allAnimals) byCont[a.continent] = (byCont[a.continent] || 0) + 1;
+  for (const [c, n] of Object.entries(byCont).sort((x,y) => y[1]-x[1])) {
+    print(`  ${c}: ${n}`);
+  }
 
   if (allAnimals.length < 15) {
-    print('✗ Príliš málo zvierat! Skontroluj internetové pripojenie.');
+    print('\n✗ Príliš málo zvierat! Skontroluj internetové pripojenie.');
     btn.disabled = false;
     return;
   }
