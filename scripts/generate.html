@@ -402,10 +402,11 @@ function print(msg) {
   log.scrollTop = log.scrollHeight;
 }
 
-function buildImageUrl(thumbSrc) {
-  if (!thumbSrc) return null;
-  // Widen Wikipedia thumbnails to 500px
-  return thumbSrc.replace(/\/\d+px-/, '/500px-');
+function buildImageUrl(summary) {
+  // Prefer originalimage (full, uncropped) – fall back to widened thumbnail
+  if (summary.originalimage?.source) return summary.originalimage.source;
+  if (summary.thumbnail?.source) return summary.thumbnail.source.replace(/\/\d+px-/, '/800px-');
+  return null;
 }
 
 async function fetchWikiSummary(title, retries = 3) {
@@ -448,7 +449,7 @@ document.getElementById('btnStart').addEventListener('click', async () => {
         return;
       }
 
-      const imageUrl = buildImageUrl(summary.thumbnail?.source);
+      const imageUrl = buildImageUrl(summary);
       if (!imageUrl) {
         print(`  – Bez obrázka: ${seed.name}`);
         skip++;
