@@ -59,18 +59,20 @@ const Quiz = (() => {
    * Distractors are pulled from other animals in the batch.
    */
   function buildOptions(currentAnimal, field, correctValue) {
+    const correctArr = Array.isArray(correctValue) ? correctValue : [correctValue];
+
+    // Collect all field values from other animals (flatten arrays)
     const others = state.batch.filter(a => a.id !== currentAnimal.id && a[field]);
-    const distractorValues = pickRandom(others, 8)
-      .map(a => a[field])
-      .filter((v, i, arr) => v !== correctValue && arr.indexOf(v) === i)
-      .slice(0, 4);
+    const pool = others.flatMap(a => Array.isArray(a[field]) ? a[field] : [a[field]]);
+    const distractors = [...new Set(pool)].filter(v => !correctArr.includes(v));
+    const picked = pickRandom(distractors, 4 - correctArr.length);
 
     // Pad if not enough unique distractors (edge case)
-    while (distractorValues.length < 4) {
-      distractorValues.push(`Neznáme ${distractorValues.length + 1}`);
+    while (picked.length < 4 - correctArr.length) {
+      picked.push(`Neznáme ${picked.length + 1}`);
     }
 
-    return shuffle([correctValue, ...distractorValues]);
+    return shuffle([...correctArr, ...picked]);
   }
 
   /**
@@ -162,13 +164,19 @@ const Quiz = (() => {
       correct      = animal.label;
     } else if (type === 'habitat') {
       if (animal.ocean) {
-        questionText = `V ktorom oceáne alebo mori žije ${animal.label}?`;
-        field        = 'ocean';
-        correct      = animal.ocean;
+        const isMulti = Array.isArray(animal.ocean);
+        questionText = isMulti
+          ? `V ktorých oceánoch alebo moriach žije ${animal.label}? (Vyber všetky správne)`
+          : `V ktorom oceáne alebo mori žije ${animal.label}?`;
+        field   = 'ocean';
+        correct = animal.ocean;
       } else {
-        questionText = `Na ktorom kontinente žije ${animal.label}?`;
-        field        = 'continent';
-        correct      = animal.continent;
+        const isMulti = Array.isArray(animal.continent);
+        questionText = isMulti
+          ? `Na ktorých kontinentoch žije ${animal.label}? (Vyber všetky správne)`
+          : `Na ktorom kontinente žije ${animal.label}?`;
+        field   = 'continent';
+        correct = animal.continent;
       }
     } else {
       const factQ = buildFactQuestion(animal);
@@ -179,7 +187,8 @@ const Quiz = (() => {
     }
 
     const options = buildOptions(animal, field, correct);
-    state.currentQuestion = { questionText, field, correct, options };
+    const isMulti = Array.isArray(correct);
+    state.currentQuestion = { questionText, field, correct, options, isMulti };
     return state.currentQuestion;
   }
 
@@ -191,8 +200,15 @@ const Quiz = (() => {
     state.answered = true;
     clearTimer();
 
-    const { correct } = state.currentQuestion;
-    const isCorrect = chosen === correct;
+    const { correct, isMulti } = state.currentQuestion;
+    let isCorrect;
+    if (isMulti) {
+      const chosenArr = Array.isArray(chosen) ? chosen : [chosen];
+      isCorrect = correct.length === chosenArr.length &&
+                  correct.every(c => chosenArr.includes(c));
+    } else {
+      isCorrect = chosen === correct;
+    }
     const timeBonus = isCorrect ? getTimeBonus() : 0;
     const basePoints = isCorrect ? POINTS[state.questionType] : 0;
     const earned = basePoints + timeBonus;

@@ -294,6 +294,31 @@ h1 { font-size: 2rem; font-weight: 900; color: var(--green); margin-bottom: 4px;
   animation: shake 0.4s ease;
 }
 
+/* Selected state for multi-select questions */
+.answer-btn.selected {
+  border-color: var(--green);
+  background: var(--green-bg);
+  color: #1B5E20;
+}
+
+/* Confirm button for multi-select */
+.confirm-btn {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 14px;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: var(--green);
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background var(--transition);
+}
+.confirm-btn:hover { background: #1B5E20; }
+
 @keyframes pulse-correct {
   0%   { transform: scale(1); }
   40%  { transform: scale(1.05); }

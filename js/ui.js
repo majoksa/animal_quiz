@@ -148,15 +148,27 @@ const UI = (() => {
   }
 
   /* ── Answer buttons ── */
-  function renderAnswers(options) {
+  function renderAnswers(options, isMulti) {
     els.answersGrid.innerHTML = '';
     options.forEach(opt => {
       const btn = document.createElement('button');
       btn.className = 'answer-btn';
       btn.textContent = opt;
-      btn.addEventListener('click', () => onAnswerClick(opt));
+      if (isMulti) {
+        btn.addEventListener('click', () => btn.classList.toggle('selected'));
+      } else {
+        btn.addEventListener('click', () => onAnswerClick(opt));
+      }
       els.answersGrid.appendChild(btn);
     });
+
+    const confirmBtn = document.getElementById('confirm-btn');
+    confirmBtn.style.display = isMulti ? 'block' : 'none';
+    confirmBtn.onclick = () => {
+      const selected = [...els.answersGrid.querySelectorAll('.answer-btn.selected')]
+        .map(b => b.textContent);
+      onAnswerClick(selected);
+    };
   }
 
   function onAnswerClick(chosen) {
@@ -165,6 +177,7 @@ const UI = (() => {
 
     Quiz.stopTimer();
     disableAnswers();
+    document.getElementById('confirm-btn').style.display = 'none';
     markAnswers(result.correct, result.chosen);
 
     // Update score display
@@ -190,10 +203,15 @@ const UI = (() => {
   }
 
   function markAnswers(correct, chosen) {
+    const correctArr = Array.isArray(correct) ? correct : [correct];
+    const chosenArr  = chosen != null
+      ? (Array.isArray(chosen) ? chosen : [chosen])
+      : [];
     els.answersGrid.querySelectorAll('.answer-btn').forEach(btn => {
-      if (btn.textContent === correct) {
+      const txt = btn.textContent;
+      if (correctArr.includes(txt)) {
         btn.classList.add('correct');
-      } else if (btn.textContent === chosen && chosen !== correct) {
+      } else if (chosenArr.includes(txt)) {
         btn.classList.add('wrong');
       }
     });
@@ -227,15 +245,20 @@ const UI = (() => {
     // Question & answers
     els.questionText.textContent = question.questionText;
     resetTimerBar();
-    renderAnswers(question.options);
+    renderAnswers(question.options, question.isMulti);
 
     // Timer
     Quiz.startTimer(
       (left, total) => updateTimerBar(left, total),
       () => {
-        // Time expired — count as wrong, mark correct
+        // Time expired — submit whatever is selected (or nothing for multi-select)
+        const selected = question.isMulti
+          ? [...els.answersGrid.querySelectorAll('.answer-btn.selected')].map(b => b.textContent)
+          : null;
+        const result = Quiz.submitAnswer(selected ?? '');
+        document.getElementById('confirm-btn').style.display = 'none';
         disableAnswers();
-        markAnswers(question.correct, null);
+        markAnswers(question.correct, result ? result.chosen : null);
         els.currentScore.textContent = `Skóre: ${Quiz.getProgress().score}`;
         setTimeout(() => {
           const next = Quiz.advance();
