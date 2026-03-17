@@ -4,24 +4,25 @@
   <meta charset="UTF-8">
   <title>Animal Quiz – Generate Archive</title>
   <style>
-    body { font-family: monospace; max-width: 700px; margin: 40px auto; padding: 0 20px; background: #f5f5f5; }
+    body { font-family: monospace; max-width: 720px; margin: 40px auto; padding: 0 20px; background: #f5f5f5; }
     h1 { color: #2E7D32; }
     button { padding: 12px 24px; font-size: 16px; background: #2E7D32; color: #fff; border: none; border-radius: 6px; cursor: pointer; }
     button:disabled { background: #aaa; cursor: default; }
-    #log { background: #111; color: #0f0; padding: 16px; border-radius: 6px; white-space: pre-wrap; min-height: 200px; font-size: 13px; margin: 20px 0; }
+    #log { background: #111; color: #0f0; padding: 16px; border-radius: 6px; white-space: pre-wrap; min-height: 220px; font-size: 13px; margin: 20px 0; overflow-y: auto; max-height: 400px; }
     #download { display: none; padding: 12px 24px; font-size: 16px; background: #1565C0; color: #fff; border: none; border-radius: 6px; cursor: pointer; text-decoration: none; }
-    .instructions { background: #fff3cd; border: 1px solid #ffc107; padding: 12px 16px; border-radius: 6px; margin-bottom: 20px; }
+    .note { background: #fff3cd; border: 1px solid #ffc107; padding: 12px 16px; border-radius: 6px; margin-bottom: 20px; }
   </style>
 </head>
 <body>
 
 <h1>Animal Quiz – Generate animals.json</h1>
 
-<div class="instructions">
+<div class="note">
   <strong>Postup:</strong><br>
-  1. Klikni "Start" – script stiahne až 500 zvierat z Wikidata (en.wikipedia)<br>
-  2. Po skončení klikni "Download animals.json"<br>
-  3. Uložený súbor presuň do priečinka <code>data/</code> v projekte
+  1. Klikni "Start" – script stiahne obrázky pre ~200 zvierat z Wikipedia API<br>
+  2. Po skončení klikni "⬇ Download animals.json"<br>
+  3. Presuň stiahnutý súbor do priečinka <code>data/</code> v projekte<br>
+  4. Commitni a pushni zmeny
 </div>
 
 <button id="btnStart">▶ Start – Generate animals.json</button>
@@ -29,6 +30,189 @@
 <a id="download">⬇ Download animals.json</a>
 
 <script>
+// ---------------------------------------------------------------------------
+// Curated list of ~200 well-known animals with continent + scientific name.
+// Images are fetched from Wikipedia Summary API (reliable, CORS-friendly).
+// Avoids Wikidata SPARQL P30 issue (almost no species have P30 set).
+// ---------------------------------------------------------------------------
+const ANIMALS_SEED = [
+  // AFRICA
+  { name:"Lion",                continent:"Africa",        sciName:"Panthera leo" },
+  { name:"African elephant",    continent:"Africa",        sciName:"Loxodonta africana" },
+  { name:"Giraffe",             continent:"Africa",        sciName:"Giraffa camelopardalis" },
+  { name:"Plains zebra",        continent:"Africa",        sciName:"Equus quagga" },
+  { name:"Hippopotamus",        continent:"Africa",        sciName:"Hippopotamus amphibius" },
+  { name:"Western gorilla",     continent:"Africa",        sciName:"Gorilla gorilla" },
+  { name:"Cheetah",             continent:"Africa",        sciName:"Acinonyx jubatus" },
+  { name:"Leopard",             continent:"Africa",        sciName:"Panthera pardus" },
+  { name:"African buffalo",     continent:"Africa",        sciName:"Syncerus caffer" },
+  { name:"Spotted hyena",       continent:"Africa",        sciName:"Crocuta crocuta" },
+  { name:"Meerkat",             continent:"Africa",        sciName:"Suricata suricatta" },
+  { name:"African wild dog",    continent:"Africa",        sciName:"Lycaon pictus" },
+  { name:"Mandrill",            continent:"Africa",        sciName:"Mandrillus sphinx" },
+  { name:"Black rhinoceros",    continent:"Africa",        sciName:"Diceros bicornis" },
+  { name:"Nile crocodile",      continent:"Africa",        sciName:"Crocodylus niloticus" },
+  { name:"Common ostrich",      continent:"Africa",        sciName:"Struthio camelus" },
+  { name:"Greater flamingo",    continent:"Africa",        sciName:"Phoenicopterus roseus" },
+  { name:"Warthog",             continent:"Africa",        sciName:"Phacochoerus africanus" },
+  { name:"Blue wildebeest",     continent:"Africa",        sciName:"Connochaetes taurinus" },
+  { name:"Springbok",           continent:"Africa",        sciName:"Antidorcas marsupialis" },
+  { name:"Aardvark",            continent:"Africa",        sciName:"Orycteropus afer" },
+  { name:"Okapi",               continent:"Africa",        sciName:"Okapia johnstoni" },
+  { name:"Shoebill",            continent:"Africa",        sciName:"Balaeniceps rex" },
+  { name:"African penguin",     continent:"Africa",        sciName:"Spheniscus demersus" },
+  { name:"Honey badger",        continent:"Africa",        sciName:"Mellivora capensis" },
+  { name:"Caracal",             continent:"Africa",        sciName:"Caracal caracal" },
+  { name:"Serval",              continent:"Africa",        sciName:"Leptailurus serval" },
+  { name:"Secretary bird",      continent:"Africa",        sciName:"Sagittarius serpentarius" },
+  { name:"Gerenuk",             continent:"Africa",        sciName:"Litocranius walleri" },
+  { name:"Impala",              continent:"Africa",        sciName:"Aepyceros melampus" },
+
+  // ASIA
+  { name:"Bengal tiger",        continent:"Asia",          sciName:"Panthera tigris tigris" },
+  { name:"Giant panda",         continent:"Asia",          sciName:"Ailuropoda melanoleuca" },
+  { name:"Asian elephant",      continent:"Asia",          sciName:"Elephas maximus" },
+  { name:"Snow leopard",        continent:"Asia",          sciName:"Panthera uncia" },
+  { name:"Komodo dragon",       continent:"Asia",          sciName:"Varanus komodoensis" },
+  { name:"King cobra",          continent:"Asia",          sciName:"Ophiophagus hannah" },
+  { name:"Orangutan",           continent:"Asia",          sciName:"Pongo pygmaeus" },
+  { name:"Proboscis monkey",    continent:"Asia",          sciName:"Nasalis larvatus" },
+  { name:"Indian rhinoceros",   continent:"Asia",          sciName:"Rhinoceros unicornis" },
+  { name:"Red panda",           continent:"Asia",          sciName:"Ailurus fulgens" },
+  { name:"Japanese macaque",    continent:"Asia",          sciName:"Macaca fuscata" },
+  { name:"Indian peafowl",      continent:"Asia",          sciName:"Pavo cristatus" },
+  { name:"Binturong",           continent:"Asia",          sciName:"Arctictis binturong" },
+  { name:"Sun bear",            continent:"Asia",          sciName:"Helarctos malayanus" },
+  { name:"Malayan tapir",       continent:"Asia",          sciName:"Tapirus indicus" },
+  { name:"Gharial",             continent:"Asia",          sciName:"Gavialis gangeticus" },
+  { name:"Mandarin duck",       continent:"Asia",          sciName:"Aix galericulata" },
+  { name:"Siamang",             continent:"Asia",          sciName:"Symphalangus syndactylus" },
+  { name:"Bactrian camel",      continent:"Asia",          sciName:"Camelus bactrianus" },
+  { name:"Saiga antelope",      continent:"Asia",          sciName:"Saiga tatarica" },
+  { name:"Markhor",             continent:"Asia",          sciName:"Capra falconeri" },
+  { name:"Yak",                 continent:"Asia",          sciName:"Bos grunniens" },
+  { name:"Pallas's cat",        continent:"Asia",          sciName:"Otocolobus manul" },
+  { name:"Clouded leopard",     continent:"Asia",          sciName:"Neofelis nebulosa" },
+  { name:"Babirusa",            continent:"Asia",          sciName:"Babyrousa babyrussa" },
+  { name:"Slow loris",          continent:"Asia",          sciName:"Nycticebus coucang" },
+  { name:"Saltwater crocodile", continent:"Asia",          sciName:"Crocodylus porosus" },
+  { name:"Flying lemur",        continent:"Asia",          sciName:"Galeopterus variegatus" },
+  { name:"Tarsier",             continent:"Asia",          sciName:"Tarsius tarsier" },
+  { name:"Draco lizard",        continent:"Asia",          sciName:"Draco volans" },
+
+  // EUROPE
+  { name:"Brown bear",          continent:"Europe",        sciName:"Ursus arctos" },
+  { name:"European bison",      continent:"Europe",        sciName:"Bison bonasus" },
+  { name:"Grey wolf",           continent:"Europe",        sciName:"Canis lupus" },
+  { name:"Eurasian lynx",       continent:"Europe",        sciName:"Lynx lynx" },
+  { name:"Wild boar",           continent:"Europe",        sciName:"Sus scrofa" },
+  { name:"Red fox",             continent:"Europe",        sciName:"Vulpes vulpes" },
+  { name:"Roe deer",            continent:"Europe",        sciName:"Capreolus capreolus" },
+  { name:"European beaver",     continent:"Europe",        sciName:"Castor fiber" },
+  { name:"White stork",         continent:"Europe",        sciName:"Ciconia ciconia" },
+  { name:"Barn owl",            continent:"Europe",        sciName:"Tyto alba" },
+  { name:"Eurasian eagle-owl",  continent:"Europe",        sciName:"Bubo bubo" },
+  { name:"Atlantic puffin",     continent:"Europe",        sciName:"Fratercula arctica" },
+  { name:"Dalmatian pelican",   continent:"Europe",        sciName:"Pelecanus crispus" },
+  { name:"European hedgehog",   continent:"Europe",        sciName:"Erinaceus europaeus" },
+  { name:"Alpine ibex",         continent:"Europe",        sciName:"Capra ibex" },
+  { name:"Chamois",             continent:"Europe",        sciName:"Rupicapra rupicapra" },
+  { name:"European otter",      continent:"Europe",        sciName:"Lutra lutra" },
+  { name:"Wolverine",           continent:"Europe",        sciName:"Gulo gulo" },
+  { name:"European mink",       continent:"Europe",        sciName:"Mustela lutreola" },
+  { name:"Mouflon",             continent:"Europe",        sciName:"Ovis gmelini" },
+
+  // NORTH AMERICA
+  { name:"Grizzly bear",            continent:"North America", sciName:"Ursus arctos horribilis" },
+  { name:"American bison",          continent:"North America", sciName:"Bison bison" },
+  { name:"Moose",                   continent:"North America", sciName:"Alces alces" },
+  { name:"White-tailed deer",       continent:"North America", sciName:"Odocoileus virginianus" },
+  { name:"Bald eagle",              continent:"North America", sciName:"Haliaeetus leucocephalus" },
+  { name:"American alligator",      continent:"North America", sciName:"Alligator mississippiensis" },
+  { name:"Cougar",                  continent:"North America", sciName:"Puma concolor" },
+  { name:"American black bear",     continent:"North America", sciName:"Ursus americanus" },
+  { name:"American pronghorn",      continent:"North America", sciName:"Antilocapra americana" },
+  { name:"California condor",       continent:"North America", sciName:"Gymnogyps californianus" },
+  { name:"North American river otter", continent:"North America", sciName:"Lontra canadensis" },
+  { name:"Wild turkey",             continent:"North America", sciName:"Meleagris gallopavo" },
+  { name:"Striped skunk",           continent:"North America", sciName:"Mephitis mephitis" },
+  { name:"Virginia opossum",        continent:"North America", sciName:"Didelphis virginiana" },
+  { name:"American beaver",         continent:"North America", sciName:"Castor canadensis" },
+  { name:"Common raccoon",          continent:"North America", sciName:"Procyon lotor" },
+  { name:"Black-tailed prairie dog",continent:"North America", sciName:"Cynomys ludovicianus" },
+  { name:"Nine-banded armadillo",   continent:"North America", sciName:"Dasypus novemcinctus" },
+  { name:"Sea otter",               continent:"North America", sciName:"Enhydra lutris" },
+  { name:"Northern elephant seal",  continent:"North America", sciName:"Mirounga angustirostris" },
+  { name:"Snowy owl",               continent:"North America", sciName:"Bubo scandiacus" },
+  { name:"Wolverine",               continent:"North America", sciName:"Gulo gulo" },
+  { name:"American badger",         continent:"North America", sciName:"Taxidea taxus" },
+  { name:"Bobcat",                  continent:"North America", sciName:"Lynx rufus" },
+  { name:"Canada lynx",             continent:"North America", sciName:"Lynx canadensis" },
+
+  // SOUTH AMERICA
+  { name:"Jaguar",              continent:"South America", sciName:"Panthera onca" },
+  { name:"Capybara",            continent:"South America", sciName:"Hydrochoerus hydrochaeris" },
+  { name:"South American tapir",continent:"South America", sciName:"Tapirus terrestris" },
+  { name:"Llama",               continent:"South America", sciName:"Lama glama" },
+  { name:"Giant anteater",      continent:"South America", sciName:"Myrmecophaga tridactyla" },
+  { name:"Pale-throated sloth", continent:"South America", sciName:"Bradypus tridactylus" },
+  { name:"Green anaconda",      continent:"South America", sciName:"Eunectes murinus" },
+  { name:"Harpy eagle",         continent:"South America", sciName:"Harpia harpyja" },
+  { name:"Toco toucan",         continent:"South America", sciName:"Ramphastos toco" },
+  { name:"Giant armadillo",     continent:"South America", sciName:"Priodontes maximus" },
+  { name:"Maned wolf",          continent:"South America", sciName:"Chrysocyon brachyurus" },
+  { name:"Giant river otter",   continent:"South America", sciName:"Pteronura brasiliensis" },
+  { name:"Spectacled bear",     continent:"South America", sciName:"Tremarctos ornatus" },
+  { name:"Ocelot",              continent:"South America", sciName:"Leopardus pardalis" },
+  { name:"Alpaca",              continent:"South America", sciName:"Vicugna pacos" },
+  { name:"Amazon river dolphin",continent:"South America", sciName:"Inia geoffrensis" },
+  { name:"Red-bellied piranha", continent:"South America", sciName:"Pygocentrus nattereri" },
+  { name:"Arapaima",            continent:"South America", sciName:"Arapaima gigas" },
+  { name:"Guanaco",             continent:"South America", sciName:"Lama guanicoe" },
+  { name:"Viscacha",            continent:"South America", sciName:"Lagidium viscacia" },
+  { name:"Patagonian mara",     continent:"South America", sciName:"Dolichotis patagonum" },
+  { name:"South American coati",continent:"South America", sciName:"Nasua nasua" },
+  { name:"Pampas deer",         continent:"South America", sciName:"Ozotoceros bezoarticus" },
+  { name:"Marsh deer",          continent:"South America", sciName:"Blastocerus dichotomus" },
+  { name:"Poison dart frog",    continent:"South America", sciName:"Dendrobates tinctorius" },
+
+  // AUSTRALIA
+  { name:"Red kangaroo",        continent:"Australia",     sciName:"Osphranter rufus" },
+  { name:"Koala",               continent:"Australia",     sciName:"Phascolarctos cinereus" },
+  { name:"Common wombat",       continent:"Australia",     sciName:"Vombatus ursinus" },
+  { name:"Tasmanian devil",     continent:"Australia",     sciName:"Sarcophilus harrisii" },
+  { name:"Platypus",            continent:"Australia",     sciName:"Ornithorhynchus anatinus" },
+  { name:"Short-beaked echidna",continent:"Australia",     sciName:"Tachyglossus aculeatus" },
+  { name:"Laughing kookaburra", continent:"Australia",     sciName:"Dacelo novaeguineae" },
+  { name:"Emu",                 continent:"Australia",     sciName:"Dromaius novaehollandiae" },
+  { name:"Southern cassowary",  continent:"Australia",     sciName:"Casuarius casuarius" },
+  { name:"Thorny devil",        continent:"Australia",     sciName:"Moloch horridus" },
+  { name:"Frilled-neck lizard", continent:"Australia",     sciName:"Chlamydosaurus kingii" },
+  { name:"Quokka",              continent:"Australia",     sciName:"Setonix brachyurus" },
+  { name:"Numbat",              continent:"Australia",     sciName:"Myrmecobius fasciatus" },
+  { name:"Sugar glider",        continent:"Australia",     sciName:"Petaurus breviceps" },
+  { name:"Dingo",               continent:"Australia",     sciName:"Canis lupus dingo" },
+  { name:"Wedge-tailed eagle",  continent:"Australia",     sciName:"Aquila audax" },
+  { name:"Bilby",               continent:"Australia",     sciName:"Macrotis lagotis" },
+  { name:"Quoll",               continent:"Australia",     sciName:"Dasyurus viverrinus" },
+  { name:"Eastern grey kangaroo", continent:"Australia",   sciName:"Macropus giganteus" },
+  { name:"Tree kangaroo",       continent:"Australia",     sciName:"Dendrolagus lumholtzi" },
+
+  // ANTARCTICA
+  { name:"Emperor penguin",     continent:"Antarctica",    sciName:"Aptenodytes forsteri" },
+  { name:"Leopard seal",        continent:"Antarctica",    sciName:"Hydrurga leptonyx" },
+  { name:"Weddell seal",        continent:"Antarctica",    sciName:"Leptonychotes weddellii" },
+  { name:"Crabeater seal",      continent:"Antarctica",    sciName:"Lobodon carcinophaga" },
+  { name:"Antarctic fur seal",  continent:"Antarctica",    sciName:"Arctocephalus gazella" },
+  { name:"Southern elephant seal", continent:"Antarctica", sciName:"Mirounga leonina" },
+  { name:"Chinstrap penguin",   continent:"Antarctica",    sciName:"Pygoscelis antarcticus" },
+  { name:"Gentoo penguin",      continent:"Antarctica",    sciName:"Pygoscelis papua" },
+  { name:"Adélie penguin",      continent:"Antarctica",    sciName:"Pygoscelis adeliae" },
+  { name:"Snow petrel",         continent:"Antarctica",    sciName:"Pagodroma nivea" },
+];
+
+// ---------------------------------------------------------------------------
+
 const log = document.getElementById('log');
 
 function print(msg) {
@@ -36,121 +220,98 @@ function print(msg) {
   log.scrollTop = log.scrollHeight;
 }
 
-/*
- * Single broad query – no continent filter.
- * wdt:P30 ?continent  gets ANY continent; SERVICE label gives English name.
- * Previous approach (7 × per-continent QID) returned 0 for most continents
- * because most animal entries in Wikidata don't have P30 set to the top-level
- * continent entity (they may use sub-regions or skip P30 altogether).
- * This broad query matches anything with P30 set and gets the label via SERVICE.
- */
-const SPARQL_QUERY = `
-SELECT DISTINCT ?animal ?label ?image ?continentLabel ?sciName WHERE {
-  ?animal wdt:P31  wd:Q16521 ;
-          wdt:P105 wd:Q7432  ;
-          wdt:P18  ?image    ;
-          wdt:P30  ?continent .
-
-  ?en schema:about    ?animal ;
-      schema:isPartOf <https://en.wikipedia.org/> ;
-      schema:name     ?label .
-
-  OPTIONAL { ?animal wdt:P225 ?sciName . }
-
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . }
-
-  BIND(MD5(CONCAT(STR(RAND()), STR(?animal))) AS ?rand)
-}
-ORDER BY ?rand
-LIMIT 500
-`.trim();
-
-function buildImageUrl(raw) {
-  return raw.replace(/^http:\/\//, 'https://') + '?width=500';
+function buildImageUrl(thumbSrc) {
+  if (!thumbSrc) return null;
+  // Widen Wikipedia thumbnails to 500px
+  return thumbSrc.replace(/\/\d+px-/, '/500px-');
 }
 
-async function fetchAnimals() {
-  const url = 'https://query.wikidata.org/sparql?format=json&query=' +
-    encodeURIComponent(SPARQL_QUERY);
-
-  for (let attempt = 1; attempt <= 3; attempt++) {
+async function fetchWikiSummary(title, retries = 3) {
+  const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`;
+  for (let attempt = 1; attempt <= retries; attempt++) {
     try {
-      print(`  Pokus ${attempt}: posielam dotaz na Wikidata…`);
-      const res = await fetch(url, { headers: { Accept: 'application/sparql-results+json' } });
+      const res = await fetch(url);
+      if (res.status === 404) return null;
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-      return data.results.bindings;
+      return await res.json();
     } catch (err) {
-      if (attempt < 3) {
-        print(`  ⚠ Zlyhalo: ${err.message}. Čakám 3s…`);
-        await new Promise(r => setTimeout(r, 3000));
-      } else {
-        throw err;
-      }
+      if (attempt === retries) return null;
+      await new Promise(r => setTimeout(r, 1000 * attempt));
     }
   }
+  return null;
 }
 
 document.getElementById('btnStart').addEventListener('click', async () => {
   const btn = document.getElementById('btnStart');
   btn.disabled = true;
-  log.textContent = 'Štartujem…';
+  log.textContent = `Štartujem… celkovo ${ANIMALS_SEED.length} zvierat\n`;
 
-  let bindings;
-  try {
-    bindings = await fetchAnimals();
-  } catch (err) {
-    print(`✗ Chyba: ${err.message}`);
-    btn.disabled = false;
-    return;
-  }
+  const results = [];
+  const seenTitles = new Set();
+  let ok = 0, skip = 0;
 
-  print(`  Wikidata vrátila ${bindings.length} riadkov, spracúvam…`);
+  // Process in small batches to be polite to Wikipedia API
+  const BATCH = 5;
+  for (let i = 0; i < ANIMALS_SEED.length; i += BATCH) {
+    const batch = ANIMALS_SEED.slice(i, i + BATCH);
+    await Promise.all(batch.map(async seed => {
+      if (seenTitles.has(seed.name)) { skip++; return; }
+      seenTitles.add(seed.name);
 
-  const seenIds = new Set();
-  const allAnimals = [];
+      const summary = await fetchWikiSummary(seed.name);
+      if (!summary) {
+        print(`  ✗ Nenašlo sa: ${seed.name}`);
+        skip++;
+        return;
+      }
 
-  for (const b of bindings) {
-    const id        = b.animal?.value;
-    const label     = b.label?.value;
-    const image     = b.image?.value;
-    const continent = b.continentLabel?.value;
-    const sciName   = b.sciName?.value || null;
+      const imageUrl = buildImageUrl(summary.thumbnail?.source);
+      if (!imageUrl) {
+        print(`  – Bez obrázka: ${seed.name}`);
+        skip++;
+        return;
+      }
 
-    if (!id || !label || !image || !continent) continue;
-    // Skip entries where continent label is still a QID (no label found)
-    if (/^Q\d+$/.test(continent)) continue;
-    if (seenIds.has(id)) continue;
+      const wikidataId = summary.wikibase_item
+        ? `http://www.wikidata.org/entity/${summary.wikibase_item}`
+        : `https://en.wikipedia.org/wiki/${encodeURIComponent(seed.name)}`;
 
-    seenIds.add(id);
-    allAnimals.push({ id, label, imageUrl: buildImageUrl(image), continent, sciName });
+      results.push({
+        id:        wikidataId,
+        label:     seed.name,
+        imageUrl,
+        continent: seed.continent,
+        sciName:   seed.sciName,
+      });
+      ok++;
+    }));
+
+    print(`Spracované: ${Math.min(i + BATCH, ANIMALS_SEED.length)} / ${ANIMALS_SEED.length}  (ok: ${ok})`);
+    // Small pause between batches
+    await new Promise(r => setTimeout(r, 200));
   }
 
   print(`\n=== HOTOVO ===`);
-  print(`Unikátnych zvierat: ${allAnimals.length}`);
+  print(`Úspešných: ${ok}  /  Preskočených: ${skip}`);
 
-  // Summary by continent
   const byCont = {};
-  for (const a of allAnimals) byCont[a.continent] = (byCont[a.continent] || 0) + 1;
-  for (const [c, n] of Object.entries(byCont).sort((x,y) => y[1]-x[1])) {
-    print(`  ${c}: ${n}`);
-  }
+  for (const a of results) byCont[a.continent] = (byCont[a.continent] || 0) + 1;
+  for (const [c, n] of Object.entries(byCont).sort()) print(`  ${c}: ${n}`);
 
-  if (allAnimals.length < 15) {
+  if (results.length < 15) {
     print('\n✗ Príliš málo zvierat! Skontroluj internetové pripojenie.');
     btn.disabled = false;
     return;
   }
 
-  const json = JSON.stringify(allAnimals, null, 2);
+  const json = JSON.stringify(results, null, 2);
   const blob = new Blob([json], { type: 'application/json' });
-  const url  = URL.createObjectURL(blob);
-
-  const dl = document.getElementById('download');
-  dl.href = url;
+  const dl   = document.getElementById('download');
+  dl.href     = URL.createObjectURL(blob);
   dl.download = 'animals.json';
   dl.style.display = 'inline-block';
-  print('\n⬇ Klikni "Download animals.json" a presuň súbor do priečinka data/');
+  print(`\n⬇ Klikni "Download animals.json" a presuň súbor do data/`);
 });
 </script>
 </body>
