@@ -17,6 +17,7 @@ const UI = (() => {
     playerName:       document.getElementById('player-name'),
     btnStart:         document.getElementById('btn-start'),
     btnShowLB:        document.getElementById('btn-show-leaderboard'),
+    btnRegen:         document.getElementById('btn-regen'),
     btnRetry:         document.getElementById('btn-retry'),
     loadingText:      document.getElementById('loading-text'),
     loadingSub:       document.getElementById('loading-sub'),
@@ -40,6 +41,11 @@ const UI = (() => {
     leaderboardEmpty: document.getElementById('leaderboard-empty'),
     btnCloseLB:       document.getElementById('btn-close-leaderboard'),
     confettiContainer:document.getElementById('confetti-container'),
+    overlayRegen:     document.getElementById('overlay-regen'),
+    regenStatus:      document.getElementById('regen-status'),
+    regenProgressBar: document.getElementById('regen-progress-bar'),
+    regenCounter:     document.getElementById('regen-counter'),
+    btnCloseRegen:    document.getElementById('btn-close-regen'),
   };
 
   /* ── Screen switcher ── */
@@ -267,6 +273,21 @@ const UI = (() => {
     showScreen('end');
   }
 
+  /* ── Regen overlay ── */
+  function showRegenOverlay() {
+    const total = Regen.getSeedCount();
+    els.regenStatus.textContent = 'Sťahujem dáta z Wikipédie…';
+    els.regenStatus.className = 'regen-status';
+    els.regenProgressBar.style.width = '0%';
+    els.regenCounter.textContent = `0 / ${total}`;
+    els.btnCloseRegen.disabled = true;
+    els.overlayRegen.classList.remove('hidden');
+  }
+
+  function hideRegenOverlay() {
+    els.overlayRegen.classList.add('hidden');
+  }
+
   /* ── Escape HTML ── */
   function escHtml(str) {
     return String(str)
@@ -314,6 +335,38 @@ const UI = (() => {
     // Show leaderboard from start
     els.btnShowLB.addEventListener('click', () => {
       showLeaderboard(null);
+    });
+
+    // Regenerate animal data to localStorage
+    els.btnRegen.addEventListener('click', () => {
+      showRegenOverlay();
+      const total = Regen.getSeedCount();
+
+      Regen.run(
+        (done, total, ok) => {
+          const pct = Math.round((done / total) * 100);
+          els.regenProgressBar.style.width = pct + '%';
+          els.regenCounter.textContent = `${done} / ${total}  (uložených: ${ok})`;
+        },
+        (count) => {
+          els.regenStatus.textContent = `Hotovo! Uložených ${count} zvierat.`;
+          els.regenStatus.className = 'regen-status done';
+          els.regenProgressBar.style.width = '100%';
+          els.regenCounter.textContent = `${total} / ${total}`;
+          els.btnCloseRegen.disabled = false;
+        },
+        (msg) => {
+          els.regenStatus.textContent = `Chyba: ${msg}`;
+          els.regenStatus.className = 'regen-status error';
+          els.btnCloseRegen.disabled = false;
+        }
+      );
+    });
+
+    // Close regen overlay
+    els.btnCloseRegen.addEventListener('click', hideRegenOverlay);
+    els.overlayRegen.querySelector('.overlay-backdrop').addEventListener('click', () => {
+      if (!els.btnCloseRegen.disabled) hideRegenOverlay();
     });
 
     // Close leaderboard

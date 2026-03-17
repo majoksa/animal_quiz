@@ -74,15 +74,18 @@ const Quiz = (() => {
   }
 
   /**
-   * Determine which fact type to use for an animal (priority: mass > conserv > sciName).
+   * Build a fill-in-the-blank question from a Wikipedia fun-fact sentence.
+   * The animal's name is replaced with ___ and options are animal labels.
    * Returns { questionText, field, correct } or null.
    */
   function buildFactQuestion(animal) {
-    if (!animal.sciName) return null;
+    if (!animal.fact) return null;
+    const escaped  = animal.label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const blankFact = animal.fact.replace(new RegExp(escaped, 'gi'), '___');
     return {
-      questionText: `Aký je vedecký názov druhu ${animal.label}?`,
-      field: 'sciName',
-      correct: animal.sciName,
+      questionText: blankFact,
+      field: 'label',
+      correct: animal.label,
     };
   }
 

@@ -35,6 +35,23 @@
       <button id="btn-show-leaderboard" class="btn btn-secondary">
         Rebríček 🏆
       </button>
+      <button id="btn-regen" class="btn btn-ghost">
+        Obnoviť dáta zvierat 🔄
+      </button>
+    </div>
+  </div>
+
+  <!-- ═══════════════ REGEN OVERLAY ═══════════════ -->
+  <div id="overlay-regen" class="overlay hidden">
+    <div class="overlay-backdrop"></div>
+    <div class="overlay-card">
+      <h2>🔄 Obnova dát zvierat</h2>
+      <p id="regen-status" class="regen-status">Sťahujem dáta z Wikipédie…</p>
+      <div class="regen-progress-outer">
+        <div id="regen-progress-bar" class="regen-progress-bar" style="width:0%"></div>
+      </div>
+      <p id="regen-counter" class="regen-counter">0 / 0</p>
+      <button id="btn-close-regen" class="btn btn-secondary" disabled>Zatvoriť ✕</button>
     </div>
   </div>
 
@@ -140,6 +157,7 @@
   </div>
 
   <!-- Scripts — order matters -->
+  <script src="js/regen.js"></script>
   <script src="js/leaderboard.js"></script>
   <script src="js/api.js"></script>
   <script src="js/quiz.js"></script>
