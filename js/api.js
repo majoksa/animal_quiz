@@ -44,7 +44,7 @@ SELECT DISTINCT ?animal ?label ?image ?continentLabel ?mass ?conservLabel ?sciNa
   BIND(MD5(CONCAT(STR(RAND()), STR(?animal))) AS ?rand)
 }
 ORDER BY ?rand
-LIMIT 60
+LIMIT 150
 `.trim();
 
   /**
@@ -75,9 +75,6 @@ LIMIT 60
 
       // Skip conserv if it's a QID
       const conservClean = conserv && /^Q\d+$/.test(conserv) ? null : conserv;
-
-      // Must have at least one fact field
-      if (!mass && !conservClean && !sciName) continue;
 
       animals.push({
         id: b.animal.value,          // Wikidata entity URI (unique)
