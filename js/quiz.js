@@ -82,6 +82,10 @@ const Quiz = (() => {
     if (!animal.fact) return null;
     const escaped  = animal.label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const blankFact = animal.fact.replace(new RegExp(escaped, 'gi'), '___');
+    // Slovak nouns decline – if the label doesn't appear in the fact sentence
+    // (different grammatical case), skip this question rather than showing a
+    // fill-in-the-blank with no blank.
+    if (blankFact === animal.fact) return null;
     return {
       questionText: blankFact,
       field: 'label',
