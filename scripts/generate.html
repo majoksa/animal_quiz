@@ -402,6 +402,29 @@ function print(msg) {
   log.scrollTop = log.scrollHeight;
 }
 
+const CONTINENT_SK = {
+  'Africa':        'Afrika',
+  'Asia':          'Ázia',
+  'Europe':        'Európa',
+  'North America': 'Severná Amerika',
+  'South America': 'Južná Amerika',
+  'Australia':     'Austrália',
+  'Antarctica':    'Antarktída',
+};
+
+async function translateText(text, sessionEmail) {
+  if (!text) return text;
+  try {
+    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=en|sk&de=${encodeURIComponent(sessionEmail)}`;
+    const res = await fetch(url);
+    if (!res.ok) return text;
+    const data = await res.json();
+    const translated = data?.responseData?.translatedText;
+    if (!translated || translated.startsWith('MYMEMORY WARNING')) return text;
+    return translated;
+  } catch { return text; }
+}
+
 function buildImageUrl(summary) {
   // Prefer originalimage (full, uncropped) – fall back to widened thumbnail
   if (summary.originalimage?.source) return summary.originalimage.source;
@@ -445,6 +468,9 @@ document.getElementById('btnStart').addEventListener('click', async () => {
   const seenTitles = new Set();
   let ok = 0, skip = 0;
 
+  // Random email per session → fresh 50 000-char quota each run
+  const sessionEmail = `quiz_${Math.random().toString(36).slice(2, 10)}@gmail.com`;
+
   // Process in small batches to be polite to Wikipedia API
   const BATCH = 5;
   for (let i = 0; i < ANIMALS_SEED.length; i += BATCH) {
@@ -471,13 +497,22 @@ document.getElementById('btnStart').addEventListener('click', async () => {
         ? `http://www.wikidata.org/entity/${summary.wikibase_item}`
         : `https://en.wikipedia.org/wiki/${encodeURIComponent(seed.name)}`;
 
+      const enFact = extractFact(summary);
+
+      // Translate name and fact to Slovak
+      const [label, fact] = await Promise.all([
+        translateText(seed.name, sessionEmail),
+        enFact ? translateText(enFact, sessionEmail) : Promise.resolve(null),
+      ]);
+      await new Promise(r => setTimeout(r, 50));
+
       results.push({
         id:        wikidataId,
-        label:     seed.name,
+        label:     label || seed.name,
         imageUrl,
-        continent: seed.continent,
+        continent: CONTINENT_SK[seed.continent] || seed.continent,
         sciName:   seed.sciName,
-        fact:      extractFact(summary),
+        fact:      fact || enFact || null,
       });
       ok++;
     }));

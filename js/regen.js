@@ -368,6 +368,17 @@ const Regen = (() => {
     { name:"South Polar skua",        continent:"Antarctica",    sciName:"Stercorarius maccormicki" },
   ];
 
+  /* ── Continent translation map ── */
+  const CONTINENT_SK = {
+    'Africa':        'Afrika',
+    'Asia':          'Ázia',
+    'Europe':        'Európa',
+    'North America': 'Severná Amerika',
+    'South America': 'Južná Amerika',
+    'Australia':     'Austrália',
+    'Antarctica':    'Antarktída',
+  };
+
   /* ── Wikipedia helpers (same logic as generate.html) ── */
 
   function buildImageUrl(summary) {
@@ -383,6 +394,24 @@ const Regen = (() => {
     let fact = first.replace(/\s*\([^)]*\)/g, '').trim();
     if (!fact.endsWith('.')) fact += '.';
     return fact.length >= 30 ? fact : null;
+  }
+
+  /**
+   * Translate text from English to Slovak using MyMemory API.
+   * Uses a random session email to avoid daily character limit resets.
+   * Returns original text on any failure.
+   */
+  async function translateText(text, sessionEmail) {
+    if (!text) return text;
+    try {
+      const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=en|sk&de=${encodeURIComponent(sessionEmail)}`;
+      const res = await fetch(url);
+      if (!res.ok) return text;
+      const data = await res.json();
+      const translated = data?.responseData?.translatedText;
+      if (!translated || translated.startsWith('MYMEMORY WARNING')) return text;
+      return translated;
+    } catch { return text; }
   }
 
   async function fetchWikiSummary(title, retries = 3) {
@@ -414,6 +443,9 @@ const Regen = (() => {
     const seenTitles = new Set();
     let ok = 0, skip = 0;
 
+    // Random email per session → each run gets a fresh 50 000-char quota
+    const sessionEmail = `quiz_${Math.random().toString(36).slice(2, 10)}@gmail.com`;
+
     const BATCH = 5;
     for (let i = 0; i < ANIMALS_SEED.length; i += BATCH) {
       const batch = ANIMALS_SEED.slice(i, i + BATCH);
@@ -431,13 +463,23 @@ const Regen = (() => {
           ? `http://www.wikidata.org/entity/${summary.wikibase_item}`
           : `https://en.wikipedia.org/wiki/${encodeURIComponent(seed.name)}`;
 
+        const enFact = extractFact(summary);
+
+        // Translate name and fact to Slovak (fallback to English on error)
+        const [label, fact] = await Promise.all([
+          translateText(seed.name, sessionEmail),
+          enFact ? translateText(enFact, sessionEmail) : Promise.resolve(null),
+        ]);
+        // Small extra delay to be polite to the translation API
+        await new Promise(r => setTimeout(r, 50));
+
         results.push({
           id:        wikidataId,
-          label:     seed.name,
+          label:     label || seed.name,
           imageUrl,
-          continent: seed.continent,
+          continent: CONTINENT_SK[seed.continent] || seed.continent,
           sciName:   seed.sciName,
-          fact:      extractFact(summary),
+          fact:      fact || enFact || null,
         });
         ok++;
       }));
