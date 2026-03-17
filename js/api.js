@@ -7,32 +7,39 @@ const API = (() => {
   const SPARQL_ENDPOINT = 'https://query.wikidata.org/sparql';
 
   /*
-   * Root cause of the old "6 animals" bug:
-   *   OPTIONAL {P2067 mass} × OPTIONAL {P141 conserv} × OPTIONAL {P225 sciName}
-   *   created a Cartesian product of rows per animal
-   *   (e.g. 3 images × 2 continents × 5 mass values × 3 conserv = 90 rows/animal).
-   *   With LIMIT 60, only 1-2 unique animals survived deduplication.
+   * Root cause of "6 animals" bug:
+   *   Very few animal species have a Slovak rdfs:label in Wikidata.
+   *   FILTER(LANG(?label) = "sk") returned only ~5–9 rows total worldwide.
    *
-   * Fix: remove P2067 and P141 from the query entirely.
-   *   Only OPTIONAL {P225 sciName} remains — typically 1 value per species.
-   *   Remaining duplicates: P18 images (~3x) × P30 continents (~1.5x) × P225 (~1x) ≈ 4-5 rows/animal.
-   *   LIMIT 300 → ~60-70 unique animals after JS dedup. ✓
+   * Fix: instead of requiring a Wikidata Slovak label, require a Slovak Wikipedia
+   *   article (schema:isPartOf <https://sk.wikipedia.org/>).
+   *   Thousands of animal species have sk.wikipedia articles → hundreds of results.
+   *   The article title is the Slovak common name.
+   *
+   * Remaining duplicate mitigation:
+   *   P18 images (~3×) × P30 continents (~1.5×) × P225 (~1×) ≈ 4–5 rows/animal.
+   *   LIMIT 300 → ~60–70 unique animals after JS dedup. ✓
    */
   const SPARQL_QUERY = `
 SELECT DISTINCT ?animal ?label ?image ?continentLabel ?sciName WHERE {
   ?animal wdt:P31 wd:Q16521 ;
           wdt:P105 wd:Q7432 ;
           wdt:P18  ?image ;
-          wdt:P30  ?continent ;
-          rdfs:label ?label .
-  FILTER(LANG(?label) = "sk")
+          wdt:P30  ?continent .
+
+  ?skArticle schema:about ?animal ;
+             schema:isPartOf <https://sk.wikipedia.org/> ;
+             schema:name ?label .
 
   OPTIONAL { ?animal wdt:P225 ?sciName . }
 
   SERVICE wikibase:label {
     bd:serviceParam wikibase:language "sk,en" .
   }
+
+  BIND(MD5(CONCAT(STR(RAND()), STR(?animal))) AS ?rand)
 }
+ORDER BY ?rand
 LIMIT 300
 `.trim();
 
