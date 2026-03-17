@@ -78,9 +78,9 @@ const Regen = (() => {
     { name:"Draco lizard",        continent:"Asia",          sciName:"Draco volans" },
 
     // EUROPE
-    { name:"Brown bear",          continent:"Europe",        sciName:"Ursus arctos" },
+    { name:"Brown bear",          continent:["Europe","Asia"],sciName:"Ursus arctos" },
     { name:"European bison",      continent:"Europe",        sciName:"Bison bonasus" },
-    { name:"Grey wolf",           continent:"Europe",        sciName:"Canis lupus" },
+    { name:"Grey wolf",           continent:["Europe","Asia"],sciName:"Canis lupus" },
     { name:"Eurasian lynx",       continent:"Europe",        sciName:"Lynx lynx" },
     { name:"Wild boar",           continent:"Europe",        sciName:"Sus scrofa" },
     { name:"Red fox",             continent:"Europe",        sciName:"Vulpes vulpes" },
@@ -95,14 +95,14 @@ const Regen = (() => {
     { name:"Alpine ibex",         continent:"Europe",        sciName:"Capra ibex" },
     { name:"Chamois",             continent:"Europe",        sciName:"Rupicapra rupicapra" },
     { name:"European otter",      continent:"Europe",        sciName:"Lutra lutra" },
-    { name:"Wolverine",           continent:"Europe",        sciName:"Gulo gulo" },
+    { name:"Wolverine",           continent:["North America","Europe"], sciName:"Gulo gulo" },
     { name:"European mink",       continent:"Europe",        sciName:"Mustela lutreola" },
     { name:"Mouflon",             continent:"Europe",        sciName:"Ovis gmelini" },
 
     // NORTH AMERICA
     { name:"Grizzly bear",            continent:"North America", sciName:"Ursus arctos horribilis" },
     { name:"American bison",          continent:"North America", sciName:"Bison bison" },
-    { name:"Moose",                   continent:"North America", sciName:"Alces alces" },
+    { name:"Moose",                   continent:["North America","Europe"], sciName:"Alces alces" },
     { name:"White-tailed deer",       continent:"North America", sciName:"Odocoileus virginianus" },
     { name:"Bald eagle",              continent:"North America", sciName:"Haliaeetus leucocephalus" },
     { name:"American alligator",      continent:"North America", sciName:"Alligator mississippiensis" },
@@ -121,7 +121,6 @@ const Regen = (() => {
     { name:"Sea otter",               continent:"North America", sciName:"Enhydra lutris" },
     { name:"Northern elephant seal",  continent:"North America", sciName:"Mirounga angustirostris" },
     { name:"Snowy owl",               continent:"North America", sciName:"Bubo scandiacus" },
-    { name:"Wolverine",               continent:"North America", sciName:"Gulo gulo" },
     { name:"American badger",         continent:"North America", sciName:"Taxidea taxus" },
     { name:"Bobcat",                  continent:"North America", sciName:"Lynx rufus" },
     { name:"Canada lynx",             continent:"North America", sciName:"Lynx canadensis" },
@@ -232,8 +231,8 @@ const Regen = (() => {
     // EUROPE (extra)
     { name:"Red deer",                continent:"Europe",    sciName:"Cervus elaphus" },
     { name:"Fallow deer",             continent:"Europe",    sciName:"Dama dama" },
-    { name:"Reindeer",                continent:"Europe",    sciName:"Rangifer tarandus" },
-    { name:"Arctic fox",              continent:"Europe",    sciName:"Vulpes lagopus" },
+    { name:"Reindeer",                continent:["Europe","North America"], sciName:"Rangifer tarandus" },
+    { name:"Arctic fox",              continent:["Europe","North America"], sciName:"Vulpes lagopus" },
     { name:"Golden eagle",            continent:"Europe",    sciName:"Aquila chrysaetos" },
     { name:"White-tailed eagle",      continent:"Europe",    sciName:"Haliaeetus albicilla" },
     { name:"Peregrine falcon",        continent:"Europe",    sciName:"Falco peregrinus" },
@@ -252,7 +251,7 @@ const Regen = (() => {
     { name:"Great grey owl",          continent:"Europe",    sciName:"Strix nebulosa" },
 
     // NORTH AMERICA (extra)
-    { name:"Polar bear",              continent:"North America", sciName:"Ursus maritimus" },
+    { name:"Polar bear",              continent:["North America","Europe"], sciName:"Ursus maritimus" },
     { name:"Musk ox",                 continent:"North America", sciName:"Ovibos moschatus" },
     { name:"Caribou",                 continent:"North America", sciName:"Rangifer tarandus" },
     { name:"Walrus",                  continent:"North America", sciName:"Odobenus rosmarus" },
@@ -312,8 +311,8 @@ const Regen = (() => {
 
     // OCEAN / WORLDWIDE MARINE
     { name:"Orca",                    continent:"Antarctica",    sciName:"Orcinus orca",              ocean:"Pacific Ocean" },
-    { name:"Humpback whale",          continent:"Antarctica",    sciName:"Megaptera novaeangliae",     ocean:"Atlantic Ocean" },
-    { name:"Blue whale",              continent:"Antarctica",    sciName:"Balaenoptera musculus",      ocean:"Southern Ocean" },
+    { name:"Humpback whale",          continent:"Antarctica",    sciName:"Megaptera novaeangliae",     ocean:["Atlantic Ocean","Pacific Ocean"] },
+    { name:"Blue whale",              continent:"Antarctica",    sciName:"Balaenoptera musculus",      ocean:["Southern Ocean","Pacific Ocean"] },
     { name:"Sperm whale",             continent:"North America", sciName:"Physeter macrocephalus",     ocean:"Pacific Ocean" },
     { name:"Bottlenose dolphin",      continent:"Europe",        sciName:"Tursiops truncatus",         ocean:"Atlantic Ocean" },
     { name:"Great white shark",       continent:"Africa",        sciName:"Carcharodon carcharias",     ocean:"Pacific Ocean" },
@@ -323,9 +322,9 @@ const Regen = (() => {
     { name:"Green sea turtle",        continent:"Australia",     sciName:"Chelonia mydas",             ocean:"Pacific Ocean" },
     { name:"Leatherback sea turtle",  continent:"South America", sciName:"Dermochelys coriacea",       ocean:"Atlantic Ocean" },
     { name:"Loggerhead sea turtle",   continent:"Europe",        sciName:"Caretta caretta",            ocean:"Mediterranean Sea" },
-    { name:"Narwhal",                 continent:"North America", sciName:"Monodon monoceros",          ocean:"Arctic Ocean" },
-    { name:"Beluga whale",            continent:"North America", sciName:"Delphinapterus leucas",      ocean:"Arctic Ocean" },
-    { name:"Common seal",             continent:"Europe",        sciName:"Phoca vitulina",             ocean:"Atlantic Ocean" },
+    { name:"Narwhal",                 continent:"North America", sciName:"Monodon monoceros",          ocean:["Arctic Ocean","Atlantic Ocean"] },
+    { name:"Beluga whale",            continent:"North America", sciName:"Delphinapterus leucas",      ocean:["Arctic Ocean","Atlantic Ocean"] },
+    { name:"Common seal",             continent:"Europe",        sciName:"Phoca vitulina",             ocean:["Atlantic Ocean","Arctic Ocean"] },
     { name:"Mediterranean monk seal", continent:"Europe",        sciName:"Monachus monachus",          ocean:"Mediterranean Sea" },
     { name:"Common octopus",          continent:"Europe",        sciName:"Octopus vulgaris",           ocean:"Mediterranean Sea" },
     { name:"Giant Pacific octopus",   continent:"North America", sciName:"Enteroctopus dofleini",      ocean:"Pacific Ocean" },
@@ -387,6 +386,12 @@ const Regen = (() => {
     'Australia':     'Austrália',
     'Antarctica':    'Antarktída',
   };
+
+  // Translate a habitat value (string or string[]) through a map
+  function translateHabitat(value, map) {
+    if (Array.isArray(value)) return value.map(v => map[v] || v);
+    return map[value] || value;
+  }
 
   /* ── Wikipedia helpers (same logic as generate.html) ── */
 
@@ -486,10 +491,10 @@ const Regen = (() => {
           id:        wikidataId,
           label:     label || seed.name,
           imageUrl,
-          continent: CONTINENT_SK[seed.continent] || seed.continent,
+          continent: translateHabitat(seed.continent, CONTINENT_SK),
           sciName:   seed.sciName,
           fact:      fact || enFact || null,
-          ...(seed.ocean ? { ocean: OCEAN_SK[seed.ocean] || seed.ocean } : {}),
+          ...(seed.ocean ? { ocean: translateHabitat(seed.ocean, OCEAN_SK) } : {}),
         });
         ok++;
       }));
