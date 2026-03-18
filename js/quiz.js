@@ -129,7 +129,7 @@ const Quiz = (() => {
   async function loadGame(onProgress, onReady, onError) {
     state.phase = 'LOADING';
     try {
-      onProgress('Načítavam zvieratá z Wikidata…', 'Kontaktujem server…');
+      onProgress('Načítavam zvieratá…', 'Prosím čakaj…');
       const batch = await API.fetchAnimalBatch();
       state.batch = batch;
 
@@ -191,7 +191,13 @@ const Quiz = (() => {
       correct      = factQ.correct;
     }
 
-    const options = buildOptions(animal, field, correct);
+    // For fact questions, use the animal's own falseFacts as distractors
+    let options;
+    if (field === 'fact' && animal.falseFacts && animal.falseFacts.length > 0) {
+      options = shuffle([correct, ...animal.falseFacts.slice(0, 3)]);
+    } else {
+      options = buildOptions(animal, field, correct);
+    }
     const isMulti = Array.isArray(correct);
     state.currentQuestion = { questionText, field, correct, options, isMulti };
     return state.currentQuestion;
