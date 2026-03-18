@@ -28,12 +28,26 @@ const API = (() => {
     const FALLBACK = 'assets/fallback.svg';
     const cache = new Map();
 
-    const promises = animals.map(animal => {
-      return new Promise(resolve => {
+    const promises = animals.map(async animal => {
+      // Derive Wikipedia page title from id (e.g. "https://en.wikipedia.org/wiki/Lion" → "Lion")
+      const title = animal.id.replace('https://en.wikipedia.org/wiki/', '');
+      let imageUrl = FALLBACK;
+
+      try {
+        const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${title}`);
+        if (res.ok) {
+          const data = await res.json();
+          if (data.thumbnail && data.thumbnail.source) {
+            imageUrl = data.thumbnail.source;
+          }
+        }
+      } catch {}
+
+      await new Promise(resolve => {
         const img = new Image();
-        img.onload  = () => { cache.set(animal.id, animal.imageUrl); resolve(); };
-        img.onerror = () => { cache.set(animal.id, FALLBACK);        resolve(); };
-        img.src = animal.imageUrl;
+        img.onload  = () => { cache.set(animal.id, imageUrl); resolve(); };
+        img.onerror = () => { cache.set(animal.id, FALLBACK);  resolve(); };
+        img.src = imageUrl;
       });
     });
 
