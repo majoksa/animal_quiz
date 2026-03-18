@@ -2,7 +2,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Lion",
     "label": "Lev",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Lion",
+    "imageUrl": "https://en.wikipedia.org/wiki/Lion",
     "continent": "Afrika",
     "sciName": "Panthera leo",
     "fact": "Lev je jediná mačkovitá šelma, ktorá žije v sociálnych skupinách nazývaných svorky.",
@@ -15,7 +15,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/African_elephant",
     "label": "Slon africký",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/African_elephant",
+    "imageUrl": "https://en.wikipedia.org/wiki/African_elephant",
     "continent": "Afrika",
     "sciName": "Loxodonta africana",
     "fact": "Slon africký je najväčšie suchozemské zviera na svete a môže vážiť až 6 ton.",
@@ -28,7 +28,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Giraffe",
     "label": "Žirafa",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Giraffe",
+    "imageUrl": "https://en.wikipedia.org/wiki/Giraffe",
     "continent": "Afrika",
     "sciName": "Giraffa camelopardalis",
     "fact": "Žirafa je najvyššie žijúce suchozemské zviera s výškou až 5,5 metra.",
@@ -41,7 +41,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Plains_zebra",
     "label": "Zebra stepná",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Plains_zebra",
+    "imageUrl": "https://en.wikipedia.org/wiki/Plains_zebra",
     "continent": "Afrika",
     "sciName": "Equus quagga",
     "fact": "Každá zebra má jedinečný vzor pruhov, podobne ako odtlačky prstov u ľudí.",
@@ -54,7 +54,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Hippopotamus",
     "label": "Hroch obojživelný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Hippopotamus",
+    "imageUrl": "https://en.wikipedia.org/wiki/Hippopotamus",
     "continent": "Afrika",
     "sciName": "Hippopotamus amphibius",
     "fact": "Hroch trávi väčšinu dňa vo vode a dokáže zadržať dych až 5 minút.",
@@ -67,7 +67,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Western_gorilla",
     "label": "Gorila nížinná",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Western_gorilla",
+    "imageUrl": "https://en.wikipedia.org/wiki/Western_gorilla",
     "continent": "Afrika",
     "sciName": "Gorilla gorilla",
     "fact": "Gorila nížinná zdieľa približne 98 % svojej DNA s človekom.",
@@ -80,7 +80,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Cheetah",
     "label": "Gepard štíhly",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Cheetah",
+    "imageUrl": "https://en.wikipedia.org/wiki/Cheetah",
     "continent": "Afrika",
     "sciName": "Acinonyx jubatus",
     "fact": "Gepard je najrýchlejšie suchozemské zviera a dokáže bežať rýchlosťou až 112 km/h.",
@@ -93,7 +93,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Leopard",
     "label": "Leopard škvrnitý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Leopard",
+    "imageUrl": "https://en.wikipedia.org/wiki/Leopard",
     "continent": "Afrika",
     "sciName": "Panthera pardus",
     "fact": "Leopard často vyťahuje svoju korisť na stromy, aby ju ochránil pred inými predátormi.",
@@ -106,7 +106,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/African_buffalo",
     "label": "Byvol africký",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/African_buffalo",
+    "imageUrl": "https://en.wikipedia.org/wiki/African_buffalo",
     "continent": "Afrika",
     "sciName": "Syncerus caffer",
     "fact": "Byvol africký je považovaný za jedno z najnebezpečnejších zvierat Afriky a nemá priameho predátora okrem leva.",
@@ -119,7 +119,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Spotted_hyena",
     "label": "Hyena škvrnitá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Spotted_hyena",
+    "imageUrl": "https://en.wikipedia.org/wiki/Spotted_hyena",
     "continent": "Afrika",
     "sciName": "Crocuta crocuta",
     "fact": "Hyena škvrnitá má najsilnejší zhryz v pomere k veľkosti tela spomedzi všetkých cicavcov.",
@@ -132,7 +132,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Meerkat",
     "label": "Surikata vlnkovaná",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Meerkat",
+    "imageUrl": "https://en.wikipedia.org/wiki/Meerkat",
     "continent": "Afrika",
     "sciName": "Suricata suricatta",
     "fact": "Surikaty žijú v kolóniách a majú strážcov, ktorí stoja na zadných nohách a sledujú okolie.",
@@ -145,7 +145,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/African_wild_dog",
     "label": "Pes hyenový",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/African_wild_dog",
+    "imageUrl": "https://en.wikipedia.org/wiki/African_wild_dog",
     "continent": "Afrika",
     "sciName": "Lycaon pictus",
     "fact": "Pes hyenový má úspešnosť lovu okolo 80 %, čo je najvyššia medzi veľkými predátormi.",
@@ -158,7 +158,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Mandrill",
     "label": "Mandril",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mandrill",
+    "imageUrl": "https://en.wikipedia.org/wiki/Mandrill",
     "continent": "Afrika",
     "sciName": "Mandrillus sphinx",
     "fact": "Mandril je najväčšia a najfarebnejšia opica na svete s výrazným modrým a červeným sfarbením tváre.",
@@ -171,7 +171,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Black_rhinoceros",
     "label": "Nosorožec čierny",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Black_rhinoceros",
+    "imageUrl": "https://en.wikipedia.org/wiki/Black_rhinoceros",
     "continent": "Afrika",
     "sciName": "Diceros bicornis",
     "fact": "Nosorožec čierny má prehnutý horný pysk prispôsobený na trhanie listov z kríkov.",
@@ -184,7 +184,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Nile_crocodile",
     "label": "Krokodíl nílsky",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nile_crocodile",
+    "imageUrl": "https://en.wikipedia.org/wiki/Nile_crocodile",
     "continent": "Afrika",
     "sciName": "Crocodylus niloticus",
     "fact": "Krokodíl nílsky je najväčší africký plaz a môže dorásť do dĺžky 6 metrov.",
@@ -197,7 +197,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Common_ostrich",
     "label": "Pštros africký",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Common_ostrich",
+    "imageUrl": "https://en.wikipedia.org/wiki/Common_ostrich",
     "continent": "Afrika",
     "sciName": "Struthio camelus",
     "fact": "Pštros africký je najväčší žijúci vták a dokáže bežať rýchlosťou až 70 km/h.",
@@ -210,7 +210,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Greater_flamingo",
     "label": "Plameniak ružový",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Greater_flamingo",
+    "imageUrl": "https://en.wikipedia.org/wiki/Greater_flamingo",
     "continent": "Afrika",
     "sciName": "Phoenicopterus roseus",
     "fact": "Plameniak získava svoju ružovú farbu z karotenoidov v potrave, najmä z kôrovcov a rias.",
@@ -223,7 +223,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Warthog",
     "label": "Bradavičník africký",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Warthog",
+    "imageUrl": "https://en.wikipedia.org/wiki/Warthog",
     "continent": "Afrika",
     "sciName": "Phacochoerus africanus",
     "fact": "Bradavičník má zvyk utekať s chvostom nahor, čo slúži ako signál pre ostatných členov skupiny.",
@@ -236,7 +236,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Blue_wildebeest",
     "label": "Pakôň modrý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Blue_wildebeest",
+    "imageUrl": "https://en.wikipedia.org/wiki/Blue_wildebeest",
     "continent": "Afrika",
     "sciName": "Connochaetes taurinus",
     "fact": "Pakone modré podnikajú jednu z najväčších migrácií cicavcov na svete v oblasti Serengeti.",
@@ -249,7 +249,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Springbok",
     "label": "Antilopa skákavá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Springbok",
+    "imageUrl": "https://en.wikipedia.org/wiki/Springbok",
     "continent": "Afrika",
     "sciName": "Antidorcas marsupialis",
     "fact": "Antilopa skákavá dokáže vyskočiť až 3,5 metra do výšky pri charakteristickom správaní zvanom pronking.",
@@ -262,7 +262,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Aardvark",
     "label": "Hrabáč kapský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Aardvark",
+    "imageUrl": "https://en.wikipedia.org/wiki/Aardvark",
     "continent": "Afrika",
     "sciName": "Orycteropus afer",
     "fact": "Hrabáč kapský je jediný žijúci zástupca radu Tubulidentata a živí sa hlavne termitmi.",
@@ -275,7 +275,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Okapi",
     "label": "Okapi",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Okapi",
+    "imageUrl": "https://en.wikipedia.org/wiki/Okapi",
     "continent": "Afrika",
     "sciName": "Okapia johnstoni",
     "fact": "Okapi je najbližší žijúci príbuzný žirafy, napriek tomu, že vyzerá skôr ako kôň s pruhovanými nohami.",
@@ -288,7 +288,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Shoebill",
     "label": "Člnozobec kráľovský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Shoebill",
+    "imageUrl": "https://en.wikipedia.org/wiki/Shoebill",
     "continent": "Afrika",
     "sciName": "Balaeniceps rex",
     "fact": "Člnozobec má obrovský zobák v tvare člna, ktorým loví ryby, hady a dokonca aj malé krokodíly.",
@@ -301,7 +301,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/African_penguin",
     "label": "Tučniak okuliarnatý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/African_penguin",
+    "imageUrl": "https://en.wikipedia.org/wiki/African_penguin",
     "continent": "Afrika",
     "sciName": "Spheniscus demersus",
     "fact": "Tučniak okuliarnatý je jediný druh tučniaka hniezdiaci na africkom kontinente.",
@@ -314,7 +314,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Honey_badger",
     "label": "Medojed kapský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Honey_badger",
+    "imageUrl": "https://en.wikipedia.org/wiki/Honey_badger",
     "continent": "Afrika",
     "sciName": "Mellivora capensis",
     "fact": "Medojed kapský je známy svojou nebojácnosťou a dokáže odolať aj uhryznutiu jedovatých hadov.",
@@ -327,7 +327,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Caracal",
     "label": "Karakal",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Caracal",
+    "imageUrl": "https://en.wikipedia.org/wiki/Caracal",
     "continent": "Afrika",
     "sciName": "Caracal caracal",
     "fact": "Karakal dokáže vyskočiť do výšky 3 metre a chytiť vtáka za letu.",
@@ -340,7 +340,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Serval",
     "label": "Serval",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Serval",
+    "imageUrl": "https://en.wikipedia.org/wiki/Serval",
     "continent": "Afrika",
     "sciName": "Leptailurus serval",
     "fact": "Serval má najdlhšie nohy v pomere k telu spomedzi všetkých mačkovitých šeliem.",
@@ -353,7 +353,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Secretary_bird",
     "label": "Hadiarka",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Secretary_bird",
+    "imageUrl": "https://en.wikipedia.org/wiki/Secretary_bird",
     "continent": "Afrika",
     "sciName": "Sagittarius serpentarius",
     "fact": "Hadiarka loví hady tak, že ich udiera silnými nohami a dupne na ne s obrovskou silou.",
@@ -366,7 +366,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Gerenuk",
     "label": "Gazela žirafia",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Gerenuk",
+    "imageUrl": "https://en.wikipedia.org/wiki/Gerenuk",
     "continent": "Afrika",
     "sciName": "Litocranius walleri",
     "fact": "Gazela žirafia dokáže stáť na zadných nohách a tak sa dostať k listom na vysokých konároch.",
@@ -379,7 +379,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Impala",
     "label": "Impala",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Impala",
+    "imageUrl": "https://en.wikipedia.org/wiki/Impala",
     "continent": "Afrika",
     "sciName": "Aepyceros melampus",
     "fact": "Impala dokáže skočiť do dĺžky až 10 metrov a do výšky 3 metre pri úteku pred predátorom.",
@@ -392,7 +392,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/African_fish_eagle",
     "label": "Orliak krikľavý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/African_fish_eagle",
+    "imageUrl": "https://en.wikipedia.org/wiki/African_fish_eagle",
     "continent": "Afrika",
     "sciName": "Haliaeetus vocifer",
     "fact": "Orliak krikľavý má charakteristický prenikavý krik, ktorý sa často považuje za zvuk Afriky.",
@@ -405,7 +405,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/African_grey_parrot",
     "label": "Papagáj sivý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/African_grey_parrot",
+    "imageUrl": "https://en.wikipedia.org/wiki/African_grey_parrot",
     "continent": "Afrika",
     "sciName": "Psittacus erithacus",
     "fact": "Papagáj sivý je považovaný za najinteligentnejšieho papagája a dokáže sa naučiť stovky slov.",
@@ -418,7 +418,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Bongo_antelope",
     "label": "Bongo",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Bongo_antelope",
+    "imageUrl": "https://en.wikipedia.org/wiki/Bongo_antelope",
     "continent": "Afrika",
     "sciName": "Tragelaphus eurycerus",
     "fact": "Bongo je najväčšia a najťažšia africká lesná antilopa s výraznými bielymi pruhmi na tele.",
@@ -431,7 +431,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Greater_kudu",
     "label": "Kudu veľký",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Greater_kudu",
+    "imageUrl": "https://en.wikipedia.org/wiki/Greater_kudu",
     "continent": "Afrika",
     "sciName": "Tragelaphus strepsiceros",
     "fact": "Samec kudu veľkého má impozantné špirálovité rohy, ktoré môžu dorásť do dĺžky 1,8 metra.",
@@ -444,7 +444,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Common_eland",
     "label": "Antilopa losovitá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Common_eland",
+    "imageUrl": "https://en.wikipedia.org/wiki/Common_eland",
     "continent": "Afrika",
     "sciName": "Tragelaphus oryx",
     "fact": "Antilopa losovitá je najväčšia antilopa na svete a napriek svojej veľkosti dokáže preskočiť 2,5 metra vysoký plot.",
@@ -457,7 +457,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Gemsbok",
     "label": "Prímorožec juhoafrický",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Gemsbok",
+    "imageUrl": "https://en.wikipedia.org/wiki/Gemsbok",
     "continent": "Afrika",
     "sciName": "Oryx gazella",
     "fact": "Prímorožec juhoafrický má dlhé rovné rohy a dokáže prežiť v extrémne suchých podmienkach bez pitia vody celé týždne.",
@@ -470,7 +470,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Sable_antelope",
     "label": "Antilopa vraná",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sable_antelope",
+    "imageUrl": "https://en.wikipedia.org/wiki/Sable_antelope",
     "continent": "Afrika",
     "sciName": "Hippotragus niger",
     "fact": "Antilopa vraná má dlhé zakrivené rohy a samce majú výrazné čierne sfarbenie.",
@@ -483,7 +483,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Topi",
     "label": "Topi",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Topi",
+    "imageUrl": "https://en.wikipedia.org/wiki/Topi",
     "continent": "Afrika",
     "sciName": "Damaliscus lunatus",
     "fact": "Topi je jedna z najrýchlejších antilop a dokáže bežať rýchlosťou až 70 km/h.",
@@ -496,7 +496,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Kirk's_dik-dik",
     "label": "Dik-dik Kirkov",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Kirk's_dik-dik",
+    "imageUrl": "https://en.wikipedia.org/wiki/Kirk's_dik-dik",
     "continent": "Afrika",
     "sciName": "Madoqua kirkii",
     "fact": "Dik-dik je jedna z najmenších antilop na svete s výškou len okolo 35 cm.",
@@ -509,7 +509,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/African_civet",
     "label": "Cibetka africká",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/African_civet",
+    "imageUrl": "https://en.wikipedia.org/wiki/African_civet",
     "continent": "Afrika",
     "sciName": "Civettictis civetta",
     "fact": "Cibetka africká produkuje pižmo, ktoré sa historicky používalo vo výrobe parfumov.",
@@ -522,7 +522,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Rock_hyrax",
     "label": "Daman skalný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Rock_hyrax",
+    "imageUrl": "https://en.wikipedia.org/wiki/Rock_hyrax",
     "continent": "Afrika",
     "sciName": "Procavia capensis",
     "fact": "Daman skalný je prekvapivo najbližší žijúci príbuzný slona, napriek svojej malej veľkosti.",
@@ -535,7 +535,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Cape_porcupine",
     "label": "Dikobraz juhoafrický",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Cape_porcupine",
+    "imageUrl": "https://en.wikipedia.org/wiki/Cape_porcupine",
     "continent": "Afrika",
     "sciName": "Hystrix africaeaustralis",
     "fact": "Dikobraz juhoafrický má ostne dlhé až 50 cm, ktoré dokáže nastrošiť na obranu pred predátormi.",
@@ -548,7 +548,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Marabou_stork",
     "label": "Marabu africký",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Marabou_stork",
+    "imageUrl": "https://en.wikipedia.org/wiki/Marabou_stork",
     "continent": "Afrika",
     "sciName": "Leptoptilos crumenifer",
     "fact": "Marabu africký má rozpätie krídel až 3,2 metra, čo je jedno z najväčších medzi vtákmi.",
@@ -561,7 +561,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Lilac-breasted_roller",
     "label": "Krakľa modrohrdlá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Lilac-breasted_roller",
+    "imageUrl": "https://en.wikipedia.org/wiki/Lilac-breasted_roller",
     "continent": "Afrika",
     "sciName": "Coracias caudatus",
     "fact": "Krakľa modrohrdlá má jedno z najfarebnejších perí spomedzi afrických vtákov s ôsmimi rôznymi farbami.",
@@ -574,7 +574,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Ground_pangolin",
     "label": "Luskáň stepný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ground_pangolin",
+    "imageUrl": "https://en.wikipedia.org/wiki/Ground_pangolin",
     "continent": "Afrika",
     "sciName": "Smutsia temminckii",
     "fact": "Luskáň je jediný cicavec na svete pokrytý keratínovými šupinami a pri nebezpečenstve sa zroluje do gule.",
@@ -587,7 +587,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Pygmy_hippopotamus",
     "label": "Hroch libérijský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Pygmy_hippopotamus",
+    "imageUrl": "https://en.wikipedia.org/wiki/Pygmy_hippopotamus",
     "continent": "Afrika",
     "sciName": "Choeropsis liberiensis",
     "fact": "Hroch libérijský je oveľa menší ako hroch obojživelný a vedie samotársky nočný život v lesoch.",
@@ -600,7 +600,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/White_rhinoceros",
     "label": "Nosorožec biely",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/White_rhinoceros",
+    "imageUrl": "https://en.wikipedia.org/wiki/White_rhinoceros",
     "continent": "Afrika",
     "sciName": "Ceratotherium simum",
     "fact": "Nosorožec biely má široký rovný pysk prispôsobený na spásanie trávy a je väčší ako nosorožec čierny.",
@@ -613,7 +613,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Bonobo",
     "label": "Bonobo",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Bonobo",
+    "imageUrl": "https://en.wikipedia.org/wiki/Bonobo",
     "continent": "Afrika",
     "sciName": "Pan paniscus",
     "fact": "Bonobo je spolu so šimpanzom najbližší príbuzný človeka a konflikty rieši často sociálnym správaním.",
@@ -626,7 +626,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Common_chimpanzee",
     "label": "Šimpanz učenlivý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Common_chimpanzee",
+    "imageUrl": "https://en.wikipedia.org/wiki/Common_chimpanzee",
     "continent": "Afrika",
     "sciName": "Pan troglodytes",
     "fact": "Šimpanz učenlivý je schopný používať nástroje, napríklad vetvičky na lovenie termitov.",
@@ -639,7 +639,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Olive_baboon",
     "label": "Pavián olivový",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Olive_baboon",
+    "imageUrl": "https://en.wikipedia.org/wiki/Olive_baboon",
     "continent": "Afrika",
     "sciName": "Papio anubis",
     "fact": "Pavián olivový žije v zložito organizovaných skupinách s jasnou sociálnou hierarchiou.",
@@ -652,7 +652,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Black_mamba",
     "label": "Mamba čierna",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Black_mamba",
+    "imageUrl": "https://en.wikipedia.org/wiki/Black_mamba",
     "continent": "Afrika",
     "sciName": "Dendroaspis polylepis",
     "fact": "Mamba čierna je najrýchlejší had na svete, dokáže sa pohybovať rýchlosťou až 20 km/h.",
@@ -665,7 +665,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Gelada",
     "label": "Gelada",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Gelada",
+    "imageUrl": "https://en.wikipedia.org/wiki/Gelada",
     "continent": "Afrika",
     "sciName": "Theropithecus gelada",
     "fact": "Gelada je jediná opica na svete, ktorá sa živí prevažne trávou a žije vo vysokohorských oblastiach Etiópie.",
@@ -678,7 +678,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Nile_monitor",
     "label": "Varan nílsky",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nile_monitor",
+    "imageUrl": "https://en.wikipedia.org/wiki/Nile_monitor",
     "continent": "Afrika",
     "sciName": "Varanus niloticus",
     "fact": "Varan nílsky je jeden z najväčších jašterov v Afrike a výborný plavec.",
@@ -691,7 +691,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/African_bullfrog",
     "label": "Ropucha africká",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/African_bullfrog",
+    "imageUrl": "https://en.wikipedia.org/wiki/African_bullfrog",
     "continent": "Afrika",
     "sciName": "Pyxicephalus adspersus",
     "fact": "Africká ropucha je jedna z najväčších žiab na svete a samec agresívne bráni svoje žubrienky.",
@@ -704,7 +704,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Lappet-faced_vulture",
     "label": "Sup ušatý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Lappet-faced_vulture",
+    "imageUrl": "https://en.wikipedia.org/wiki/Lappet-faced_vulture",
     "continent": "Afrika",
     "sciName": "Torgos tracheliotos",
     "fact": "Sup ušatý je najväčší africký sup s rozpätím krídel až 2,9 metra.",
@@ -717,7 +717,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/African_wild_cat",
     "label": "Mačka púštna",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/African_wild_cat",
+    "imageUrl": "https://en.wikipedia.org/wiki/African_wild_cat",
     "continent": "Afrika",
     "sciName": "Felis lybica",
     "fact": "Mačka púštna je predkom všetkých domácich mačiek a bola domestikovaná pred približne 10 000 rokmi.",
@@ -730,7 +730,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Bengal_tiger",
     "label": "Tiger bengálsky",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Bengal_tiger",
+    "imageUrl": "https://en.wikipedia.org/wiki/Bengal_tiger",
     "continent": "Ázia",
     "sciName": "Panthera tigris tigris",
     "fact": "Tiger bengálsky je najväčšia mačkovitá šelma na svete a výborný plavec.",
@@ -743,7 +743,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Giant_panda",
     "label": "Panda veľká",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Giant_panda",
+    "imageUrl": "https://en.wikipedia.org/wiki/Giant_panda",
     "continent": "Ázia",
     "sciName": "Ailuropoda melanoleuca",
     "fact": "Panda veľká sa živí takmer výhradne bambusovými výhonkami a denne zje až 38 kg bambusu.",
@@ -756,7 +756,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Asian_elephant",
     "label": "Slon indický",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Asian_elephant",
+    "imageUrl": "https://en.wikipedia.org/wiki/Asian_elephant",
     "continent": "Ázia",
     "sciName": "Elephas maximus",
     "fact": "Slon indický má menšie uši ako slon africký a na chobote má jeden prstovitý výbežok.",
@@ -769,7 +769,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Snow_leopard",
     "label": "Leopard snežný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Snow_leopard",
+    "imageUrl": "https://en.wikipedia.org/wiki/Snow_leopard",
     "continent": "Ázia",
     "sciName": "Panthera uncia",
     "fact": "Leopard snežný žije vo vysokohorských oblastiach do nadmorskej výšky 5 500 metrov a má hustú sivú srsť.",
@@ -782,7 +782,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Komodo_dragon",
     "label": "Komodský varan",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Komodo_dragon",
+    "imageUrl": "https://en.wikipedia.org/wiki/Komodo_dragon",
     "continent": "Ázia",
     "sciName": "Varanus komodoensis",
     "fact": "Komodský varan je najväčší žijúci jašter na svete a jeho sliny obsahujú jedovaté látky.",
@@ -795,7 +795,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/King_cobra",
     "label": "Kobra kráľovská",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/King_cobra",
+    "imageUrl": "https://en.wikipedia.org/wiki/King_cobra",
     "continent": "Ázia",
     "sciName": "Ophiophagus hannah",
     "fact": "Kobra kráľovská je najdlhší jedovatý had na svete a môže dorásť do dĺžky 5,5 metra.",
@@ -808,7 +808,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Orangutan",
     "label": "Orangutan",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Orangutan",
+    "imageUrl": "https://en.wikipedia.org/wiki/Orangutan",
     "continent": "Ázia",
     "sciName": "Pongo pygmaeus",
     "fact": "Orangutan je jediný veľký ľudoop žijúci v Ázii a trávi väčšinu života na stromoch.",
@@ -821,7 +821,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Proboscis_monkey",
     "label": "Kahau nosatý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Proboscis_monkey",
+    "imageUrl": "https://en.wikipedia.org/wiki/Proboscis_monkey",
     "continent": "Ázia",
     "sciName": "Nasalis larvatus",
     "fact": "Kahau nosatý má výrazný veľký nos, ktorý u samcov môže dorásť do dĺžky 10 cm.",
@@ -834,7 +834,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Indian_rhinoceros",
     "label": "Nosorožec indický",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Indian_rhinoceros",
+    "imageUrl": "https://en.wikipedia.org/wiki/Indian_rhinoceros",
     "continent": "Ázia",
     "sciName": "Rhinoceros unicornis",
     "fact": "Nosorožec indický má hrubú kožu zloženú do záhybov, čo mu dáva vzhľad pancierového brnenia.",
@@ -847,7 +847,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Red_panda",
     "label": "Panda červená",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Red_panda",
+    "imageUrl": "https://en.wikipedia.org/wiki/Red_panda",
     "continent": "Ázia",
     "sciName": "Ailurus fulgens",
     "fact": "Panda červená nie je príbuzná pandy veľkej a patrí do vlastnej čeľade Ailuridae.",
@@ -860,7 +860,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Japanese_macaque",
     "label": "Makak japonský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Japanese_macaque",
+    "imageUrl": "https://en.wikipedia.org/wiki/Japanese_macaque",
     "continent": "Ázia",
     "sciName": "Macaca fuscata",
     "fact": "Makak japonský je známy kúpaním sa v horúcich prameňoch počas zimných mesiacov.",
@@ -873,7 +873,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Indian_peafowl",
     "label": "Páv korunkatý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Indian_peafowl",
+    "imageUrl": "https://en.wikipedia.org/wiki/Indian_peafowl",
     "continent": "Ázia",
     "sciName": "Pavo cristatus",
     "fact": "Samec páva korunkatého má nádherný vejárovitý chvost s očkovitými škvrnami, ktorým sa predvádza samiciam.",
@@ -886,7 +886,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Binturong",
     "label": "Binturong",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Binturong",
+    "imageUrl": "https://en.wikipedia.org/wiki/Binturong",
     "continent": "Ázia",
     "sciName": "Arctictis binturong",
     "fact": "Binturong má chápavý chvost a jeho telo vonia po pražených kukuriciach alebo popcorne.",
@@ -899,7 +899,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Sun_bear",
     "label": "Medveď malajský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sun_bear",
+    "imageUrl": "https://en.wikipedia.org/wiki/Sun_bear",
     "continent": "Ázia",
     "sciName": "Helarctos malayanus",
     "fact": "Medveď malajský je najmenší druh medveďa na svete a má výrazne dlhý jazyk na zber medu.",
@@ -912,7 +912,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Malayan_tapir",
     "label": "Tapír čabrakový",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Malayan_tapir",
+    "imageUrl": "https://en.wikipedia.org/wiki/Malayan_tapir",
     "continent": "Ázia",
     "sciName": "Tapirus indicus",
     "fact": "Tapír čabrakový má výrazné čierno-biele sfarbenie, ktoré v noci pôsobí ako kamufláž.",
@@ -925,7 +925,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Gharial",
     "label": "Gaviál indický",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Gharial",
+    "imageUrl": "https://en.wikipedia.org/wiki/Gharial",
     "continent": "Ázia",
     "sciName": "Gavialis gangeticus",
     "fact": "Gaviál má úzku dlhú tlamu prispôsobenú na lov rýb a je jedným z najohrozenejších krokodílov.",
@@ -938,7 +938,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Mandarin_duck",
     "label": "Kačica mandarínska",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mandarin_duck",
+    "imageUrl": "https://en.wikipedia.org/wiki/Mandarin_duck",
     "continent": "Ázia",
     "sciName": "Aix galericulata",
     "fact": "Kačica mandarínska je považovaná za jednu z najkrajších kačíc na svete vďaka farebnému opeřeniu samcov.",
@@ -951,7 +951,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Siamang",
     "label": "Siamang",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Siamang",
+    "imageUrl": "https://en.wikipedia.org/wiki/Siamang",
     "continent": "Ázia",
     "sciName": "Symphalangus syndactylus",
     "fact": "Siamang je najväčší gibbon a má nafukovací hrdelný vak, ktorým zosilňuje svoj spev počuteľný na kilometre.",
@@ -964,7 +964,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Bactrian_camel",
     "label": "Ťava dvojhrbá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Bactrian_camel",
+    "imageUrl": "https://en.wikipedia.org/wiki/Bactrian_camel",
     "continent": "Ázia",
     "sciName": "Camelus bactrianus",
     "fact": "Ťava dvojhrbá má dva hrby, v ktorých ukladá tuk ako zásobu energie na dlhé pochody púšťou.",
@@ -977,7 +977,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Saiga_antelope",
     "label": "Sajga tatárska",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Saiga_antelope",
+    "imageUrl": "https://en.wikipedia.org/wiki/Saiga_antelope",
     "continent": "Ázia",
     "sciName": "Saiga tatarica",
     "fact": "Sajga tatárska má výrazný nafukovací nos, ktorý filtruje prach v lete a zohrieva vzduch v zime.",
@@ -990,7 +990,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Markhor",
     "label": "Kozorožec skrutkovitý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Markhor",
+    "imageUrl": "https://en.wikipedia.org/wiki/Markhor",
     "continent": "Ázia",
     "sciName": "Capra falconeri",
     "fact": "Kozorožec skrutkovitý má impozantné špirálovité rohy dlhé až 160 cm a je národným zvieraťom Pakistanu.",
@@ -1003,7 +1003,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Yak",
     "label": "Jak domáci",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Yak",
+    "imageUrl": "https://en.wikipedia.org/wiki/Yak",
     "continent": "Ázia",
     "sciName": "Bos grunniens",
     "fact": "Jak žije v nadmorských výškach nad 4 000 metrov a jeho hustá srsť ho chráni pred mrazmi do -40 °C.",
@@ -1016,7 +1016,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Pallas's_cat",
     "label": "Manul",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Pallas's_cat",
+    "imageUrl": "https://en.wikipedia.org/wiki/Pallas's_cat",
     "continent": "Ázia",
     "sciName": "Otocolobus manul",
     "fact": "Manul má najhustejšiu srsť spomedzi všetkých mačkovitých šeliem a okrúhle zorničky na rozdiel od ostatných mačiek.",
@@ -1029,7 +1029,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Clouded_leopard",
     "label": "Leopard dymový",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Clouded_leopard",
+    "imageUrl": "https://en.wikipedia.org/wiki/Clouded_leopard",
     "continent": "Ázia",
     "sciName": "Neofelis nebulosa",
     "fact": "Leopard dymový má najdlhšie očné zuby v pomere k veľkosti tela spomedzi všetkých mačkovitých šeliem.",
@@ -1042,7 +1042,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Babirusa",
     "label": "Babirusa",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Babirusa",
+    "imageUrl": "https://en.wikipedia.org/wiki/Babirusa",
     "continent": "Ázia",
     "sciName": "Babyrousa babyrussa",
     "fact": "Babirusa je diviak z Indonézie, ktorého horné kly prerastajú cez kožu hornej čeľuste a zakrivia sa dozadu.",
@@ -1055,7 +1055,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Slow_loris",
     "label": "Outloň váhavý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Slow_loris",
+    "imageUrl": "https://en.wikipedia.org/wiki/Slow_loris",
     "continent": "Ázia",
     "sciName": "Nycticebus coucang",
     "fact": "Outloň váhavý je jeden z mála jedovatých cicavcov – na lakťoch má žľazy produkujúce toxín.",
@@ -1068,7 +1068,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Saltwater_crocodile",
     "label": "Krokodíl morský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Saltwater_crocodile",
+    "imageUrl": "https://en.wikipedia.org/wiki/Saltwater_crocodile",
     "continent": "Ázia",
     "sciName": "Crocodylus porosus",
     "fact": "Krokodíl morský je najväčší žijúci plaz na svete a môže dorásť do dĺžky 7 metrov.",
@@ -1081,7 +1081,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Tarsier",
     "label": "Nártoun",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tarsier",
+    "imageUrl": "https://en.wikipedia.org/wiki/Tarsier",
     "continent": "Ázia",
     "sciName": "Tarsius tarsier",
     "fact": "Nártoun má obrovské oči – každé oko je väčšie ako jeho mozog.",
@@ -1094,7 +1094,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Amur_leopard",
     "label": "Leopard amurský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Amur_leopard",
+    "imageUrl": "https://en.wikipedia.org/wiki/Amur_leopard",
     "continent": "Ázia",
     "sciName": "Panthera pardus orientalis",
     "fact": "Leopard amurský je najvzácnejšia veľká mačka na svete – v divočine žije len okolo 100 jedincov.",
@@ -1107,7 +1107,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Asian_black_bear",
     "label": "Medveď ušatý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Asian_black_bear",
+    "imageUrl": "https://en.wikipedia.org/wiki/Asian_black_bear",
     "continent": "Ázia",
     "sciName": "Ursus thibetanus",
     "fact": "Medveď ušatý má na hrudi výraznú bielu alebo žltú škvrnu v tvare písmena V.",
@@ -1120,7 +1120,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Dhole",
     "label": "Dhoul",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Dhole",
+    "imageUrl": "https://en.wikipedia.org/wiki/Dhole",
     "continent": "Ázia",
     "sciName": "Cuon alpinus",
     "fact": "Dhoul je ázijský divoký pes, ktorý loví vo svorkách a dokáže zahnať aj tigra od jeho koristi.",
@@ -1133,7 +1133,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Fishing_cat",
     "label": "Mačka rybárska",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Fishing_cat",
+    "imageUrl": "https://en.wikipedia.org/wiki/Fishing_cat",
     "continent": "Ázia",
     "sciName": "Prionailurus viverrinus",
     "fact": "Mačka rybárska loví ryby tak, že ich vytlápa labami z vody, a má čiastočne blanité prsty.",
@@ -1146,7 +1146,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Dugong",
     "label": "Dugong",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Dugong",
+    "imageUrl": "https://en.wikipedia.org/wiki/Dugong",
     "continent": "Ázia",
     "sciName": "Dugong dugon",
     "fact": "Dugong je morský bylinožravec príbuzný slonovi a živí sa morskými trávami na plytčinách.",
@@ -1159,7 +1159,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Indian_flying_fox",
     "label": "Kalôň indický",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Indian_flying_fox",
+    "imageUrl": "https://en.wikipedia.org/wiki/Indian_flying_fox",
     "continent": "Ázia",
     "sciName": "Pteropus giganteus",
     "fact": "Kalôň indický má rozpätie krídel až 1,5 metra a je jedným z najväčších netopierov na svete.",
@@ -1172,7 +1172,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Golden_snub-nosed_monkey",
     "label": "Opica zlatá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Golden_snub-nosed_monkey",
+    "imageUrl": "https://en.wikipedia.org/wiki/Golden_snub-nosed_monkey",
     "continent": "Ázia",
     "sciName": "Rhinopithecus roxellana",
     "fact": "Opica zlatá žije v horských lesoch Číny vo výškach nad 3 000 metrov a znáša extrémne chlad.",
@@ -1185,7 +1185,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Tibetan_fox",
     "label": "Líška tibetská",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tibetan_fox",
+    "imageUrl": "https://en.wikipedia.org/wiki/Tibetan_fox",
     "continent": "Ázia",
     "sciName": "Vulpes ferrilata",
     "fact": "Líška tibetská má charakteristicky hranatú tvár so širokými lícami a žije na tibetskej náhornej plošine.",
@@ -1198,7 +1198,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Gaur",
     "label": "Gaur",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Gaur",
+    "imageUrl": "https://en.wikipedia.org/wiki/Gaur",
     "continent": "Ázia",
     "sciName": "Bos gaurus",
     "fact": "Gaur je najväčší divoký hovädzí dobytok na svete a samce môžu vážiť až 1 500 kg.",
@@ -1211,7 +1211,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Chinese_alligator",
     "label": "Aligátor čínsky",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Chinese_alligator",
+    "imageUrl": "https://en.wikipedia.org/wiki/Chinese_alligator",
     "continent": "Ázia",
     "sciName": "Alligator sinensis",
     "fact": "Aligátor čínsky je jeden z najmenších krokodílov na svete a žije len v povodí rieky Jang-c'-ťiang.",
@@ -1224,7 +1224,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Reticulated_python",
     "label": "Pytón sieťkovaný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Reticulated_python",
+    "imageUrl": "https://en.wikipedia.org/wiki/Reticulated_python",
     "continent": "Ázia",
     "sciName": "Malayopython reticulatus",
     "fact": "Pytón sieťkovaný je najdlhší had na svete a môže dorásť do dĺžky 10 metrov.",
@@ -1237,7 +1237,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Javan_rhinoceros",
     "label": "Nosorožec jávsky",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Javan_rhinoceros",
+    "imageUrl": "https://en.wikipedia.org/wiki/Javan_rhinoceros",
     "continent": "Ázia",
     "sciName": "Rhinoceros sondaicus",
     "fact": "Nosorožec jávsky je najvzácnejší veľký cicavec na svete – prežíva len asi 70 jedincov na Jáve.",
@@ -1250,7 +1250,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Lar_gibbon",
     "label": "Gibon bielolíci",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Lar_gibbon",
+    "imageUrl": "https://en.wikipedia.org/wiki/Lar_gibbon",
     "continent": "Ázia",
     "sciName": "Hylobates lar",
     "fact": "Gibon bielolíci sa pohybuje houpavým letom medzi konármi rýchlosťou až 55 km/h – hovorí sa tomu brachiácia.",
@@ -1263,7 +1263,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Sumatran_tiger",
     "label": "Tiger sumatriansky",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sumatran_tiger",
+    "imageUrl": "https://en.wikipedia.org/wiki/Sumatran_tiger",
     "continent": "Ázia",
     "sciName": "Panthera tigris sumatrae",
     "fact": "Tiger sumatriansky je najmenší poddruh tigra a žije len na ostrove Sumatra v Indonézii.",
@@ -1276,7 +1276,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Asian_water_buffalo",
     "label": "Byvol vodný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Asian_water_buffalo",
+    "imageUrl": "https://en.wikipedia.org/wiki/Asian_water_buffalo",
     "continent": "Ázia",
     "sciName": "Bubalus bubalis",
     "fact": "Byvol vodný trávi veľkú časť dňa ponorený vo vode alebo bahne, čo ho chráni pred parazitmi a horúčavou.",
@@ -1289,7 +1289,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Bali_myna",
     "label": "Škorec balijský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Bali_myna",
+    "imageUrl": "https://en.wikipedia.org/wiki/Bali_myna",
     "continent": "Ázia",
     "sciName": "Leucopsar rothschildi",
     "fact": "Škorec balijský je kriticky ohrozený vták žijúci len na ostrove Bali s menej ako 100 jedincami v divočine.",
@@ -1302,7 +1302,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Sunda_pangolin",
     "label": "Luskáň malajský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sunda_pangolin",
+    "imageUrl": "https://en.wikipedia.org/wiki/Sunda_pangolin",
     "continent": "Ázia",
     "sciName": "Manis javanica",
     "fact": "Luskáň malajský je jedno z najčastejšie pašovaných zvierat na svete kvôli jeho šupinám.",
@@ -1315,7 +1315,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Indian_star_tortoise",
     "label": "Korytnačka hviezdnatá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Indian_star_tortoise",
+    "imageUrl": "https://en.wikipedia.org/wiki/Indian_star_tortoise",
     "continent": "Ázia",
     "sciName": "Geochelone elegans",
     "fact": "Korytnačka hviezdnatá má výrazný hviezdovitý vzor na pancieri, ktorý slúži ako kamufláž v tráve.",
@@ -1328,7 +1328,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Himalayan_tahr",
     "label": "Tahr himalájsky",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Himalayan_tahr",
+    "imageUrl": "https://en.wikipedia.org/wiki/Himalayan_tahr",
     "continent": "Ázia",
     "sciName": "Hemitragus jemlahicus",
     "fact": "Tahr himalájsky je horská koza žijúca v strmých skalnatých svahoch Himalájí vo výškach nad 4 000 metrov.",
@@ -1341,7 +1341,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Irrawaddy_dolphin",
     "label": "Delfín irávatský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Irrawaddy_dolphin",
+    "imageUrl": "https://en.wikipedia.org/wiki/Irrawaddy_dolphin",
     "continent": "Ázia",
     "sciName": "Orcaella brevirostris",
     "fact": "Delfín irávatský má zaoblený čelo bez výrazného zobáka a žije v riekach a pobrežných vodách juhovýchodnej Ázie.",
@@ -1354,7 +1354,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Tibetan_antelope",
     "label": "Čírú",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tibetan_antelope",
+    "imageUrl": "https://en.wikipedia.org/wiki/Tibetan_antelope",
     "continent": "Ázia",
     "sciName": "Pantholops hodgsonii",
     "fact": "Čírú je antilopa žijúca na tibetskej plošine, ktorej jemná vlna je najtenšia spomedzi všetkých zvierat.",
@@ -1367,7 +1367,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Kiang",
     "label": "Kiang",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Kiang",
+    "imageUrl": "https://en.wikipedia.org/wiki/Kiang",
     "continent": "Ázia",
     "sciName": "Equus kiang",
     "fact": "Kiang je najväčší druh divokého osla na svete a žije na tibetskej náhornej plošine.",
@@ -1380,7 +1380,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Flying_lemur",
     "label": "Letucha",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Flying_lemur",
+    "imageUrl": "https://en.wikipedia.org/wiki/Flying_lemur",
     "continent": "Ázia",
     "sciName": "Galeopterus variegatus",
     "fact": "Letucha v skutočnosti nelieta – kĺže vzduchom pomocou kožnej blany rozprestretej medzi končatinami na vzdialenosť až 70 metrov.",
@@ -1393,7 +1393,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Draco_lizard",
     "label": "Jašterica lietajúca",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Draco_lizard",
+    "imageUrl": "https://en.wikipedia.org/wiki/Draco_lizard",
     "continent": "Ázia",
     "sciName": "Draco volans",
     "fact": "Jašterica lietajúca má predĺžené rebrá pokryté kožnou blanou, vďaka ktorej kĺže medzi stromami.",
@@ -1406,7 +1406,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Pig-tailed_macaque",
     "label": "Makak veprovitý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Pig-tailed_macaque",
+    "imageUrl": "https://en.wikipedia.org/wiki/Pig-tailed_macaque",
     "continent": "Ázia",
     "sciName": "Macaca nemestrina",
     "fact": "Makak veprovitý má krátky chvost zakrútený ako prasací a v Thajsku bol cvičený na zber kokosových orechov.",
@@ -1419,7 +1419,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Indian_python",
     "label": "Pytón indicý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Indian_python",
+    "imageUrl": "https://en.wikipedia.org/wiki/Indian_python",
     "continent": "Ázia",
     "sciName": "Python molurus",
     "fact": "Pytón indický dokáže prehĺtať korisť väčšiu ako je jeho hlava vďaka pružným čeľustiam.",
@@ -1432,7 +1432,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Sumatran_rhinoceros",
     "label": "Nosorožec sumatriansky",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sumatran_rhinoceros",
+    "imageUrl": "https://en.wikipedia.org/wiki/Sumatran_rhinoceros",
     "continent": "Ázia",
     "sciName": "Dicerorhinus sumatrensis",
     "fact": "Nosorožec sumatriansky je najmenší a najchlpatejší druh nosorožca a je kriticky ohrozený.",
@@ -1445,7 +1445,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Asian_small-clawed_otter",
     "label": "Vydra malá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Asian_small-clawed_otter",
+    "imageUrl": "https://en.wikipedia.org/wiki/Asian_small-clawed_otter",
     "continent": "Ázia",
     "sciName": "Aonyx cinereus",
     "fact": "Vydra malá je najmenší druh vydry na svete a má čiastočne vyvinuté blany medzi prstami.",
@@ -1458,7 +1458,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Brown_bear",
     "label": "Medveď hnedý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Brown_bear",
+    "imageUrl": "https://en.wikipedia.org/wiki/Brown_bear",
     "continent": [
       "Európa",
       "Ázia"
@@ -1474,7 +1474,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/European_bison",
     "label": "Zubor európsky",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/European_bison",
+    "imageUrl": "https://en.wikipedia.org/wiki/European_bison",
     "continent": "Európa",
     "sciName": "Bison bonasus",
     "fact": "Zubor európsky je najväčšie suchozemské zviera v Európe a začiatkom 20. storočia bol takmer vyhubený.",
@@ -1487,7 +1487,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Grey_wolf",
     "label": "Vlk dravý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Grey_wolf",
+    "imageUrl": "https://en.wikipedia.org/wiki/Grey_wolf",
     "continent": [
       "Európa",
       "Ázia"
@@ -1503,7 +1503,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Eurasian_lynx",
     "label": "Rys ostrovid",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Eurasian_lynx",
+    "imageUrl": "https://en.wikipedia.org/wiki/Eurasian_lynx",
     "continent": "Európa",
     "sciName": "Lynx lynx",
     "fact": "Rys ostrovid je najväčšia európska mačkovitá šelma a loví hlavne srnce a zajace.",
@@ -1516,7 +1516,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Wild_boar",
     "label": "Diviak lesný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Wild_boar",
+    "imageUrl": "https://en.wikipedia.org/wiki/Wild_boar",
     "continent": "Európa",
     "sciName": "Sus scrofa",
     "fact": "Diviak lesný je predkom domáceho prasaťa a je jedným z najrozšírenejších veľkých cicavcov na svete.",
@@ -1529,7 +1529,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Red_fox",
     "label": "Líška hrdzavá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Red_fox",
+    "imageUrl": "https://en.wikipedia.org/wiki/Red_fox",
     "continent": "Európa",
     "sciName": "Vulpes vulpes",
     "fact": "Líška hrdzavá je najrozšírenejší divoký mäsožravec na svete a žije na všetkých kontinentoch okrem Antarktídy.",
@@ -1542,7 +1542,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Roe_deer",
     "label": "Srnec hôrny",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Roe_deer",
+    "imageUrl": "https://en.wikipedia.org/wiki/Roe_deer",
     "continent": "Európa",
     "sciName": "Capreolus capreolus",
     "fact": "Srnec hôrny je najmenší európsky jeleňovitý a samce zhadzujú parožie každý rok na jeseň.",
@@ -1555,7 +1555,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/European_beaver",
     "label": "Bobor vodný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/European_beaver",
+    "imageUrl": "https://en.wikipedia.org/wiki/European_beaver",
     "continent": "Európa",
     "sciName": "Castor fiber",
     "fact": "Bobor vodný stavia hrádze z konárov a bahna, ktoré vytvárajú jazerá a menia celý ekosystém.",
@@ -1568,7 +1568,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/White_stork",
     "label": "Bocian biely",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/White_stork",
+    "imageUrl": "https://en.wikipedia.org/wiki/White_stork",
     "continent": "Európa",
     "sciName": "Ciconia ciconia",
     "fact": "Bocian biely hniezdí na komínoch a stĺpoch blízko ľudských obydlí a každý rok sa vracia do rovnakého hniezda.",
@@ -1581,7 +1581,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Barn_owl",
     "label": "Plamienka driemavá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Barn_owl",
+    "imageUrl": "https://en.wikipedia.org/wiki/Barn_owl",
     "continent": "Európa",
     "sciName": "Tyto alba",
     "fact": "Plamienka driemavá má tvár v tvare srdca a dokáže loviť v úplnej tme len podľa zvuku.",
@@ -1594,7 +1594,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Eurasian_eagle-owl",
     "label": "Výr skalný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Eurasian_eagle-owl",
+    "imageUrl": "https://en.wikipedia.org/wiki/Eurasian_eagle-owl",
     "continent": "Európa",
     "sciName": "Bubo bubo",
     "fact": "Výr skalný je najväčšia európska sova s rozpätím krídel až 188 cm.",
@@ -1607,7 +1607,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Atlantic_puffin",
     "label": "Papuchalk severský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Atlantic_puffin",
+    "imageUrl": "https://en.wikipedia.org/wiki/Atlantic_puffin",
     "continent": "Európa",
     "sciName": "Fratercula arctica",
     "fact": "Papuchalk severský dokáže v zobáku preniesť naraz aj 10-20 rybičiek usporiadaných vedľa seba.",
@@ -1620,7 +1620,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Dalmatian_pelican",
     "label": "Pelikán kučeravý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Dalmatian_pelican",
+    "imageUrl": "https://en.wikipedia.org/wiki/Dalmatian_pelican",
     "continent": "Európa",
     "sciName": "Pelecanus crispus",
     "fact": "Pelikán kučeravý je najväčší európsky vodný vták s rozpätím krídel až 3,5 metra.",
@@ -1633,7 +1633,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/European_hedgehog",
     "label": "Jež západný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/European_hedgehog",
+    "imageUrl": "https://en.wikipedia.org/wiki/European_hedgehog",
     "continent": "Európa",
     "sciName": "Erinaceus europaeus",
     "fact": "Jež západný sa pri nebezpečenstve stočí do klbka a nastráži asi 5 000 ostňov na obranu.",
@@ -1646,7 +1646,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Alpine_ibex",
     "label": "Kozorožec alpský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Alpine_ibex",
+    "imageUrl": "https://en.wikipedia.org/wiki/Alpine_ibex",
     "continent": "Európa",
     "sciName": "Capra ibex",
     "fact": "Kozorožec alpský dokáže liezť po takmer zvislých skalných stenách vďaka špeciálne prispôsobeným kopytám.",
@@ -1659,7 +1659,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Chamois",
     "label": "Kamzík vrchovský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Chamois",
+    "imageUrl": "https://en.wikipedia.org/wiki/Chamois",
     "continent": "Európa",
     "sciName": "Rupicapra rupicapra",
     "fact": "Kamzík vrchovský dokáže skákať medzi skalnými výstupkami a je symbolom vysokohorskej prírody Álp a Tatier.",
@@ -1672,7 +1672,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/European_otter",
     "label": "Vydra riečna",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/European_otter",
+    "imageUrl": "https://en.wikipedia.org/wiki/European_otter",
     "continent": "Európa",
     "sciName": "Lutra lutra",
     "fact": "Vydra riečna je výborný plavec a dokáže zadržať dych pod vodou až 8 minút.",
@@ -1685,7 +1685,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Wolverine",
     "label": "Rosomák sivobledý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Wolverine",
+    "imageUrl": "https://en.wikipedia.org/wiki/Wolverine",
     "continent": [
       "Severná Amerika",
       "Európa"
@@ -1701,7 +1701,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/European_mink",
     "label": "Norok európsky",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/European_mink",
+    "imageUrl": "https://en.wikipedia.org/wiki/European_mink",
     "continent": "Európa",
     "sciName": "Mustela lutreola",
     "fact": "Norok európsky je kriticky ohrozený druh a takmer vyhynul kvôli konkurencii s inváznym norkom americkým.",
@@ -1714,7 +1714,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Mouflon",
     "label": "Muflón",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mouflon",
+    "imageUrl": "https://en.wikipedia.org/wiki/Mouflon",
     "continent": "Európa",
     "sciName": "Ovis gmelini",
     "fact": "Muflón je predkom domácej ovce a pôvodne pochádza z ostrovov Korzika a Sardínia.",
@@ -1727,7 +1727,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Red_deer",
     "label": "Jeleň lesný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Red_deer",
+    "imageUrl": "https://en.wikipedia.org/wiki/Red_deer",
     "continent": "Európa",
     "sciName": "Cervus elaphus",
     "fact": "Jeleň lesný je jeden z najväčších jeleňov v Európe a samce sa na jeseň ozývajú mohutným revom počas ruje.",
@@ -1740,7 +1740,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Fallow_deer",
     "label": "Daniel škvrnitý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Fallow_deer",
+    "imageUrl": "https://en.wikipedia.org/wiki/Fallow_deer",
     "continent": "Európa",
     "sciName": "Dama dama",
     "fact": "Daniel škvrnitý má charakteristické lopatkovité parožie a biele škvrny na srsti.",
@@ -1753,7 +1753,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Reindeer",
     "label": "Sob polárny",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Reindeer",
+    "imageUrl": "https://en.wikipedia.org/wiki/Reindeer",
     "continent": [
       "Európa",
       "Severná Amerika"
@@ -1769,7 +1769,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Arctic_fox",
     "label": "Líška polárna",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Arctic_fox",
+    "imageUrl": "https://en.wikipedia.org/wiki/Arctic_fox",
     "continent": [
       "Európa",
       "Severná Amerika"
@@ -1785,7 +1785,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Golden_eagle",
     "label": "Orol skalný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Golden_eagle",
+    "imageUrl": "https://en.wikipedia.org/wiki/Golden_eagle",
     "continent": "Európa",
     "sciName": "Aquila chrysaetos",
     "fact": "Orol skalný je jeden z najsilnejších dravcov a dokáže sa vrhnúť na korisť rýchlosťou cez 300 km/h.",
@@ -1798,7 +1798,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/White-tailed_eagle",
     "label": "Orliak morský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/White-tailed_eagle",
+    "imageUrl": "https://en.wikipedia.org/wiki/White-tailed_eagle",
     "continent": "Európa",
     "sciName": "Haliaeetus albicilla",
     "fact": "Orliak morský má rozpätie krídel až 2,4 metra a je najväčším dravým vtákom v Európe.",
@@ -1811,7 +1811,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Peregrine_falcon",
     "label": "Sokol sťahovavý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Peregrine_falcon",
+    "imageUrl": "https://en.wikipedia.org/wiki/Peregrine_falcon",
     "continent": "Európa",
     "sciName": "Falco peregrinus",
     "fact": "Sokol sťahovavý je najrýchlejšie zviera na svete – pri strmhlavom lete dosahuje rýchlosť cez 380 km/h.",
@@ -1824,7 +1824,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Common_kingfisher",
     "label": "Rybárik riečny",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Common_kingfisher",
+    "imageUrl": "https://en.wikipedia.org/wiki/Common_kingfisher",
     "continent": "Európa",
     "sciName": "Alcedo atthis",
     "fact": "Rybárik riečny sa strmhlav potápa do vody a loví ryby, pričom jeho farebné perie je výsledkom lomu svetla, nie pigmentov.",
@@ -1837,7 +1837,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Hoopoe",
     "label": "Dudok chochlatý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Hoopoe",
+    "imageUrl": "https://en.wikipedia.org/wiki/Hoopoe",
     "continent": "Európa",
     "sciName": "Upupa epops",
     "fact": "Dudok chochlatý má výrazný chochol, ktorý roztvára do vejára, a na obranu hniezda produkuje zapáchajúci sekrét.",
@@ -1850,7 +1850,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Common_crane",
     "label": "Žeriav popolavý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Common_crane",
+    "imageUrl": "https://en.wikipedia.org/wiki/Common_crane",
     "continent": "Európa",
     "sciName": "Grus grus",
     "fact": "Žeriav popolavý je známy svojimi pôsobivými svadobnými tancami, pri ktorých páriky skáču a točia sa.",
@@ -1863,7 +1863,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/European_badger",
     "label": "Jazvec lesný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/European_badger",
+    "imageUrl": "https://en.wikipedia.org/wiki/European_badger",
     "continent": "Európa",
     "sciName": "Meles meles",
     "fact": "Jazvec lesný žije v podzemných norách zvaných hradby, ktoré môže používať viacero generácií.",
@@ -1876,7 +1876,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/European_polecat",
     "label": "Tchor tmavý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/European_polecat",
+    "imageUrl": "https://en.wikipedia.org/wiki/European_polecat",
     "continent": "Európa",
     "sciName": "Mustela putorius",
     "fact": "Tchor tmavý je predkom domáceho fretky a pri nebezpečenstve vypúšťa zapáchajúci sekrét z análnych žliaz.",
@@ -1889,7 +1889,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Common_kestrel",
     "label": "Sokol myšiar",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Common_kestrel",
+    "imageUrl": "https://en.wikipedia.org/wiki/Common_kestrel",
     "continent": "Európa",
     "sciName": "Falco tinnunculus",
     "fact": "Sokol myšiar dokáže visieť nehybne vo vzduchu – triepotať krídlami na jednom mieste počas lovu hlodavcov.",
@@ -1902,7 +1902,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Black_stork",
     "label": "Bocian čierny",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Black_stork",
+    "imageUrl": "https://en.wikipedia.org/wiki/Black_stork",
     "continent": "Európa",
     "sciName": "Ciconia nigra",
     "fact": "Bocian čierny je plachý lesný vták, na rozdiel od bocianu bieleho sa vyhýba ľudským sídlam.",
@@ -1915,7 +1915,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Great_grey_owl",
     "label": "Sova dlhochvostá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Great_grey_owl",
+    "imageUrl": "https://en.wikipedia.org/wiki/Great_grey_owl",
     "continent": "Európa",
     "sciName": "Strix nebulosa",
     "fact": "Sova dlhochvostá je jedna z najväčších sov na svete a dokáže zachytiť korisť pod snehom len podľa sluchu.",
@@ -1928,7 +1928,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Eurasian_spoonbill",
     "label": "Lyžičiar biely",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Eurasian_spoonbill",
+    "imageUrl": "https://en.wikipedia.org/wiki/Eurasian_spoonbill",
     "continent": "Európa",
     "sciName": "Platalea leucorodia",
     "fact": "Lyžičiar biely má zobák v tvare lyžice, ktorým cedí vodu a filtruje drobnú korisť.",
@@ -1941,7 +1941,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Stone_marten",
     "label": "Kuna skalná",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Stone_marten",
+    "imageUrl": "https://en.wikipedia.org/wiki/Stone_marten",
     "continent": "Európa",
     "sciName": "Martes foina",
     "fact": "Kuna skalná žije často v blízkosti ľudí a je známa tým, že prehryzie káble v motorových vozidlách.",
@@ -1954,7 +1954,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/European_bee-eater",
     "label": "Včelárik zlatý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/European_bee-eater",
+    "imageUrl": "https://en.wikipedia.org/wiki/European_bee-eater",
     "continent": "Európa",
     "sciName": "Merops apiaster",
     "fact": "Včelárik zlatý chytá hmyz za letu a pred zjedením včely či osy jej opatrne vytrie žihadlo o konár.",
@@ -1967,7 +1967,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/European_ground_squirrel",
     "label": "Syseľ pasienkový",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/European_ground_squirrel",
+    "imageUrl": "https://en.wikipedia.org/wiki/European_ground_squirrel",
     "continent": "Európa",
     "sciName": "Spermophilus citellus",
     "fact": "Syseľ pasienkový žije v kolóniách v podzemných norách a pred nebezpečenstvom varuje ostatných ostrým piskotom.",
@@ -1980,7 +1980,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/American_bison",
     "label": "Bizón americký",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/American_bison",
+    "imageUrl": "https://en.wikipedia.org/wiki/American_bison",
     "continent": "Severná Amerika",
     "sciName": "Bison bison",
     "fact": "Bizón americký je najväčšie suchozemské zviera Severnej Ameriky a kedysi sa po prérii túlali desiatky miliónov kusov.",
@@ -1993,7 +1993,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Grizzly_bear",
     "label": "Medveď grizly",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Grizzly_bear",
+    "imageUrl": "https://en.wikipedia.org/wiki/Grizzly_bear",
     "continent": "Severná Amerika",
     "sciName": "Ursus arctos horribilis",
     "fact": "Medveď grizly dokáže bežať rýchlosťou až 55 km/h a na jeseň zje denne až 40 kg potravy pred zimným spánkom.",
@@ -2006,7 +2006,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Polar_bear",
     "label": "Medveď biely",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Polar_bear",
+    "imageUrl": "https://en.wikipedia.org/wiki/Polar_bear",
     "continent": "Severná Amerika",
     "sciName": "Ursus maritimus",
     "fact": "Medveď biely má v skutočnosti čiernu kožu a priehľadnú srsť, ktorá len vyzerá bielo.",
@@ -2019,7 +2019,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Bald_eagle",
     "label": "Orol bielohlavý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Bald_eagle",
+    "imageUrl": "https://en.wikipedia.org/wiki/Bald_eagle",
     "continent": "Severná Amerika",
     "sciName": "Haliaeetus leucocephalus",
     "fact": "Orol bielohlavý je národným symbolom USA a stavia obrovské hniezda vážiace aj viac ako tonu.",
@@ -2032,7 +2032,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Mountain_lion",
     "label": "Puma americká",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mountain_lion",
+    "imageUrl": "https://en.wikipedia.org/wiki/Mountain_lion",
     "continent": "Severná Amerika",
     "sciName": "Puma concolor",
     "fact": "Puma americká má najväčší areál rozšírenia spomedzi všetkých veľkých suchozemských cicavcov v Amerike.",
@@ -2045,7 +2045,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Gray_wolf",
     "label": "Vlk sivý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Gray_wolf",
+    "imageUrl": "https://en.wikipedia.org/wiki/Gray_wolf",
     "continent": "Severná Amerika",
     "sciName": "Canis lupus",
     "fact": "Vlk sivý bol takmer vyhubený v USA, ale úspešne ho reintrodukovali v Yellowstonskom národnom parku.",
@@ -2058,7 +2058,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Moose",
     "label": "Los mokraďový",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Moose",
+    "imageUrl": "https://en.wikipedia.org/wiki/Moose",
     "continent": "Severná Amerika",
     "sciName": "Alces alces",
     "fact": "Los mokraďový je najväčší jeleňovitý na svete – samce môžu vážiť až 700 kg a mať parožie široké 1,8 metra.",
@@ -2071,7 +2071,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Elk",
     "label": "Wapiti",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Elk",
+    "imageUrl": "https://en.wikipedia.org/wiki/Elk",
     "continent": "Severná Amerika",
     "sciName": "Cervus canadensis",
     "fact": "Wapiti je druhý najväčší jeleňovitý na svete a samce sú známe svojím prenikavým trúbením počas ruje.",
@@ -2084,7 +2084,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/White-tailed_deer",
     "label": "Jeleň bielochvostý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/White-tailed_deer",
+    "imageUrl": "https://en.wikipedia.org/wiki/White-tailed_deer",
     "continent": "Severná Amerika",
     "sciName": "Odocoileus virginianus",
     "fact": "Jeleň bielochvostý pri úteku zdvíha biely chvost ako varovný signál pre ostatných členov stáda.",
@@ -2097,7 +2097,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Pronghorn",
     "label": "Vidloroh americký",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Pronghorn",
+    "imageUrl": "https://en.wikipedia.org/wiki/Pronghorn",
     "continent": "Severná Amerika",
     "sciName": "Antilocapra americana",
     "fact": "Vidloroh americký je najrýchlejšie suchozemské zviera Severnej Ameriky a dokáže bežať rýchlosťou až 88 km/h.",
@@ -2110,7 +2110,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Raccoon",
     "label": "Medvedík čistotný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Raccoon",
+    "imageUrl": "https://en.wikipedia.org/wiki/Raccoon",
     "continent": "Severná Amerika",
     "sciName": "Procyon lotor",
     "fact": "Medvedík čistotný má mimoriadne citlivé predné labky a pred jedením si často 'umýva' potravu vo vode.",
@@ -2123,7 +2123,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Striped_skunk",
     "label": "Skunk pruhovaný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Striped_skunk",
+    "imageUrl": "https://en.wikipedia.org/wiki/Striped_skunk",
     "continent": "Severná Amerika",
     "sciName": "Mephitis mephitis",
     "fact": "Skunk pruhovaný dokáže vystreliť zapáchajúcu tekutinu z análnych žliaz presne na vzdialenosť až 5 metrov.",
@@ -2136,7 +2136,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/North_American_beaver",
     "label": "Bobor kanadský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/North_American_beaver",
+    "imageUrl": "https://en.wikipedia.org/wiki/North_American_beaver",
     "continent": "Severná Amerika",
     "sciName": "Castor canadensis",
     "fact": "Bobor kanadský je najväčší hlodavec Severnej Ameriky a stavia hrádze dlhé aj stovky metrov.",
@@ -2149,7 +2149,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/North_American_porcupine",
     "label": "Dikobraz stromový",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/North_American_porcupine",
+    "imageUrl": "https://en.wikipedia.org/wiki/North_American_porcupine",
     "continent": "Severná Amerika",
     "sciName": "Erethizon dorsatum",
     "fact": "Dikobraz stromový má asi 30 000 ostňov s drobnými háčikmi na konci, ktoré sťažujú ich vytiahnutie z kože útočníka.",
@@ -2162,7 +2162,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/American_black_bear",
     "label": "Medveď baribal",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/American_black_bear",
+    "imageUrl": "https://en.wikipedia.org/wiki/American_black_bear",
     "continent": "Severná Amerika",
     "sciName": "Ursus americanus",
     "fact": "Medveď baribal je najrozšírenejší medveď v Severnej Amerike a nie vždy je čierny – môže byť hnedý, blond či dokonca biely.",
@@ -2175,7 +2175,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Bobcat",
     "label": "Rys červený",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Bobcat",
+    "imageUrl": "https://en.wikipedia.org/wiki/Bobcat",
     "continent": "Severná Amerika",
     "sciName": "Lynx rufus",
     "fact": "Rys červený je najrozšírenejšia divoká mačka v Severnej Amerike a žije od Kanady až po Mexiko.",
@@ -2188,7 +2188,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Canada_lynx",
     "label": "Rys kanadský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Canada_lynx",
+    "imageUrl": "https://en.wikipedia.org/wiki/Canada_lynx",
     "continent": "Severná Amerika",
     "sciName": "Lynx canadensis",
     "fact": "Rys kanadský má obrovské chlpaté labky, ktoré fungujú ako snežnice a umožňujú mu pohybovať sa po snehu.",
@@ -2201,7 +2201,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Coyote",
     "label": "Kojot prérijný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Coyote",
+    "imageUrl": "https://en.wikipedia.org/wiki/Coyote",
     "continent": "Severná Amerika",
     "sciName": "Canis latrans",
     "fact": "Kojot prérijný je mimoriadne prispôsobivý a dokázal rozšíriť svoj areál napriek urbanizácii – žije aj v mestách.",
@@ -2214,7 +2214,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/American_alligator",
     "label": "Aligátor mississippský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/American_alligator",
+    "imageUrl": "https://en.wikipedia.org/wiki/American_alligator",
     "continent": "Severná Amerika",
     "sciName": "Alligator mississippiensis",
     "fact": "Aligátor mississippský prežil 65 miliónov rokov takmer nezmenený a samice strážia hniezda a pomáhajú mláďatám do vody.",
@@ -2227,7 +2227,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Gila_monster",
     "label": "Jedovatec hrubochvostý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Gila_monster",
+    "imageUrl": "https://en.wikipedia.org/wiki/Gila_monster",
     "continent": "Severná Amerika",
     "sciName": "Heloderma suspectum",
     "fact": "Jedovatec hrubochvostý je jeden z mála jedovatých jašterov na svete a jed vpravuje žuvaním, nie uhryznutím.",
@@ -2240,7 +2240,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Rattlesnake",
     "label": "Chrastiakovec",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Rattlesnake",
+    "imageUrl": "https://en.wikipedia.org/wiki/Rattlesnake",
     "continent": "Severná Amerika",
     "sciName": "Crotalus spp.",
     "fact": "Chrastiakovec má na konci chvosta hrkálku z keratínových segmentov, ktorou varuje pred nebezpečenstvom.",
@@ -2253,7 +2253,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/California_condor",
     "label": "Kondor kalifornský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/California_condor",
+    "imageUrl": "https://en.wikipedia.org/wiki/California_condor",
     "continent": "Severná Amerika",
     "sciName": "Gymnogyps californianus",
     "fact": "Kondor kalifornský má rozpätie krídel cez 2,7 metra a bol zachránený pred vyhynutím, keď zostalo len 22 jedincov.",
@@ -2266,7 +2266,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Wild_turkey",
     "label": "Moriak divý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Wild_turkey",
+    "imageUrl": "https://en.wikipedia.org/wiki/Wild_turkey",
     "continent": "Severná Amerika",
     "sciName": "Meleagris gallopavo",
     "fact": "Moriak divý je predkom domáceho moriaka a dokáže lietať krátke vzdialenosti rýchlosťou až 88 km/h.",
@@ -2279,7 +2279,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Roadrunner",
     "label": "Kukučka zemnobežná",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Roadrunner",
+    "imageUrl": "https://en.wikipedia.org/wiki/Roadrunner",
     "continent": "Severná Amerika",
     "sciName": "Geococcyx californianus",
     "fact": "Kukučka zemnobežná beží rýchlosťou až 32 km/h a loví hady a jašterice na zemi.",
@@ -2292,7 +2292,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/American_bullfrog",
     "label": "Žaba volská",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/American_bullfrog",
+    "imageUrl": "https://en.wikipedia.org/wiki/American_bullfrog",
     "continent": "Severná Amerika",
     "sciName": "Lithobates catesbeianus",
     "fact": "Žaba volská je najväčšia žaba v Severnej Amerike a jej bučanie pripomína revanie býka.",
@@ -2305,7 +2305,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Snapping_turtle",
     "label": "Korytnačka kajmancia",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Snapping_turtle",
+    "imageUrl": "https://en.wikipedia.org/wiki/Snapping_turtle",
     "continent": "Severná Amerika",
     "sciName": "Chelydra serpentina",
     "fact": "Korytnačka kajmancia má mimoriadne silný hryz a dokáže prehrýzť aj drevenú palicu.",
@@ -2318,7 +2318,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Bighorn_sheep",
     "label": "Ovca tlstorohá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Bighorn_sheep",
+    "imageUrl": "https://en.wikipedia.org/wiki/Bighorn_sheep",
     "continent": "Severná Amerika",
     "sciName": "Ovis canadensis",
     "fact": "Ovca tlstorohá sa pri súbojoch samcov trkáva hlavami silou porovnateľnou s nárazom auta pri 55 km/h.",
@@ -2331,7 +2331,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Mountain_goat",
     "label": "Kamzík snežný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Mountain_goat",
+    "imageUrl": "https://en.wikipedia.org/wiki/Mountain_goat",
     "continent": "Severná Amerika",
     "sciName": "Oreamnos americanus",
     "fact": "Kamzík snežný žije vo výškach nad 3 000 metrov a dokáže liezť po takmer kolmých skalách.",
@@ -2344,7 +2344,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Manatee",
     "label": "Kapustňák americký",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Manatee",
+    "imageUrl": "https://en.wikipedia.org/wiki/Manatee",
     "continent": "Severná Amerika",
     "sciName": "Trichechus manatus",
     "fact": "Kapustňák americký je jemný morský cicavec, ktorý sa živí výhradne morskými riasami a trávou a váži až 600 kg.",
@@ -2357,7 +2357,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Armadillo",
     "label": "Pásavec deväťpásový",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Armadillo",
+    "imageUrl": "https://en.wikipedia.org/wiki/Armadillo",
     "continent": "Severná Amerika",
     "sciName": "Dasypus novemcinctus",
     "fact": "Pásavec deväťpásový má kostený pancier a vždy rodí jednovaječné štvičatá.",
@@ -2370,7 +2370,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Opossum",
     "label": "Oposum virgínsky",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Opossum",
+    "imageUrl": "https://en.wikipedia.org/wiki/Opossum",
     "continent": "Severná Amerika",
     "sciName": "Didelphis virginiana",
     "fact": "Oposum virgínsky pri ohrození predstiera smrť – zostane nepohyblivý a dokonca vypúšťa zapáchajúcu tekutinu.",
@@ -2383,7 +2383,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Prairie_dog",
     "label": "Psoun prérijný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Prairie_dog",
+    "imageUrl": "https://en.wikipedia.org/wiki/Prairie_dog",
     "continent": "Severná Amerika",
     "sciName": "Cynomys ludovicianus",
     "fact": "Psoun prérijný žije v obrovských podzemných kolóniách nazývaných mestečká, ktoré môžu mať tisíce obyvateľov.",
@@ -2396,7 +2396,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/River_otter",
     "label": "Vydra riečna severoamerická",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/River_otter",
+    "imageUrl": "https://en.wikipedia.org/wiki/River_otter",
     "continent": "Severná Amerika",
     "sciName": "Lontra canadensis",
     "fact": "Vydra riečna severoamerická je hravé zviera a klže sa po blate a snehu len pre zábavu.",
@@ -2409,7 +2409,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/American_crow",
     "label": "Vrana americká",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/American_crow",
+    "imageUrl": "https://en.wikipedia.org/wiki/American_crow",
     "continent": "Severná Amerika",
     "sciName": "Corvus brachyrhynchos",
     "fact": "Vrana americká patrí medzi najinteligentnejšie vtáky – dokáže používať nástroje a rozpoznávať ľudské tváre.",
@@ -2422,7 +2422,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Ruby-throated_hummingbird",
     "label": "Kolibrík rubínohrdlý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ruby-throated_hummingbird",
+    "imageUrl": "https://en.wikipedia.org/wiki/Ruby-throated_hummingbird",
     "continent": "Severná Amerika",
     "sciName": "Archilochus colubris",
     "fact": "Kolibrík rubínohrdlý máva krídlami až 53-krát za sekundu a ako jediný vták dokáže lietať dozadu.",
@@ -2435,7 +2435,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Hellbender",
     "label": "Hellbender",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Hellbender",
+    "imageUrl": "https://en.wikipedia.org/wiki/Hellbender",
     "continent": "Severná Amerika",
     "sciName": "Cryptobranchus alleganiensis",
     "fact": "Hellbender je najväčší severoamerický obojživelník – dosahuje dĺžku až 74 cm a dýcha prevažne kožou.",
@@ -2448,7 +2448,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Wolverine_NA",
     "label": "Rosomák severoamerický",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Wolverine_NA",
+    "imageUrl": "https://en.wikipedia.org/wiki/Wolverine_NA",
     "continent": "Severná Amerika",
     "sciName": "Gulo gulo luscus",
     "fact": "Rosomák severoamerický je neuveriteľne silný – dokáže ukradnúť korisť aj medveďovi grizly.",
@@ -2461,7 +2461,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Muskox",
     "label": "Pižmoň severný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Muskox",
+    "imageUrl": "https://en.wikipedia.org/wiki/Muskox",
     "continent": "Severná Amerika",
     "sciName": "Ovibos moschatus",
     "fact": "Pižmoň severný má podsrstku zvanú qiviut, ktorá je osemkrát teplejšia ako ovčia vlna.",
@@ -2474,7 +2474,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Osprey",
     "label": "Kršiak rybár",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Osprey",
+    "imageUrl": "https://en.wikipedia.org/wiki/Osprey",
     "continent": "Severná Amerika",
     "sciName": "Pandion haliaetus",
     "fact": "Kršiak rybár sa potápa nohami napred do vody a má špeciálne drsné vankúšiky na labkách na uchopenie klzkých rýb.",
@@ -2487,7 +2487,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/American_marten",
     "label": "Kuna americká",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/American_marten",
+    "imageUrl": "https://en.wikipedia.org/wiki/American_marten",
     "continent": "Severná Amerika",
     "sciName": "Martes americana",
     "fact": "Kuna americká je obratný lezec žijúci v ihličnatých lesoch a loví veverice vysoko v korunách stromov.",
@@ -2500,7 +2500,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Jaguar",
     "label": "Jaguár americký",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Jaguar",
+    "imageUrl": "https://en.wikipedia.org/wiki/Jaguar",
     "continent": "Južná Amerika",
     "sciName": "Panthera onca",
     "fact": "Jaguár americký má najsilnejší hryz spomedzi všetkých veľkých mačiek a dokáže prehrýzť aj korytnačí pancier.",
@@ -2513,7 +2513,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Anaconda",
     "label": "Anakonda veľká",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Anaconda",
+    "imageUrl": "https://en.wikipedia.org/wiki/Anaconda",
     "continent": "Južná Amerika",
     "sciName": "Eunectes murinus",
     "fact": "Anakonda veľká je najťažší had na svete – môže vážiť cez 200 kg a merať viac ako 7 metrov.",
@@ -2526,7 +2526,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Capybara",
     "label": "Kapybara",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Capybara",
+    "imageUrl": "https://en.wikipedia.org/wiki/Capybara",
     "continent": "Južná Amerika",
     "sciName": "Hydrochoerus hydrochaeris",
     "fact": "Kapybara je najväčší hlodavec na svete – váži až 65 kg a žije v skupinách pri vode.",
@@ -2539,7 +2539,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Llama",
     "label": "Lama",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Llama",
+    "imageUrl": "https://en.wikipedia.org/wiki/Llama",
     "continent": "Južná Amerika",
     "sciName": "Lama glama",
     "fact": "Lama je domestikované zviera z Ánd, ktoré slúži ako nosné zviera a pri podráždení pľuje.",
@@ -2552,7 +2552,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Alpaca",
     "label": "Alpaka",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Alpaca",
+    "imageUrl": "https://en.wikipedia.org/wiki/Alpaca",
     "continent": "Južná Amerika",
     "sciName": "Vicugna pacos",
     "fact": "Alpaka sa chová pre svoju jemnú vlnu, ktorá je teplejšia a ľahšia ako ovčia vlna.",
@@ -2565,7 +2565,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Vicu%C3%B1a",
     "label": "Vikuňa",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Vicu%C3%B1a",
+    "imageUrl": "https://en.wikipedia.org/wiki/Vicu%C3%B1a",
     "continent": "Južná Amerika",
     "sciName": "Vicugna vicugna",
     "fact": "Vikuňa má najjemnejšiu srsť spomedzi všetkých zvierat a jej vlna je drahšia ako kašmír.",
@@ -2578,7 +2578,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Giant_anteater",
     "label": "Mravčiar veľký",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Giant_anteater",
+    "imageUrl": "https://en.wikipedia.org/wiki/Giant_anteater",
     "continent": "Južná Amerika",
     "sciName": "Myrmecophaga tridactyla",
     "fact": "Mravčiar veľký má jazyk dlhý až 60 cm a dokáže ho vysunúť a zatiahnuť až 150-krát za minútu.",
@@ -2591,7 +2591,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Giant_armadillo",
     "label": "Pásavec veľký",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Giant_armadillo",
+    "imageUrl": "https://en.wikipedia.org/wiki/Giant_armadillo",
     "continent": "Južná Amerika",
     "sciName": "Priodontes maximus",
     "fact": "Pásavec veľký je najväčší pásavec na svete – váži až 50 kg a má asi 100 zubov, najviac spomedzi suchozemských cicavcov.",
@@ -2604,7 +2604,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Sloth",
     "label": "Leňochod trojprstý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sloth",
+    "imageUrl": "https://en.wikipedia.org/wiki/Sloth",
     "continent": "Južná Amerika",
     "sciName": "Bradypus variegatus",
     "fact": "Leňochod trojprstý je taký pomalý, že v jeho srsti rastú riasy, ktoré mu slúžia ako maskovanie.",
@@ -2617,7 +2617,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Howler_monkey",
     "label": "Revúň",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Howler_monkey",
+    "imageUrl": "https://en.wikipedia.org/wiki/Howler_monkey",
     "continent": "Južná Amerika",
     "sciName": "Alouatta spp.",
     "fact": "Revúň je najhlasnejšie suchozemské zviera – jeho rev je počuť na vzdialenosť až 5 km.",
@@ -2630,7 +2630,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Spider_monkey",
     "label": "Opica pavúčia",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Spider_monkey",
+    "imageUrl": "https://en.wikipedia.org/wiki/Spider_monkey",
     "continent": "Južná Amerika",
     "sciName": "Ateles spp.",
     "fact": "Opica pavúčia má chápavý chvost tak silný, že unesie celú váhu jej tela – funguje ako piata končatina.",
@@ -2643,7 +2643,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Golden_lion_tamarin",
     "label": "Leví tamarín zlatý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Golden_lion_tamarin",
+    "imageUrl": "https://en.wikipedia.org/wiki/Golden_lion_tamarin",
     "continent": "Južná Amerika",
     "sciName": "Leontopithecus rosalia",
     "fact": "Leví tamarín zlatý má nápadnú zlatú hrivu a žije len v úzkom páse atlantického pralesa v Brazílii.",
@@ -2656,7 +2656,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Poison_dart_frog",
     "label": "Pralesníčka",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Poison_dart_frog",
+    "imageUrl": "https://en.wikipedia.org/wiki/Poison_dart_frog",
     "continent": "Južná Amerika",
     "sciName": "Dendrobatidae spp.",
     "fact": "Pralesníčka je jednou z najjedovatejších žiab na svete – jeden druh obsahuje dosť jedu na usmrtenie 10 ľudí.",
@@ -2669,7 +2669,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Toucan",
     "label": "Tukan veľkozobý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Toucan",
+    "imageUrl": "https://en.wikipedia.org/wiki/Toucan",
     "continent": "Južná Amerika",
     "sciName": "Ramphastos toco",
     "fact": "Tukan veľkozobý má zobák dlhý až 20 cm, ktorý je dutý a ľahký a slúži na reguláciu telesnej teploty.",
@@ -2682,7 +2682,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Scarlet_macaw",
     "label": "Ara arakanga",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Scarlet_macaw",
+    "imageUrl": "https://en.wikipedia.org/wiki/Scarlet_macaw",
     "continent": "Južná Amerika",
     "sciName": "Ara macao",
     "fact": "Ara arakanga sa dožíva až 75 rokov a páry si zostávajú verné celý život.",
@@ -2695,7 +2695,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Hyacinth_macaw",
     "label": "Ara hyacintová",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Hyacinth_macaw",
+    "imageUrl": "https://en.wikipedia.org/wiki/Hyacinth_macaw",
     "continent": "Južná Amerika",
     "sciName": "Anodorhynchus hyacinthinus",
     "fact": "Ara hyacintová je najväčší papagáj na svete s rozpätím krídel cez 1,2 metra a sýto modrou farbou.",
@@ -2708,7 +2708,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Harpy_eagle",
     "label": "Harpya veľká",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Harpy_eagle",
+    "imageUrl": "https://en.wikipedia.org/wiki/Harpy_eagle",
     "continent": "Južná Amerika",
     "sciName": "Harpia harpyja",
     "fact": "Harpya veľká je najsilnejší orol na svete – jej pazúry sú dlhé ako pazúry medveďa grizly.",
@@ -2721,7 +2721,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Andean_condor",
     "label": "Kondor andský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Andean_condor",
+    "imageUrl": "https://en.wikipedia.org/wiki/Andean_condor",
     "continent": "Južná Amerika",
     "sciName": "Vultur gryphus",
     "fact": "Kondor andský má rozpätie krídel cez 3 metre a je jedným z najväčších lietajúcich vtákov na svete.",
@@ -2734,7 +2734,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Piranha",
     "label": "Piraňa",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Piranha",
+    "imageUrl": "https://en.wikipedia.org/wiki/Piranha",
     "continent": "Južná Amerika",
     "sciName": "Pygocentrus nattereri",
     "fact": "Piraňa červenobruchá loví v skupinách a dokáže prehrýzť oceľový rybársky vlasec.",
@@ -2747,7 +2747,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Electric_eel",
     "label": "Úhor elektrický",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Electric_eel",
+    "imageUrl": "https://en.wikipedia.org/wiki/Electric_eel",
     "continent": "Južná Amerika",
     "sciName": "Electrophorus electricus",
     "fact": "Úhor elektrický dokáže vyprodukovať elektrický výboj až 860 voltov na omráčenie koristi.",
@@ -2760,7 +2760,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Caiman",
     "label": "Kajman čierny",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Caiman",
+    "imageUrl": "https://en.wikipedia.org/wiki/Caiman",
     "continent": "Južná Amerika",
     "sciName": "Melanosuchus niger",
     "fact": "Kajman čierny je najväčší predátor Amazónie – dorasta do dĺžky 5 metrov.",
@@ -2773,7 +2773,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Ocelot",
     "label": "Ocelot",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ocelot",
+    "imageUrl": "https://en.wikipedia.org/wiki/Ocelot",
     "continent": "Južná Amerika",
     "sciName": "Leopardus pardalis",
     "fact": "Ocelot je nočná mačkovitá šelma s krásnou škvrnitou srsťou a výborným nočným videním.",
@@ -2786,7 +2786,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Maned_wolf",
     "label": "Vlk hrivnatý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Maned_wolf",
+    "imageUrl": "https://en.wikipedia.org/wiki/Maned_wolf",
     "continent": "Južná Amerika",
     "sciName": "Chrysocyon brachyurus",
     "fact": "Vlk hrivnatý vyzerá ako líška na chodúľoch – má dlhé nohy prispôsobené na pohyb v vysokej tráve.",
@@ -2799,7 +2799,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Spectacled_bear",
     "label": "Medveď okuliarnatý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Spectacled_bear",
+    "imageUrl": "https://en.wikipedia.org/wiki/Spectacled_bear",
     "continent": "Južná Amerika",
     "sciName": "Tremarctos ornatus",
     "fact": "Medveď okuliarnatý je jediný medveď v Južnej Amerike a má charakteristické svetlé kruhy okolo očí.",
@@ -2812,7 +2812,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Tapir",
     "label": "Tapír juhoamerický",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tapir",
+    "imageUrl": "https://en.wikipedia.org/wiki/Tapir",
     "continent": "Južná Amerika",
     "sciName": "Tapirus terrestris",
     "fact": "Tapír juhoamerický má pohyblivý rypák podobný krátkemu chobotu, ktorým trhá listy a plody.",
@@ -2825,7 +2825,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Chinchilla",
     "label": "Činčila",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Chinchilla",
+    "imageUrl": "https://en.wikipedia.org/wiki/Chinchilla",
     "continent": "Južná Amerika",
     "sciName": "Chinchilla lanigera",
     "fact": "Činčila má najhustejšiu srsť spomedzi suchozemských zvierat – z jedného folikulu rastie až 60 chlpov.",
@@ -2838,7 +2838,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Capuchin_monkey",
     "label": "Kapucín",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Capuchin_monkey",
+    "imageUrl": "https://en.wikipedia.org/wiki/Capuchin_monkey",
     "continent": "Južná Amerika",
     "sciName": "Cebus spp.",
     "fact": "Kapucín je jedna z najinteligentnejších opíc Nového sveta – používa kamene na rozbíjanie orechov.",
@@ -2851,7 +2851,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Red-eyed_tree_frog",
     "label": "Rosníčka červenooká",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Red-eyed_tree_frog",
+    "imageUrl": "https://en.wikipedia.org/wiki/Red-eyed_tree_frog",
     "continent": "Južná Amerika",
     "sciName": "Agalychnis callidryas",
     "fact": "Rosníčka červenooká má výrazné červené oči, ktoré pri prebudení vyplašia predátorov – stratégia zvaná stroboskopické sfarbenie.",
@@ -2864,7 +2864,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Galapagos_tortoise",
     "label": "Korytnačka galapágska",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Galapagos_tortoise",
+    "imageUrl": "https://en.wikipedia.org/wiki/Galapagos_tortoise",
     "continent": "Južná Amerika",
     "sciName": "Chelonoidis nigra",
     "fact": "Korytnačka galapágska sa dožíva viac ako 100 rokov a je najväčšia suchozemská korytnačka na svete.",
@@ -2877,7 +2877,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Marine_iguana",
     "label": "Leguán morský",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Marine_iguana",
+    "imageUrl": "https://en.wikipedia.org/wiki/Marine_iguana",
     "continent": "Južná Amerika",
     "sciName": "Amblyrhynchus cristatus",
     "fact": "Leguán morský z Galapág je jediný jašter na svete, ktorý sa potápa do mora a živí sa morskými riasami.",
@@ -2890,7 +2890,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Hoatzin",
     "label": "Hoatzín",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Hoatzin",
+    "imageUrl": "https://en.wikipedia.org/wiki/Hoatzin",
     "continent": "Južná Amerika",
     "sciName": "Opisthocomus hoazin",
     "fact": "Hoatzín je jediný vták na svete, ktorý trávi potravu fermentáciou ako kravy, a preto zapácha.",
@@ -2903,7 +2903,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Potoo",
     "label": "Lelek veľkozraký",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Potoo",
+    "imageUrl": "https://en.wikipedia.org/wiki/Potoo",
     "continent": "Južná Amerika",
     "sciName": "Nyctibius grandis",
     "fact": "Lelek veľkozraký cez deň nehybne sedí na konári a vyzerá presne ako kus zlomeného dreva.",
@@ -2916,7 +2916,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Coati",
     "label": "Koati červený",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Coati",
+    "imageUrl": "https://en.wikipedia.org/wiki/Coati",
     "continent": "Južná Amerika",
     "sciName": "Nasua nasua",
     "fact": "Koati červený má dlhý pohyblivý nos a dlhý pruhovaný chvost, ktorý drží pri chôdzi vzpriamený ako anténu.",
@@ -2929,7 +2929,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Bush_dog",
     "label": "Pes pralesný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Bush_dog",
+    "imageUrl": "https://en.wikipedia.org/wiki/Bush_dog",
     "continent": "Južná Amerika",
     "sciName": "Speothos venaticus",
     "fact": "Pes pralesný je malý pes žijúci v skupinách a lovící korisť oveľa väčšiu ako on sám, vrátane tapírov.",
@@ -2942,7 +2942,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Giant_otter",
     "label": "Vydra obrovská",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Giant_otter",
+    "imageUrl": "https://en.wikipedia.org/wiki/Giant_otter",
     "continent": "Južná Amerika",
     "sciName": "Pteronura brasiliensis",
     "fact": "Vydra obrovská dorasta do dĺžky 1,8 metra a loví v rodinných skupinách, ktoré dokážu zahnať aj kajmanov.",
@@ -2955,7 +2955,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Amazonian_river_dolphin",
     "label": "Delfín ružový",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Amazonian_river_dolphin",
+    "imageUrl": "https://en.wikipedia.org/wiki/Amazonian_river_dolphin",
     "continent": "Južná Amerika",
     "sciName": "Inia geoffrensis",
     "fact": "Delfín ružový žije v rieke Amazonke a má ružovú farbu, ktorá sa zintenzívňuje pri vzrušení.",
@@ -2968,7 +2968,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Emerald_tree_boa",
     "label": "Hroznýšik zelený",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Emerald_tree_boa",
+    "imageUrl": "https://en.wikipedia.org/wiki/Emerald_tree_boa",
     "continent": "Južná Amerika",
     "sciName": "Corallus caninus",
     "fact": "Hroznýšik zelený visí stočený na konári a loví v noci vtáky a netopiere pomocou termosenzitívnych jamôk na hlave.",
@@ -2981,7 +2981,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Kangaroo",
     "label": "Klokan červený",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Kangaroo",
+    "imageUrl": "https://en.wikipedia.org/wiki/Kangaroo",
     "continent": "Austrália",
     "sciName": "Macropus rufus",
     "fact": "Klokan červený je najväčší vačkovec na svete – samce dorástajú do výšky 1,8 metra a dokážu skákať rýchlosťou 56 km/h.",
@@ -2994,7 +2994,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Koala",
     "label": "Koala",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Koala",
+    "imageUrl": "https://en.wikipedia.org/wiki/Koala",
     "continent": "Austrália",
     "sciName": "Phascolarctos cinereus",
     "fact": "Koala spí až 22 hodín denne a živí sa výhradne listami eukalyptu, ktoré sú pre väčšinu zvierat jedovaté.",
@@ -3007,7 +3007,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Platypus",
     "label": "Vtákopysk podivný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Platypus",
+    "imageUrl": "https://en.wikipedia.org/wiki/Platypus",
     "continent": "Austrália",
     "sciName": "Ornithorhynchus anatinus",
     "fact": "Vtákopysk podivný je jedným z mála cicavcov, ktorí znášajú vajcia, a samce majú jedovatý osteň na zadných nohách.",
@@ -3020,7 +3020,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Echidna",
     "label": "Ježura austrálska",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Echidna",
+    "imageUrl": "https://en.wikipedia.org/wiki/Echidna",
     "continent": "Austrália",
     "sciName": "Tachyglossus aculeatus",
     "fact": "Ježura austrálska je pokrytá bodlinami a spolu s vtákopyskom je jediným cicavcom na svete, ktorý znáša vajcia.",
@@ -3033,7 +3033,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Wombat",
     "label": "Vombat",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Wombat",
+    "imageUrl": "https://en.wikipedia.org/wiki/Wombat",
     "continent": "Austrália",
     "sciName": "Vombatus ursinus",
     "fact": "Vombat produkuje kockový trus – jediný živočích na svete, ktorého výkaly majú kockový tvar.",
@@ -3046,7 +3046,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Tasmanian_devil",
     "label": "Diabol tasmánsky",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tasmanian_devil",
+    "imageUrl": "https://en.wikipedia.org/wiki/Tasmanian_devil",
     "continent": "Austrália",
     "sciName": "Sarcophilus harrisii",
     "fact": "Diabol tasmánsky má najsilnejší hryz v pomere k veľkosti tela spomedzi všetkých cicavcov.",
@@ -3059,7 +3059,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Quokka",
     "label": "Kvoka",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Quokka",
+    "imageUrl": "https://en.wikipedia.org/wiki/Quokka",
     "continent": "Austrália",
     "sciName": "Setonix brachyurus",
     "fact": "Kvoka je malý vačkovec známy ako 'najšťastnejšie zviera na svete' vďaka výrazu tváre, ktorý vyzerá ako úsmev.",
@@ -3072,7 +3072,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Kookaburra",
     "label": "Kukabura obrovská",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Kookaburra",
+    "imageUrl": "https://en.wikipedia.org/wiki/Kookaburra",
     "continent": "Austrália",
     "sciName": "Dacelo novaeguineae",
     "fact": "Kukabura obrovská vydáva hlasitý zvuk pripomínajúci ľudský smiech, ktorý je počuť na vzdialenosť niekoľkých kilometrov.",
@@ -3085,7 +3085,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Emu",
     "label": "Emu hnedý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Emu",
+    "imageUrl": "https://en.wikipedia.org/wiki/Emu",
     "continent": "Austrália",
     "sciName": "Dromaius novaehollandiae",
     "fact": "Emu hnedý je druhý najväčší vták na svete a samec sedí na vajciach 8 týždňov bez jedenia a pitia.",
@@ -3098,7 +3098,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Cassowary",
     "label": "Kazuár prilbový",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Cassowary",
+    "imageUrl": "https://en.wikipedia.org/wiki/Cassowary",
     "continent": "Austrália",
     "sciName": "Casuarius casuarius",
     "fact": "Kazuár prilbový je považovaný za najnebezpečnejšieho vtáka na svete – jeho pazúr na nohe je dlhý až 12 cm.",
@@ -3111,7 +3111,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Lyrebird",
     "label": "Lyrovček nádherný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Lyrebird",
+    "imageUrl": "https://en.wikipedia.org/wiki/Lyrebird",
     "continent": "Austrália",
     "sciName": "Menura novaehollandiae",
     "fact": "Lyrovček nádherný dokáže dokonale napodobniť takmer akýkoľvek zvuk – od motorovej píly po fotoaparát.",
@@ -3124,7 +3124,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Frilled-neck_lizard",
     "label": "Jašter goliernatý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Frilled-neck_lizard",
+    "imageUrl": "https://en.wikipedia.org/wiki/Frilled-neck_lizard",
     "continent": "Austrália",
     "sciName": "Chlamydosaurus kingii",
     "fact": "Jašter goliernatý má okolo krku veľký kožený golier, ktorý roztvorí na zastrašenie predátorov.",
@@ -3137,7 +3137,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Thorny_devil",
     "label": "Moloch hrôzostrašný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Thorny_devil",
+    "imageUrl": "https://en.wikipedia.org/wiki/Thorny_devil",
     "continent": "Austrália",
     "sciName": "Moloch horridus",
     "fact": "Moloch hrôzostrašný zbiera vodu z rosy a dažďa cez sieť kapilárnych kanálikov v koži priamo do úst.",
@@ -3150,7 +3150,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Sugar_glider",
     "label": "Vakoletec cukrový",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sugar_glider",
+    "imageUrl": "https://en.wikipedia.org/wiki/Sugar_glider",
     "continent": "Austrália",
     "sciName": "Petaurus breviceps",
     "fact": "Vakoletec cukrový má lietaciu membránu medzi prednými a zadnými nohami a dokáže plachtit na vzdialenosť až 50 metrov.",
@@ -3163,7 +3163,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Numbat",
     "label": "Numbat",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Numbat",
+    "imageUrl": "https://en.wikipedia.org/wiki/Numbat",
     "continent": "Austrália",
     "sciName": "Myrmecobius fasciatus",
     "fact": "Numbat je malý pruhovaný vačkovec, ktorý sa živí výhradne termitmi – zje ich denne asi 20 000.",
@@ -3176,7 +3176,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Sugar_glider",
     "label": "Vakoveverička lietavá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sugar_glider",
+    "imageUrl": "https://en.wikipedia.org/wiki/Sugar_glider",
     "continent": "Austrália",
     "sciName": "Petaurus breviceps",
     "fact": "Vakoveverička lietavá má kožnú membránu medzi prednými a zadnými nohami, vďaka ktorej dokáže plachtiť až 50 metrov.",
@@ -3189,7 +3189,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Bilby",
     "label": "Bandikut králičí",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Bilby",
+    "imageUrl": "https://en.wikipedia.org/wiki/Bilby",
     "continent": "Austrália",
     "sciName": "Macrotis lagotis",
     "fact": "Bandikut králičí má veľké uši a dlhý rypák a v Austrálii nahrádza veľkonočného zajačika.",
@@ -3202,7 +3202,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Dingo",
     "label": "Pes dingo",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Dingo",
+    "imageUrl": "https://en.wikipedia.org/wiki/Dingo",
     "continent": "Austrália",
     "sciName": "Canis lupus dingo",
     "fact": "Pes dingo je austrálsky divoký pes, ktorý na kontinent prišiel pred asi 4000 rokmi a nedokáže štekať – iba výva.",
@@ -3215,7 +3215,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Quoll",
     "label": "Kunovček",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Quoll",
+    "imageUrl": "https://en.wikipedia.org/wiki/Quoll",
     "continent": "Austrália",
     "sciName": "Dasyurus spp.",
     "fact": "Kunovček je škvrnitý vačkový predátor, ktorý je jedným z mála vačkovcov s účinným loveckým inštinktom.",
@@ -3228,7 +3228,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Kiwi",
     "label": "Kivi severný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Kiwi",
+    "imageUrl": "https://en.wikipedia.org/wiki/Kiwi",
     "continent": "Austrália",
     "sciName": "Apteryx mantelli",
     "fact": "Kivi severný je nelietavý vták z Nového Zélandu s hmatovými fúzikmi a čuchom na špičke zobáka – jediný vták s nozdrami na konci zobáka.",
@@ -3241,7 +3241,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Tuatara",
     "label": "Hatéria bodkovaná",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Tuatara",
+    "imageUrl": "https://en.wikipedia.org/wiki/Tuatara",
     "continent": "Austrália",
     "sciName": "Sphenodon punctatus",
     "fact": "Hatéria bodkovaná z Nového Zélandu je živá fosília – je jediným prežívajúcim členom radu, ktorý existoval v dobe dinosaurov.",
@@ -3254,7 +3254,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Kakapo",
     "label": "Kakapo sovie",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Kakapo",
+    "imageUrl": "https://en.wikipedia.org/wiki/Kakapo",
     "continent": "Austrália",
     "sciName": "Strigops habroptilus",
     "fact": "Kakapo sovie je jediný nelietavý papagáj na svete a je kriticky ohrozený – existuje len asi 250 jedincov.",
@@ -3267,7 +3267,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Takahe",
     "label": "Takahe",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Takahe",
+    "imageUrl": "https://en.wikipedia.org/wiki/Takahe",
     "continent": "Austrália",
     "sciName": "Porphyrio hochstetteri",
     "fact": "Takahe je nelietavý vták z Nového Zélandu, ktorý bol považovaný za vyhynutý, kým nebol v roku 1948 znovuobjavený.",
@@ -3280,7 +3280,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Weta",
     "label": "Weta obrovská",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Weta",
+    "imageUrl": "https://en.wikipedia.org/wiki/Weta",
     "continent": "Austrália",
     "sciName": "Deinacrida heteracantha",
     "fact": "Weta obrovská z Nového Zélandu je jeden z najťažších hmyzov na svete – váži až 70 gramov, viac ako vrabec.",
@@ -3293,7 +3293,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Cockatoo",
     "label": "Kakadu biely",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Cockatoo",
+    "imageUrl": "https://en.wikipedia.org/wiki/Cockatoo",
     "continent": "Austrália",
     "sciName": "Cacatua alba",
     "fact": "Kakadu biely je inteligentný papagáj so zdvíhateľnou chochlatou, ktorý sa dožíva až 70 rokov.",
@@ -3306,7 +3306,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Box_jellyfish",
     "label": "Krabicová medúza",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Box_jellyfish",
+    "imageUrl": "https://en.wikipedia.org/wiki/Box_jellyfish",
     "continent": "Austrália",
     "sciName": "Chironex fleckeri",
     "fact": "Krabicová medúza z austrálskych vôd je najjedovatejší morský živočích – jej jed dokáže zabiť človeka za pár minút.",
@@ -3319,7 +3319,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Blue-ringed_octopus",
     "label": "Chobotnica modroplášťová",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Blue-ringed_octopus",
+    "imageUrl": "https://en.wikipedia.org/wiki/Blue-ringed_octopus",
     "continent": "Austrália",
     "sciName": "Hapalochlaena maculosa",
     "fact": "Chobotnica modroplášťová je veľká len ako loptička na golf, ale jej jed je dosť silný na usmrtenie 26 dospelých ľudí.",
@@ -3332,7 +3332,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Platypus_frog",
     "label": "Žaba nosatá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Platypus_frog",
+    "imageUrl": "https://en.wikipedia.org/wiki/Platypus_frog",
     "continent": "Austrália",
     "sciName": "Rheobatrachus spp.",
     "fact": "Žaba nosatá (dnes vyhynutá) bola jediným živočíchom, u ktorého samice prehltli oplodnené vajcia a mláďatá sa vyliahli v žalúdku.",
@@ -3345,7 +3345,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Emperor_penguin",
     "label": "Tučniak cisársky",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Emperor_penguin",
+    "imageUrl": "https://en.wikipedia.org/wiki/Emperor_penguin",
     "continent": "Antarktída",
     "sciName": "Aptenodytes forsteri",
     "fact": "Tučniak cisársky je najväčší tučniak na svete a samec inkubuje vajce na nohách 65 dní v teplote -60 °C.",
@@ -3358,7 +3358,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Adelie_penguin",
     "label": "Tučniak kroužkový",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Adelie_penguin",
+    "imageUrl": "https://en.wikipedia.org/wiki/Adelie_penguin",
     "continent": "Antarktída",
     "sciName": "Pygoscelis adeliae",
     "fact": "Tučniak kroužkový nosí kamienky ako darčeky partnerke pri namlouvacích rituáloch.",
@@ -3371,7 +3371,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Leopard_seal",
     "label": "Tuleň leopardí",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Leopard_seal",
+    "imageUrl": "https://en.wikipedia.org/wiki/Leopard_seal",
     "continent": "Antarktída",
     "sciName": "Hydrurga leptonyx",
     "fact": "Tuleň leopardí je najväčší predátor Antarktídy – loví tučniaky a iné tulene a dorasta do dĺžky 3,5 metra.",
@@ -3384,7 +3384,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Wandering_albatross",
     "label": "Albatros sťahovavý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Wandering_albatross",
+    "imageUrl": "https://en.wikipedia.org/wiki/Wandering_albatross",
     "continent": "Antarktída",
     "sciName": "Diomedea exulans",
     "fact": "Albatros sťahovavý má najväčšie rozpätie krídel spomedzi všetkých vtákov – až 3,5 metra.",
@@ -3397,7 +3397,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Antarctic_krill",
     "label": "Kril antarktický",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Antarctic_krill",
+    "imageUrl": "https://en.wikipedia.org/wiki/Antarctic_krill",
     "continent": "Antarktída",
     "sciName": "Euphausia superba",
     "fact": "Kril antarktický tvorí biomasu asi 500 miliónov ton a je základom potravinového reťazca celej Antarktídy.",
@@ -3410,7 +3410,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Weddell_seal",
     "label": "Tuleň Weddellov",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Weddell_seal",
+    "imageUrl": "https://en.wikipedia.org/wiki/Weddell_seal",
     "continent": "Antarktída",
     "sciName": "Leptonychotes weddellii",
     "fact": "Tuleň Weddellov žije najbližšie k južnému pólu spomedzi všetkých cicavcov a potápa sa do hĺbky 600 metrov.",
@@ -3423,7 +3423,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/South_polar_skua",
     "label": "Pomorník južný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/South_polar_skua",
+    "imageUrl": "https://en.wikipedia.org/wiki/South_polar_skua",
     "continent": "Antarktída",
     "sciName": "Stercorarius maccormicki",
     "fact": "Pomorník južný je agresívny dravý vták, ktorý kradne jedlo iným vtákom a napáda aj ľudí pri hniezdach.",
@@ -3436,7 +3436,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Antarctic_fur_seal",
     "label": "Lachtaň antarktický",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Antarctic_fur_seal",
+    "imageUrl": "https://en.wikipedia.org/wiki/Antarctic_fur_seal",
     "continent": "Antarktída",
     "sciName": "Arctocephalus gazella",
     "fact": "Lachtaň antarktický bol pre kožušinový obchod takmer vyhubený, ale po ochranných opatreniach sa populácia obnovila na milióny.",
@@ -3449,7 +3449,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Snow_petrel",
     "label": "Búrlivák snežný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Snow_petrel",
+    "imageUrl": "https://en.wikipedia.org/wiki/Snow_petrel",
     "continent": "Antarktída",
     "sciName": "Pagodroma nivea",
     "fact": "Búrlivák snežný je čisto biely vták hniezdiac na skalách uprostred Antarktídy – bol zaznamenaný aj 440 km od pobrežia.",
@@ -3462,7 +3462,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Elephant_seal",
     "label": "Tuleň sloní južný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Elephant_seal",
+    "imageUrl": "https://en.wikipedia.org/wiki/Elephant_seal",
     "continent": "Antarktída",
     "sciName": "Mirounga leonina",
     "fact": "Tuleň sloní južný je najväčší tuleň na svete – samce vážia až 4 tony a dorástajú do dĺžky 6 metrov.",
@@ -3475,7 +3475,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Blue_whale",
     "label": "Veľryba modrá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Blue_whale",
+    "imageUrl": "https://en.wikipedia.org/wiki/Blue_whale",
     "continent": "Oceány",
     "sciName": "Balaenoptera musculus",
     "fact": "Veľryba modrá je najväčšie zviera, aké kedy žilo na Zemi – jej srdce je veľké ako malé auto a váži cez 150 ton.",
@@ -3488,7 +3488,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Humpback_whale",
     "label": "Veľryba dlhoplutvníková",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Humpback_whale",
+    "imageUrl": "https://en.wikipedia.org/wiki/Humpback_whale",
     "continent": "Oceány",
     "sciName": "Megaptera novaeangliae",
     "fact": "Veľryba dlhoplutvníková spieva zložité piesne, ktoré sa šíria oceánom a trvajú až 20 minút.",
@@ -3501,7 +3501,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Sperm_whale",
     "label": "Vorvaň tuponosý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sperm_whale",
+    "imageUrl": "https://en.wikipedia.org/wiki/Sperm_whale",
     "continent": "Oceány",
     "sciName": "Physeter macrocephalus",
     "fact": "Vorvaň tuponosý má najväčší mozog spomedzi všetkých zvierat a potápa sa do hĺbky cez 2000 metrov.",
@@ -3514,7 +3514,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Orca",
     "label": "Kosatka dravá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Orca",
+    "imageUrl": "https://en.wikipedia.org/wiki/Orca",
     "continent": "Oceány",
     "sciName": "Orcinus orca",
     "fact": "Kosatka dravá je v skutočnosti najväčší delfín a loví v koordinovaných skupinách podobne ako vlčie svorky.",
@@ -3527,7 +3527,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Great_white_shark",
     "label": "Žralok biely",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Great_white_shark",
+    "imageUrl": "https://en.wikipedia.org/wiki/Great_white_shark",
     "continent": "Oceány",
     "sciName": "Carcharodon carcharias",
     "fact": "Žralok biely dokáže detekovať jednu kvapku krvi v 100 litroch vody a má až 300 zubov v niekoľkých radoch.",
@@ -3540,7 +3540,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Whale_shark",
     "label": "Žralok veľrybí",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Whale_shark",
+    "imageUrl": "https://en.wikipedia.org/wiki/Whale_shark",
     "continent": "Oceány",
     "sciName": "Rhincodon typus",
     "fact": "Žralok veľrybí je najväčšia ryba na svete – dorasta do dĺžky 12 metrov, ale živí sa len planktónom.",
@@ -3553,7 +3553,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Hammerhead_shark",
     "label": "Žralok kladivohlavý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Hammerhead_shark",
+    "imageUrl": "https://en.wikipedia.org/wiki/Hammerhead_shark",
     "continent": "Oceány",
     "sciName": "Sphyrna mokarran",
     "fact": "Žralok kladivohlavý má hlavu v tvare kladiva, čo mu umožňuje 360-stupňový výhľad a lepšiu detekciu elektrických polí koristi.",
@@ -3566,7 +3566,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Manta_ray",
     "label": "Manta obrovská",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Manta_ray",
+    "imageUrl": "https://en.wikipedia.org/wiki/Manta_ray",
     "continent": "Oceány",
     "sciName": "Mobula birostris",
     "fact": "Manta obrovská má rozpätie 'krídel' až 7 metrov a je jednou z najinteligentnejších rýb – rozpoznáva sa v zrkadle.",
@@ -3579,7 +3579,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Seahorse",
     "label": "Morský koník",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Seahorse",
+    "imageUrl": "https://en.wikipedia.org/wiki/Seahorse",
     "continent": "Oceány",
     "sciName": "Hippocampus spp.",
     "fact": "U morských koníkov je to samec, kto nosí vajíčka v brušnom vaku a 'rodí' mláďatá.",
@@ -3592,7 +3592,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Clownfish",
     "label": "Klaun očkatý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Clownfish",
+    "imageUrl": "https://en.wikipedia.org/wiki/Clownfish",
     "continent": "Oceány",
     "sciName": "Amphiprion ocellaris",
     "fact": "Klaun očkatý žije v symbióze s morskými sasankami a je imúnny voči ich žahavým bunkám.",
@@ -3605,7 +3605,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Nautilus",
     "label": "Nautilus",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Nautilus",
+    "imageUrl": "https://en.wikipedia.org/wiki/Nautilus",
     "continent": "Oceány",
     "sciName": "Nautilus pompilius",
     "fact": "Nautilus je živá fosília – jeho príbuzní existovali pred 500 miliónmi rokov a od vtedy sa takmer nezmenil.",
@@ -3618,7 +3618,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Giant_squid",
     "label": "Krakatice obrovská",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Giant_squid",
+    "imageUrl": "https://en.wikipedia.org/wiki/Giant_squid",
     "continent": "Oceány",
     "sciName": "Architeuthis dux",
     "fact": "Krakatice obrovská má najväčšie oči v živočíšnej ríši – priemer až 27 cm, veľkosť futbalovej lopty.",
@@ -3631,7 +3631,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Sea_turtle",
     "label": "Korytnačka zelená",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Sea_turtle",
+    "imageUrl": "https://en.wikipedia.org/wiki/Sea_turtle",
     "continent": "Oceány",
     "sciName": "Chelonia mydas",
     "fact": "Korytnačka zelená sa vracia znášať vajcia na tú istú pláž, kde sa vyliahla – naviguje pomocou magnetického poľa Zeme.",
@@ -3644,7 +3644,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Leatherback_sea_turtle",
     "label": "Korytnačka kožatá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Leatherback_sea_turtle",
+    "imageUrl": "https://en.wikipedia.org/wiki/Leatherback_sea_turtle",
     "continent": "Oceány",
     "sciName": "Dermochelys coriacea",
     "fact": "Korytnačka kožatá je najväčšia korytnačka na svete – váži až 700 kg a potápa sa do hĺbky 1200 metrov.",
@@ -3657,7 +3657,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Narwhal",
     "label": "Narval",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Narwhal",
+    "imageUrl": "https://en.wikipedia.org/wiki/Narwhal",
     "continent": "Oceány",
     "sciName": "Monodon monoceros",
     "fact": "Narval má až 3 metre dlhý špirálový kel, ktorý je v skutočnosti predĺžený zub so senzorickými nervovými zakončeniami.",
@@ -3670,7 +3670,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Beluga_whale",
     "label": "Beluga biela",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Beluga_whale",
+    "imageUrl": "https://en.wikipedia.org/wiki/Beluga_whale",
     "continent": "Oceány",
     "sciName": "Delphinapterus leucas",
     "fact": "Beluga biela dokáže meniť tvar svojej hlavy nafukovaním dutín a má najbohatší hlasový repertoár spomedzi veľrýb.",
@@ -3683,7 +3683,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Ocean_sunfish",
     "label": "Mesačník svietiaci",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Ocean_sunfish",
+    "imageUrl": "https://en.wikipedia.org/wiki/Ocean_sunfish",
     "continent": "Oceány",
     "sciName": "Mola mola",
     "fact": "Mesačník svietiaci je najťažšia kostnatá ryba na svete – váži až 2 tony a produkuje až 300 miliónov ikier naraz.",
@@ -3696,7 +3696,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Manatee",
     "label": "Kapustňák",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Manatee",
+    "imageUrl": "https://en.wikipedia.org/wiki/Manatee",
     "continent": "Oceány",
     "sciName": "Trichechus manatus",
     "fact": "Kapustňák je pomalý morský cicavec prezývaný 'morská krava' – neustále nahrádza opotrebované zuby novými zozadu.",
@@ -3709,7 +3709,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Cuttlefish",
     "label": "Sépia",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Cuttlefish",
+    "imageUrl": "https://en.wikipedia.org/wiki/Cuttlefish",
     "continent": "Oceány",
     "sciName": "Sepia officinalis",
     "fact": "Sépia dokáže meniť farbu a vzor pokožky za zlomok sekundy pomocou miliónov chromatofórov.",
@@ -3722,7 +3722,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Lionfish",
     "label": "Perutýn ohnivý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Lionfish",
+    "imageUrl": "https://en.wikipedia.org/wiki/Lionfish",
     "continent": "Oceány",
     "sciName": "Pterois volitans",
     "fact": "Perutýn ohnivý má jedovaté ostne a je inváznym druhom v Karibiku, kde nemá prirodzených predátorov.",
@@ -3735,7 +3735,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Anglerfish",
     "label": "Čertík hlbinný",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Anglerfish",
+    "imageUrl": "https://en.wikipedia.org/wiki/Anglerfish",
     "continent": "Oceány",
     "sciName": "Lophiiformes spp.",
     "fact": "Čertík hlbinný láka korisť svietiacou návnadou na hlave a samec je mnohonásobne menší – prirastie k samici a stane sa jej súčasťou.",
@@ -3748,7 +3748,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Kakapo",
     "label": "Kakapo sovičí",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Kakapo",
+    "imageUrl": "https://en.wikipedia.org/wiki/Kakapo",
     "continent": "Austrália",
     "sciName": "Strigops habroptila",
     "fact": "Kakapo je jediný nelietavý papagáj na svete a je nočné zviera s priemernou dĺžkou života cez 90 rokov.",
@@ -3761,7 +3761,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Fossa",
     "label": "Fosa",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Fossa",
+    "imageUrl": "https://en.wikipedia.org/wiki/Fossa",
     "continent": "Afrika",
     "sciName": "Cryptoprocta ferox",
     "fact": "Fosa je najväčší predátor Madagaskaru – vyzerá ako mačka, ale je príbuzná mangustám.",
@@ -3774,7 +3774,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Proboscis_monkey",
     "label": "Opica nosatá",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Proboscis_monkey",
+    "imageUrl": "https://en.wikipedia.org/wiki/Proboscis_monkey",
     "continent": "Ázia",
     "sciName": "Nasalis larvatus",
     "fact": "Opica nosatá má obrovský nos, ktorý zosilňuje jej hlas – čím väčší nos, tým atraktívnejší samec.",
@@ -3787,7 +3787,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Saola",
     "label": "Saola",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Saola",
+    "imageUrl": "https://en.wikipedia.org/wiki/Saola",
     "continent": "Ázia",
     "sciName": "Pseudoryx nghetinhensis",
     "fact": "Saola bola objavená až v roku 1992 vo Vietname a je tak vzácna, že ju nazývajú 'ázijský jednorožec'.",
@@ -3800,7 +3800,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Axolotl",
     "label": "Axolotl mexický",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Axolotl",
+    "imageUrl": "https://en.wikipedia.org/wiki/Axolotl",
     "continent": "Severná Amerika",
     "sciName": "Ambystoma mexicanum",
     "fact": "Axolotl mexický dokáže regenerovať stratené končatiny, orgány, dokonca časti mozgu – a zostáva celý život v larválnom štádiu.",
@@ -3813,7 +3813,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Markhor",
     "label": "Markhor šróbovitý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Markhor",
+    "imageUrl": "https://en.wikipedia.org/wiki/Markhor",
     "continent": "Ázia",
     "sciName": "Capra falconeri",
     "fact": "Markhor šróbovitý má impozantné šróbovité rohy dlhé až 160 cm a je národným zvieraťom Pakistanu.",
@@ -3826,7 +3826,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Secretary_bird",
     "label": "Sekretár hadožravý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Secretary_bird",
+    "imageUrl": "https://en.wikipedia.org/wiki/Secretary_bird",
     "continent": "Afrika",
     "sciName": "Sagittarius serpentarius",
     "fact": "Sekretár hadožravý zabíja hady silnými údermi nôh – dokáže kopnúť silou 5-krát väčšou ako jeho vlastná hmotnosť.",
@@ -3839,7 +3839,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Aye-aye",
     "label": "Aje-aje",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Aye-aye",
+    "imageUrl": "https://en.wikipedia.org/wiki/Aye-aye",
     "continent": "Afrika",
     "sciName": "Daubentonia madagascariensis",
     "fact": "Aje-aje je nočný lemur z Madagaskaru s extrémne dlhým stredným prstom, ktorým vyťahuje larvy z dreva.",
@@ -3852,7 +3852,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Quetzal",
     "label": "Kvesal chocholatý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Quetzal",
+    "imageUrl": "https://en.wikipedia.org/wiki/Quetzal",
     "continent": "Severná Amerika",
     "sciName": "Pharomachrus mocinno",
     "fact": "Kvesal chocholatý bol posvätným vtákom Mayov a Aztékov – samec má chvostové perá dlhé až 65 cm.",
@@ -3865,7 +3865,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Gerenuk",
     "label": "Gerenuk",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Gerenuk",
+    "imageUrl": "https://en.wikipedia.org/wiki/Gerenuk",
     "continent": "Afrika",
     "sciName": "Litocranius walleri",
     "fact": "Gerenuk je 'žirafová gazela' s extrémne dlhým krkom – ako jediná antilopa sa pravidelne postaví na zadné nohy pri okusovaní stromov.",
@@ -3878,7 +3878,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Hooded_seal",
     "label": "Tuleň čiapočkový",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Hooded_seal",
+    "imageUrl": "https://en.wikipedia.org/wiki/Hooded_seal",
     "continent": "Oceány",
     "sciName": "Cystophora cristata",
     "fact": "Tuleň čiapočkový dokáže nafúknuť nosovú membránu do veľkej ružovej bubliny na zastrašenie rivalov.",
@@ -3891,7 +3891,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Harpy_eagle",
     "label": "Harpyja pralesná",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Harpy_eagle",
+    "imageUrl": "https://en.wikipedia.org/wiki/Harpy_eagle",
     "continent": "Južná Amerika",
     "sciName": "Harpia harpyja",
     "fact": "Harpyja pralesná má pazúry veľké ako medvedie a je najsilnejší orol na svete – loví opice a leňochy v korunách stromov.",
@@ -3904,7 +3904,7 @@
   {
     "id": "https://en.wikipedia.org/wiki/Wolverine",
     "label": "Rosomák sivohrdzavý",
-    "imageUrl": "https://en.wikipedia.org/wiki/Special:FilePath/Wolverine",
+    "imageUrl": "https://en.wikipedia.org/wiki/Wolverine",
     "continent": "Európa",
     "sciName": "Gulo gulo",
     "fact": "Rosomák sivohrdzavý je najväčšia lasicovitá šelma a dokáže odohnať od koristi aj medveďa alebo vlčiu svorku.",

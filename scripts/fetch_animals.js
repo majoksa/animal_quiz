@@ -967,48 +967,56 @@ const ANIMALS_SEED = [
 ];
 
 // ---------------------------------------------------------------------------
-// Wikimedia Commons image URL builder (offline – no network needed)
+// Fetch image URL from Wikipedia REST API summary endpoint
 // ---------------------------------------------------------------------------
-function wikiImageUrl(filename) {
-  const name = filename.replace(/ /g, '_');
-  const hash = crypto.createHash('md5').update(name).digest('hex');
-  return `https://upload.wikimedia.org/wikipedia/commons/${hash[0]}/${hash.slice(0,2)}/${encodeURIComponent(name)}`;
+async function imageUrlForAnimal(englishName) {
+  const title = encodeURIComponent(englishName.replace(/ /g, '_'));
+  const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${title}`;
+  try {
+    const res = await fetch(url, { headers: { 'User-Agent': 'AnimalQuizBuilder/1.0' } });
+    if (!res.ok) return 'assets/fallback.svg';
+    const data = await res.json();
+    return (data.thumbnail && data.thumbnail.source) ? data.thumbnail.source : 'assets/fallback.svg';
+  } catch {
+    return 'assets/fallback.svg';
+  }
 }
 
-// Map English animal names → known Commons filenames
-// Falls back to Wikipedia page image URL pattern
-function imageUrlForAnimal(englishName) {
-  return `https://en.wikipedia.org/wiki/Special:FilePath/${encodeURIComponent(englishName.replace(/ /g, '_'))}`;
-}
-
 // ---------------------------------------------------------------------------
-// Main – offline build (no network required)
+// Main – fetches image URLs from Wikipedia REST API
 // ---------------------------------------------------------------------------
-function main() {
+async function main() {
   console.log(`\nGenerating animals.json from ${ANIMALS_SEED.length} seeds…\n`);
 
-  const results = [];
   const seen = new Set();
-
-  for (const seed of ANIMALS_SEED) {
-    if (seen.has(seed.label)) continue;
+  const seeds = ANIMALS_SEED.filter(seed => {
+    if (seen.has(seed.label)) return false;
     seen.add(seed.label);
+    return true;
+  });
 
-    const id = `https://en.wikipedia.org/wiki/${encodeURIComponent(seed.name.replace(/ /g, '_'))}`;
-    const imageUrl = imageUrlForAnimal(seed.name);
-
-    const animal = {
-      id,
-      label:      seed.label,
-      imageUrl,
-      continent:  seed.continent,
-      sciName:    seed.sciName,
-      fact:       seed.fact,
-      falseFacts: seed.falseFacts,
-    };
-    if (seed.ocean) animal.ocean = seed.ocean;
-
-    results.push(animal);
+  // Fetch image URLs in batches to avoid rate-limiting
+  const BATCH = 10;
+  const results = [];
+  for (let i = 0; i < seeds.length; i += BATCH) {
+    const batch = seeds.slice(i, i + BATCH);
+    const imageUrls = await Promise.all(batch.map(s => imageUrlForAnimal(s.name)));
+    for (let j = 0; j < batch.length; j++) {
+      const seed = batch[j];
+      const id = `https://en.wikipedia.org/wiki/${encodeURIComponent(seed.name.replace(/ /g, '_'))}`;
+      const animal = {
+        id,
+        label:      seed.label,
+        imageUrl:   imageUrls[j],
+        continent:  seed.continent,
+        sciName:    seed.sciName,
+        fact:       seed.fact,
+        falseFacts: seed.falseFacts,
+      };
+      if (seed.ocean) animal.ocean = seed.ocean;
+      results.push(animal);
+    }
+    console.log(`  Fetched ${Math.min(i + BATCH, seeds.length)}/${seeds.length}…`);
   }
 
   console.log(`=== HOTOVO ===`);
