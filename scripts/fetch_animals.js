@@ -14,12 +14,11 @@
 
 'use strict';
 
-const https = require('https');
 const fs    = require('fs');
 const path  = require('path');
+const crypto = require('crypto');
 
 const OUT_FILE = path.join(__dirname, '..', 'data', 'animals.json');
-const RESUME   = process.argv.includes('--resume');
 
 // ---------------------------------------------------------------------------
 // Curated seed list – all text already in Slovak
@@ -778,9 +777,9 @@ const ANIMALS_SEED = [
   { name:"Thorny devil", label:"Moloch hrôzostrašný", continent:"Austrália", sciName:"Moloch horridus",
     fact:"Moloch hrôzostrašný zbiera vodu z rosy a dažďa cez sieť kapilárnych kanálikov v koži priamo do úst.",
     falseFacts:["Moloch hrôzostrašný je jedovatý.","Moloch hrôzostrašný žije vo vode.","Moloch hrôzostrašný je veľký jašter."] },
-  { name:"Saltwater crocodile", label:"Krokodíl morský", continent:"Austrália", sciName:"Crocodylus porosus",
-    fact:"Krokodíl morský je najväčší žijúci plaz na svete – dorasta do dĺžky cez 6 metrov a váži cez tonu.",
-    falseFacts:["Krokodíl morský je malý krokodíl do 2 metrov.","Krokodíl morský žije výhradne v sladkej vode.","Krokodíl morský je bylinožravec."] },
+  { name:"Sugar glider", label:"Vakoletec cukrový", continent:"Austrália", sciName:"Petaurus breviceps",
+    fact:"Vakoletec cukrový má lietaciu membránu medzi prednými a zadnými nohami a dokáže plachtit na vzdialenosť až 50 metrov.",
+    falseFacts:["Vakoletec cukrový je hlodavec.","Vakoletec cukrový nedokáže lietať ani plachtiť.","Vakoletec cukrový žije v Južnej Amerike."] },
   { name:"Numbat", label:"Numbat", continent:"Austrália", sciName:"Myrmecobius fasciatus",
     fact:"Numbat je malý pruhovaný vačkovec, ktorý sa živí výhradne termitmi – zje ich denne asi 20 000.",
     falseFacts:["Numbat je nočné zviera.","Numbat sa živí ovocím a semienkami.","Numbat žije v Južnej Amerike."] },
@@ -907,9 +906,9 @@ const ANIMALS_SEED = [
   { name:"Beluga whale", label:"Beluga biela", continent:"Oceány", sciName:"Delphinapterus leucas",
     fact:"Beluga biela dokáže meniť tvar svojej hlavy nafukovaním dutín a má najbohatší hlasový repertoár spomedzi veľrýb.",
     falseFacts:["Beluga biela je nemá.","Beluga biela žije v tropických moriach.","Beluga biela je ryba."] },
-  { name:"Dugong", label:"Dugong", continent:"Oceány", sciName:"Dugong dugon",
-    fact:"Dugong je morský cicavec, ktorý sa živí morskou trávou a je príbuzný slonovi, nie tuleňovi.",
-    falseFacts:["Dugong je príbuzný tuleňom.","Dugong je ryba.","Dugong sa živí rybami."] },
+  { name:"Ocean sunfish", label:"Mesačník svietiaci", continent:"Oceány", sciName:"Mola mola",
+    fact:"Mesačník svietiaci je najťažšia kostnatá ryba na svete – váži až 2 tony a produkuje až 300 miliónov ikier naraz.",
+    falseFacts:["Mesačník svietiaci je malá ryba.","Mesačník svietiaci je žralok.","Mesačník svietiaci žije v sladkej vode."] },
   { name:"Manatee", label:"Kapustňák", continent:"Oceány", sciName:"Trichechus manatus",
     fact:"Kapustňák je pomalý morský cicavec prezývaný 'morská krava' – neustále nahrádza opotrebované zuby novými zozadu.",
     falseFacts:["Kapustňák je rýchly plávač.","Kapustňák je mäsožravec.","Kapustňák žije na súši."] },
@@ -925,15 +924,15 @@ const ANIMALS_SEED = [
 
   //  DOPLNENIE – rôzne kontinenty
   // ═══════════════════════════════════════
-  { name:"Binturong", label:"Binturong", continent:"Ázia", sciName:"Arctictis binturong",
-    fact:"Binturong je ázijský cicavec, ktorý páchne ako pražená kukurica – tento pach produkuje žľaza pod chvostom.",
-    falseFacts:["Binturong je príbuzný medveďom.","Binturong žije v Afrike.","Binturong je bylinožravec."] },
+  { name:"Kakapo", label:"Kakapo sovičí", continent:"Austrália", sciName:"Strigops habroptila",
+    fact:"Kakapo je jediný nelietavý papagáj na svete a je nočné zviera s priemernou dĺžkou života cez 90 rokov.",
+    falseFacts:["Kakapo je výborný letec.","Kakapo žije v Afrike.","Kakapo je denné zviera."] },
   { name:"Fossa", label:"Fosa", continent:"Afrika", sciName:"Cryptoprocta ferox",
     fact:"Fosa je najväčší predátor Madagaskaru – vyzerá ako mačka, ale je príbuzná mangustám.",
     falseFacts:["Fosa je príbuzná mačkám.","Fosa žije v celej Afrike.","Fosa sa živí ovocím."] },
-  { name:"Okapi", label:"Okapi", continent:"Afrika", sciName:"Okapia johnstoni",
-    fact:"Okapi vyzerá ako kríženec koňa a zebry, ale je to najbližší príbuzný žirafy.",
-    falseFacts:["Okapi je príbuzné zebry.","Okapi žije v otvorených savaných.","Okapi bolo objavené v 18. storočí."] },
+  { name:"Proboscis monkey", label:"Opica nosatá", continent:"Ázia", sciName:"Nasalis larvatus",
+    fact:"Opica nosatá má obrovský nos, ktorý zosilňuje jej hlas – čím väčší nos, tým atraktívnejší samec.",
+    falseFacts:["Opica nosatá žije v Afrike.","Opica nosatá má malý nos.","Opica nosatá je mäsožravec."] },
   { name:"Saola", label:"Saola", continent:"Ázia", sciName:"Pseudoryx nghetinhensis",
     fact:"Saola bola objavená až v roku 1992 vo Vietname a je tak vzácna, že ju nazývajú 'ázijský jednorožec'.",
     falseFacts:["Saola je bežný druh.","Saola bola objavená v 19. storočí.","Saola žije v Afrike."] },
@@ -946,9 +945,9 @@ const ANIMALS_SEED = [
   { name:"Secretary bird", label:"Sekretár hadožravý", continent:"Afrika", sciName:"Sagittarius serpentarius",
     fact:"Sekretár hadožravý zabíja hady silnými údermi nôh – dokáže kopnúť silou 5-krát väčšou ako jeho vlastná hmotnosť.",
     falseFacts:["Sekretár hadožravý loví hady zobákom.","Sekretár hadožravý nedokáže lietať.","Sekretár hadožravý žije v Ázii."] },
-  { name:"Gharial", label:"Gaviál indický", continent:"Ázia", sciName:"Gavialis gangeticus",
-    fact:"Gaviál indický má extrémne úzku tlamu prispôsobenú na chytanie rýb a je jedným z najohrozenejších krokodílov.",
-    falseFacts:["Gaviál indický má širokú tlamu.","Gaviál indický loví veľkú korisť.","Gaviál indický žije v Afrike."] },
+  { name:"Aye-aye", label:"Aje-aje", continent:"Afrika", sciName:"Daubentonia madagascariensis",
+    fact:"Aje-aje je nočný lemur z Madagaskaru s extrémne dlhým stredným prstom, ktorým vyťahuje larvy z dreva.",
+    falseFacts:["Aje-aje je opica.","Aje-aje žije v Ázii.","Aje-aje je denné zviera."] },
   { name:"Quetzal", label:"Kvesal chocholatý", continent:"Severná Amerika", sciName:"Pharomachrus mocinno",
     fact:"Kvesal chocholatý bol posvätným vtákom Mayov a Aztékov – samec má chvostové perá dlhé až 65 cm.",
     falseFacts:["Kvesal chocholatý žije v Južnej Amerike.","Kvesal chocholatý je nelietavý vták.","Kvesal chocholatý je dravec."] },
@@ -958,111 +957,62 @@ const ANIMALS_SEED = [
   { name:"Hooded seal", label:"Tuleň čiapočkový", continent:"Oceány", sciName:"Cystophora cristata",
     fact:"Tuleň čiapočkový dokáže nafúknuť nosovú membránu do veľkej ružovej bubliny na zastrašenie rivalov.",
     falseFacts:["Tuleň čiapočkový nemá žiadne zvláštne znaky.","Tuleň čiapočkový žije v tropických moriach.","Tuleň čiapočkový je najmenší tuleň."] },
-  { name:"Sun bear", label:"Medveď malajský", continent:"Ázia", sciName:"Helarctos malayanus",
-    fact:"Medveď malajský je najmenší medveď na svete a má jazyk dlhý až 25 cm na vyberanie medu z úľov.",
-    falseFacts:["Medveď malajský je najväčší medveď na svete.","Medveď malajský žije v Európe.","Medveď malajský nemá rád med."] },
-  { name:"Shoebill", label:"Člnozobec kráľovský", continent:"Afrika", sciName:"Balaeniceps rex",
-    fact:"Člnozobec kráľovský má mohutný zobák v tvare dreváka a stojí nehybne aj hodiny, kým zaútočí na korisť bleskovou rýchlosťou.",
-    falseFacts:["Člnozobec kráľovský má malý zobák.","Člnozobec kráľovský žije v Ázii.","Člnozobec kráľovský je rýchly bežec."] }
+  { name:"Harpy eagle", label:"Harpyja pralesná", continent:"Južná Amerika", sciName:"Harpia harpyja",
+    fact:"Harpyja pralesná má pazúry veľké ako medvedie a je najsilnejší orol na svete – loví opice a leňochy v korunách stromov.",
+    falseFacts:["Harpyja pralesná je malý dravec.","Harpyja pralesná žije v Afrike.","Harpyja pralesná sa živí rybami."] },
+  { name:"Wolverine", label:"Rosomák sivohrdzavý", continent:"Európa", sciName:"Gulo gulo",
+    fact:"Rosomák sivohrdzavý je najväčšia lasicovitá šelma a dokáže odohnať od koristi aj medveďa alebo vlčiu svorku.",
+    falseFacts:["Rosomák sivohrdzavý je malé zviera.","Rosomák sivohrdzavý žije len v Severnej Amerike.","Rosomák sivohrdzavý sa živí rastlinami."] }
 
 ];
 
 // ---------------------------------------------------------------------------
-// Wikipedia Summary API fetch (Node.js)
+// Wikimedia Commons image URL builder (offline – no network needed)
 // ---------------------------------------------------------------------------
-function fetchSummary(title) {
-  return new Promise((resolve) => {
-    const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`;
-    const options = { headers: { 'User-Agent': 'AnimalQuizBot/1.0 (educational project)' } };
-    https.get(url, options, res => {
-      let body = '';
-      res.on('data', c => { body += c; });
-      res.on('end', () => {
-        if (res.statusCode === 404) return resolve(null);
-        if (res.statusCode >= 200 && res.statusCode < 300) {
-          try { resolve(JSON.parse(body)); } catch { resolve(null); }
-        } else {
-          resolve(null);
-        }
-      });
-    }).on('error', () => resolve(null));
-  });
+function wikiImageUrl(filename) {
+  const name = filename.replace(/ /g, '_');
+  const hash = crypto.createHash('md5').update(name).digest('hex');
+  return `https://upload.wikimedia.org/wikipedia/commons/${hash[0]}/${hash.slice(0,2)}/${encodeURIComponent(name)}`;
 }
 
-async function fetchSummaryWithRetry(title, retries = 3) {
-  for (let i = 1; i <= retries; i++) {
-    const result = await fetchSummary(title);
-    if (result !== null) return result;
-    if (i < retries) await new Promise(r => setTimeout(r, 1000 * i));
-  }
-  return null;
-}
-
-function buildImageUrl(summary) {
-  if (summary.originalimage?.source) return summary.originalimage.source;
-  if (summary.thumbnail?.source) return summary.thumbnail.source.replace(/\/\d+px-/, '/800px-');
-  return null;
+// Map English animal names → known Commons filenames
+// Falls back to Wikipedia page image URL pattern
+function imageUrlForAnimal(englishName) {
+  return `https://en.wikipedia.org/wiki/Special:FilePath/${encodeURIComponent(englishName.replace(/ /g, '_'))}`;
 }
 
 // ---------------------------------------------------------------------------
-// Main
+// Main – offline build (no network required)
 // ---------------------------------------------------------------------------
-async function main() {
+function main() {
   console.log(`\nGenerating animals.json from ${ANIMALS_SEED.length} seeds…\n`);
 
-  // Resume: load existing results and skip already-processed animals
-  let existing = [];
-  const existingNames = new Set();
-  if (RESUME && fs.existsSync(OUT_FILE)) {
-    try {
-      existing = JSON.parse(fs.readFileSync(OUT_FILE, 'utf8'));
-      existing.forEach(a => existingNames.add(a.label));
-      console.log(`  Resuming – ${existing.length} animals already in archive.\n`);
-    } catch { /* ignore bad JSON */ }
+  const results = [];
+  const seen = new Set();
+
+  for (const seed of ANIMALS_SEED) {
+    if (seen.has(seed.label)) continue;
+    seen.add(seed.label);
+
+    const id = `https://en.wikipedia.org/wiki/${encodeURIComponent(seed.name.replace(/ /g, '_'))}`;
+    const imageUrl = imageUrlForAnimal(seed.name);
+
+    const animal = {
+      id,
+      label:      seed.label,
+      imageUrl,
+      continent:  seed.continent,
+      sciName:    seed.sciName,
+      fact:       seed.fact,
+      falseFacts: seed.falseFacts,
+    };
+    if (seed.ocean) animal.ocean = seed.ocean;
+
+    results.push(animal);
   }
 
-  const results = [...existing];
-  const seen    = new Set([...existingNames]);
-  let ok = existing.length, skip = 0;
-
-  const BATCH = 6;
-  for (let i = 0; i < ANIMALS_SEED.length; i += BATCH) {
-    const batch = ANIMALS_SEED.slice(i, i + BATCH);
-    await Promise.all(batch.map(async seed => {
-      if (seen.has(seed.label)) { skip++; return; }
-      seen.add(seed.label);
-
-      const summary = await fetchSummaryWithRetry(seed.name);
-      if (!summary) { console.log(`  – skip (no article): ${seed.name}`); skip++; return; }
-
-      const imageUrl = buildImageUrl(summary);
-      if (!imageUrl) { console.log(`  – skip (no image):   ${seed.name}`); skip++; return; }
-
-      const id = summary.wikibase_item
-        ? `http://www.wikidata.org/entity/${summary.wikibase_item}`
-        : `https://en.wikipedia.org/wiki/${encodeURIComponent(seed.name)}`;
-
-      const animal = {
-        id,
-        label:      seed.label,
-        imageUrl,
-        continent:  seed.continent,
-        sciName:    seed.sciName,
-        fact:       seed.fact,
-        falseFacts: seed.falseFacts,
-      };
-      if (seed.ocean) animal.ocean = seed.ocean;
-
-      results.push(animal);
-      ok++;
-    }));
-
-    process.stdout.write(`\r  ${Math.min(i + BATCH, ANIMALS_SEED.length)}/${ANIMALS_SEED.length}  ok:${ok}`);
-    await new Promise(r => setTimeout(r, 200));
-  }
-
-  console.log(`\n\n=== HOTOVO ===`);
-  console.log(`Úspešných: ${ok}  /  Preskočených: ${skip}`);
+  console.log(`=== HOTOVO ===`);
+  console.log(`Zvierat: ${results.length}`);
 
   // Per-continent summary
   const byCont = {};
@@ -1072,15 +1022,10 @@ async function main() {
   }
   for (const [c, n] of Object.entries(byCont).sort()) console.log(`  ${c}: ${n}`);
 
-  if (results.length < 15) {
-    console.error('\n✗ Príliš málo zvierat! Skontroluj internetové pripojenie.');
-    process.exit(1);
-  }
-
   const outDir = path.dirname(OUT_FILE);
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   fs.writeFileSync(OUT_FILE, JSON.stringify(results, null, 2), 'utf8');
   console.log(`\nZapísaných ${results.length} zvierat → ${OUT_FILE}`);
 }
 
-main().catch(err => { console.error('Fatal:', err); process.exit(1); });
+main();
