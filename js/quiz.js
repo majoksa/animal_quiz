@@ -59,6 +59,11 @@ const Quiz = (() => {
    * Distractors are pulled from other animals in the batch.
    */
   function buildOptions(currentAnimal, field, correctValue) {
+    // For fact questions, use the animal's own pre-written wrong facts as distractors
+    if (field === 'fact' && currentAnimal.factWrong?.length >= 4) {
+      return shuffle([correctValue, ...currentAnimal.factWrong.slice(0, 4)]);
+    }
+
     const correctArr = Array.isArray(correctValue) ? correctValue : [correctValue];
 
     // Collect all field values from other animals (flatten arrays)
