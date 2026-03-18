@@ -375,7 +375,7 @@ const ANIMALS_SEED = [
     falseFacts:["Nosorožec sumatriansky je najväčší nosorožec v Ázii.","Nosorožec sumatriansky má hladkú kožu bez srsti.","Nosorožec sumatriansky žije v savanách ako africké druhy."] },
   { name:"Asian small-clawed otter", label:"Vydra malá", continent:"Ázia", sciName:"Aonyx cinereus",
     fact:"Vydra malá je najmenší druh vydry na svete a má čiastočne vyvinuté blany medzi prstami.",
-    falseFacts:["Vydra malá je najväčšia vydra v Ázii.","Vydra malá žije samotársky.","Vydra malá sa živí výhradne rybami."] }
+    falseFacts:["Vydra malá je najväčšia vydra v Ázii.","Vydra malá žije samotársky.","Vydra malá sa živí výhradne rybami."] },
 
   // ═══════════════════════════════════════
   //  EURÓPA
@@ -496,7 +496,7 @@ const ANIMALS_SEED = [
     falseFacts:["Včelárik zlatý sa živí výhradne nektárom kvetov.","Včelárik zlatý je nenápadný hnedý vták.","Včelárik zlatý žije celoročne v severnej Európe."] },
   { name:"European ground squirrel", label:"Syseľ pasienkový", continent:"Európa", sciName:"Spermophilus citellus",
     fact:"Syseľ pasienkový žije v kolóniách v podzemných norách a pred nebezpečenstvom varuje ostatných ostrým piskotom.",
-    falseFacts:["Syseľ pasienkový žije na stromoch ako veverica.","Syseľ pasienkový je aktívny celý rok a nehibernuje.","Syseľ pasienkový sa živí hmyzom a drobnými živočíchmi."] }
+    falseFacts:["Syseľ pasienkový žije na stromoch ako veverica.","Syseľ pasienkový je aktívny celý rok a nehibernuje.","Syseľ pasienkový sa živí hmyzom a drobnými živočíchmi."] },
 
   // ═══════════════════════════════════════
   //  SEVERNÁ AMERIKA
@@ -532,7 +532,7 @@ const ANIMALS_SEED = [
     fact:"Vidloroh americký je najrýchlejšie suchozemské zviera Severnej Ameriky a dokáže bežať rýchlosťou až 88 km/h.",
     falseFacts:["Vidloroh americký je druh antilopy príbuzný africkým antilopám.","Vidloroh americký je pomalé zviera.","Vidloroh americký žije v hustých lesoch."] },
   { name:"Raccoon", label:"Medvedík čistotný", continent:"Severná Amerika", sciName:"Procyon lotor",
-    fact:"Medvedík čistotný má mimoriadne citlivé predné labky a pred jedením si často „umýva" potravu vo vode.",
+    fact:"Medvedík čistotný má mimoriadne citlivé predné labky a pred jedením si často 'umýva' potravu vo vode.",
     falseFacts:["Medvedík čistotný je príbuzný medveďom.","Medvedík čistotný nemá masku na tvári.","Medvedík čistotný sa živí výhradne rybami."] },
   { name:"Striped skunk", label:"Skunk pruhovaný", continent:"Severná Amerika", sciName:"Mephitis mephitis",
     fact:"Skunk pruhovaný dokáže vystreliť zapáchajúcu tekutinu z análnych žliaz presne na vzdialenosť až 5 metrov.",
@@ -620,7 +620,7 @@ const ANIMALS_SEED = [
     falseFacts:["Kršiak rybár loví ryby zobákom ako pelikán.","Kršiak rybár sa živí výhradne hlodavcami.","Kršiak rybár nedokáže plávať ani sa ponoriť do vody."] },
   { name:"American marten", label:"Kuna americká", continent:"Severná Amerika", sciName:"Martes americana",
     fact:"Kuna americká je obratný lezec žijúci v ihličnatých lesoch a loví veverice vysoko v korunách stromov.",
-    falseFacts:["Kuna americká žije v púšťach.","Kuna americká je veľká ako medveď.","Kuna americká sa živí výhradne plodmi."] }
+    falseFacts:["Kuna americká žije v púšťach.","Kuna americká je veľká ako medveď.","Kuna americká sa živí výhradne plodmi."] },
 
   // ═══════════════════════════════════════
   //  JUŽNÁ AMERIKA
@@ -735,7 +735,7 @@ const ANIMALS_SEED = [
     falseFacts:["Delfín ružový žije v mori.","Delfín ružový je sivý ako ostatné delfíny.","Delfín ružový je ryba, nie cicavec."] },
   { name:"Emerald tree boa", label:"Hroznýšik zelený", continent:"Južná Amerika", sciName:"Corallus caninus",
     fact:"Hroznýšik zelený visí stočený na konári a loví v noci vtáky a netopiere pomocou termosenzitívnych jamôk na hlave.",
-    falseFacts:["Hroznýšik zelený je jedovatý had.","Hroznýšik zelený žije na zemi.","Hroznýšik zelený sa živí ovocím."] }
+    falseFacts:["Hroznýšik zelený je jedovatý had.","Hroznýšik zelený žije na zemi.","Hroznýšik zelený sa živí ovocím."] },
 
   //  AUSTRÁLIA A OCEÁNIA
   // ═══════════════════════════════════════
@@ -758,7 +758,7 @@ const ANIMALS_SEED = [
     fact:"Diabol tasmánsky má najsilnejší hryz v pomere k veľkosti tela spomedzi všetkých cicavcov.",
     falseFacts:["Diabol tasmánsky je krotké a tiché zviera.","Diabol tasmánsky žije po celej Austrálii.","Diabol tasmánsky je bylinožravec."] },
   { name:"Quokka", label:"Kvoka", continent:"Austrália", sciName:"Setonix brachyurus",
-    fact:"Kvoka je malý vačkovec známy ako „najšťastnejšie zviera na svete" vďaka výrazu tváre, ktorý vyzerá ako úsmev.",
+    fact:"Kvoka je malý vačkovec známy ako 'najšťastnejšie zviera na svete' vďaka výrazu tváre, ktorý vyzerá ako úsmev.",
     falseFacts:["Kvoka je agresívne zviera.","Kvoka žije na celom austrálskom kontinente.","Kvoka je hlodavec."] },
   { name:"Kookaburra", label:"Kukabura obrovská", continent:"Austrália", sciName:"Dacelo novaeguineae",
     fact:"Kukabura obrovská vydáva hlasitý zvuk pripomínajúci ľudský smiech, ktorý je počuť na vzdialenosť niekoľkých kilometrov.",
@@ -855,7 +855,115 @@ const ANIMALS_SEED = [
     falseFacts:["Búrlivák snežný je čierny vták.","Búrlivák snežný žije v tropických pralesoch.","Búrlivák snežný je nelietavý vták."] },
   { name:"Elephant seal", label:"Tuleň sloní južný", continent:"Antarktída", sciName:"Mirounga leonina",
     fact:"Tuleň sloní južný je najväčší tuleň na svete – samce vážia až 4 tony a dorástajú do dĺžky 6 metrov.",
-    falseFacts:["Tuleň sloní južný je malý tuleň.","Tuleň sloní južný má chobot ako slon.","Tuleň sloní južný žije v tropických moriach."] }
+    falseFacts:["Tuleň sloní južný je malý tuleň.","Tuleň sloní južný má chobot ako slon.","Tuleň sloní južný žije v tropických moriach."] },
+
+  //  MORSKÉ ZVIERATÁ (OCEÁNY)
+  // ═══════════════════════════════════════
+  { name:"Blue whale", label:"Veľryba modrá", continent:"Oceány", sciName:"Balaenoptera musculus",
+    fact:"Veľryba modrá je najväčšie zviera, aké kedy žilo na Zemi – jej srdce je veľké ako malé auto a váži cez 150 ton.",
+    falseFacts:["Veľryba modrá je najväčšia ryba.","Veľryba modrá je menšia ako slon.","Veľryba modrá má zuby."] },
+  { name:"Humpback whale", label:"Veľryba dlhoplutvníková", continent:"Oceány", sciName:"Megaptera novaeangliae",
+    fact:"Veľryba dlhoplutvníková spieva zložité piesne, ktoré sa šíria oceánom a trvajú až 20 minút.",
+    falseFacts:["Veľryba dlhoplutvníková je nemá.","Veľryba dlhoplutvníková žije len v sladkej vode.","Veľryba dlhoplutvníková je ryba."] },
+  { name:"Sperm whale", label:"Vorvaň tuponosý", continent:"Oceány", sciName:"Physeter macrocephalus",
+    fact:"Vorvaň tuponosý má najväčší mozog spomedzi všetkých zvierat a potápa sa do hĺbky cez 2000 metrov.",
+    falseFacts:["Vorvaň tuponosý má malý mozog.","Vorvaň tuponosý sa nepotápa hlboko.","Vorvaň tuponosý nemá zuby."] },
+  { name:"Orca", label:"Kosatka dravá", continent:"Oceány", sciName:"Orcinus orca",
+    fact:"Kosatka dravá je v skutočnosti najväčší delfín a loví v koordinovaných skupinách podobne ako vlčie svorky.",
+    falseFacts:["Kosatka dravá je veľryba.","Kosatka dravá žije samotársky.","Kosatka dravá sa živí len planktónom."] },
+  { name:"Great white shark", label:"Žralok biely", continent:"Oceány", sciName:"Carcharodon carcharias",
+    fact:"Žralok biely dokáže detekovať jednu kvapku krvi v 100 litroch vody a má až 300 zubov v niekoľkých radoch.",
+    falseFacts:["Žralok biely má len jeden rad zubov.","Žralok biely je najmenší žralok.","Žralok biely sa živí len rybami."] },
+  { name:"Whale shark", label:"Žralok veľrybí", continent:"Oceány", sciName:"Rhincodon typus",
+    fact:"Žralok veľrybí je najväčšia ryba na svete – dorasta do dĺžky 12 metrov, ale živí sa len planktónom.",
+    falseFacts:["Žralok veľrybí je agresívny predátor.","Žralok veľrybí je cicavec.","Žralok veľrybí je malá ryba."] },
+  { name:"Hammerhead shark", label:"Žralok kladivohlavý", continent:"Oceány", sciName:"Sphyrna mokarran",
+    fact:"Žralok kladivohlavý má hlavu v tvare kladiva, čo mu umožňuje 360-stupňový výhľad a lepšiu detekciu elektrických polí koristi.",
+    falseFacts:["Žralok kladivohlavý má normálne tvarovanú hlavu.","Žralok kladivohlavý žije len v sladkej vode.","Žralok kladivohlavý je bylinožravec."] },
+  { name:"Manta ray", label:"Manta obrovská", continent:"Oceány", sciName:"Mobula birostris",
+    fact:"Manta obrovská má rozpätie 'krídel' až 7 metrov a je jednou z najinteligentnejších rýb – rozpoznáva sa v zrkadle.",
+    falseFacts:["Manta obrovská je jedovatá.","Manta obrovská je malá ryba.","Manta obrovská sa živí inými rybami."] },
+  { name:"Seahorse", label:"Morský koník", continent:"Oceány", sciName:"Hippocampus spp.",
+    fact:"U morských koníkov je to samec, kto nosí vajíčka v brušnom vaku a 'rodí' mláďatá.",
+    falseFacts:["Morský koník je cicavec.","Morský koník pláva rýchlo.","U morských koníkov vajíčka nosí samica."] },
+  { name:"Clownfish", label:"Klaun očkatý", continent:"Oceány", sciName:"Amphiprion ocellaris",
+    fact:"Klaun očkatý žije v symbióze s morskými sasankami a je imúnny voči ich žahavým bunkám.",
+    falseFacts:["Klaun očkatý sa vyhýba sasankám.","Klaun očkatý žije v sladkej vode.","Klaun očkatý je veľká ryba."] },
+  { name:"Nautilus", label:"Nautilus", continent:"Oceány", sciName:"Nautilus pompilius",
+    fact:"Nautilus je živá fosília – jeho príbuzní existovali pred 500 miliónmi rokov a od vtedy sa takmer nezmenil.",
+    falseFacts:["Nautilus je moderný druh existujúci len 1 milión rokov.","Nautilus nemá ulitu.","Nautilus žije na súši."] },
+  { name:"Giant squid", label:"Krakatice obrovská", continent:"Oceány", sciName:"Architeuthis dux",
+    fact:"Krakatice obrovská má najväčšie oči v živočíšnej ríši – priemer až 27 cm, veľkosť futbalovej lopty.",
+    falseFacts:["Krakatice obrovská má malé oči.","Krakatice obrovská žije pri povrchu mora.","Krakatice obrovská je ryba."] },
+  { name:"Sea turtle", label:"Korytnačka zelená", continent:"Oceány", sciName:"Chelonia mydas",
+    fact:"Korytnačka zelená sa vracia znášať vajcia na tú istú pláž, kde sa vyliahla – naviguje pomocou magnetického poľa Zeme.",
+    falseFacts:["Korytnačka zelená znáša vajcia v mori.","Korytnačka zelená žije len v sladkej vode.","Korytnačka zelená je mäsožravec."] },
+  { name:"Leatherback sea turtle", label:"Korytnačka kožatá", continent:"Oceány", sciName:"Dermochelys coriacea",
+    fact:"Korytnačka kožatá je najväčšia korytnačka na svete – váži až 700 kg a potápa sa do hĺbky 1200 metrov.",
+    falseFacts:["Korytnačka kožatá má tvrdý pancier.","Korytnačka kožatá je malá korytnačka.","Korytnačka kožatá sa nepotápa."] },
+  { name:"Narwhal", label:"Narval", continent:"Oceány", sciName:"Monodon monoceros",
+    fact:"Narval má až 3 metre dlhý špirálový kel, ktorý je v skutočnosti predĺžený zub so senzorickými nervovými zakončeniami.",
+    falseFacts:["Narval má roh ako nosorožec.","Narval žije v tropických moriach.","Narval je ryba."] },
+  { name:"Beluga whale", label:"Beluga biela", continent:"Oceány", sciName:"Delphinapterus leucas",
+    fact:"Beluga biela dokáže meniť tvar svojej hlavy nafukovaním dutín a má najbohatší hlasový repertoár spomedzi veľrýb.",
+    falseFacts:["Beluga biela je nemá.","Beluga biela žije v tropických moriach.","Beluga biela je ryba."] },
+  { name:"Dugong", label:"Dugong", continent:"Oceány", sciName:"Dugong dugon",
+    fact:"Dugong je morský cicavec, ktorý sa živí morskou trávou a je príbuzný slonovi, nie tuleňovi.",
+    falseFacts:["Dugong je príbuzný tuleňom.","Dugong je ryba.","Dugong sa živí rybami."] },
+  { name:"Manatee", label:"Kapustňák", continent:"Oceány", sciName:"Trichechus manatus",
+    fact:"Kapustňák je pomalý morský cicavec prezývaný 'morská krava' – neustále nahrádza opotrebované zuby novými zozadu.",
+    falseFacts:["Kapustňák je rýchly plávač.","Kapustňák je mäsožravec.","Kapustňák žije na súši."] },
+  { name:"Cuttlefish", label:"Sépia", continent:"Oceány", sciName:"Sepia officinalis",
+    fact:"Sépia dokáže meniť farbu a vzor pokožky za zlomok sekundy pomocou miliónov chromatofórov.",
+    falseFacts:["Sépia nedokáže meniť farbu.","Sépia je ryba.","Sépia žije v sladkej vode."] },
+  { name:"Lionfish", label:"Perutýn ohnivý", continent:"Oceány", sciName:"Pterois volitans",
+    fact:"Perutýn ohnivý má jedovaté ostne a je inváznym druhom v Karibiku, kde nemá prirodzených predátorov.",
+    falseFacts:["Perutýn ohnivý je nejedovatý.","Perutýn ohnivý je pôvodný druh Karibiku.","Perutýn ohnivý žije v sladkej vode."] },
+  { name:"Anglerfish", label:"Čertík hlbinný", continent:"Oceány", sciName:"Lophiiformes spp.",
+    fact:"Čertík hlbinný láka korisť svietiacou návnadou na hlave a samec je mnohonásobne menší – prirastie k samici a stane sa jej súčasťou.",
+    falseFacts:["Čertík hlbinný žije pri povrchu mora.","Čertík hlbinný nesvietia.","Samec čertíka hlbinného je väčší ako samica."] },
+
+  //  DOPLNENIE – rôzne kontinenty
+  // ═══════════════════════════════════════
+  { name:"Binturong", label:"Binturong", continent:"Ázia", sciName:"Arctictis binturong",
+    fact:"Binturong je ázijský cicavec, ktorý páchne ako pražená kukurica – tento pach produkuje žľaza pod chvostom.",
+    falseFacts:["Binturong je príbuzný medveďom.","Binturong žije v Afrike.","Binturong je bylinožravec."] },
+  { name:"Fossa", label:"Fosa", continent:"Afrika", sciName:"Cryptoprocta ferox",
+    fact:"Fosa je najväčší predátor Madagaskaru – vyzerá ako mačka, ale je príbuzná mangustám.",
+    falseFacts:["Fosa je príbuzná mačkám.","Fosa žije v celej Afrike.","Fosa sa živí ovocím."] },
+  { name:"Okapi", label:"Okapi", continent:"Afrika", sciName:"Okapia johnstoni",
+    fact:"Okapi vyzerá ako kríženec koňa a zebry, ale je to najbližší príbuzný žirafy.",
+    falseFacts:["Okapi je príbuzné zebry.","Okapi žije v otvorených savaných.","Okapi bolo objavené v 18. storočí."] },
+  { name:"Saola", label:"Saola", continent:"Ázia", sciName:"Pseudoryx nghetinhensis",
+    fact:"Saola bola objavená až v roku 1992 vo Vietname a je tak vzácna, že ju nazývajú 'ázijský jednorožec'.",
+    falseFacts:["Saola je bežný druh.","Saola bola objavená v 19. storočí.","Saola žije v Afrike."] },
+  { name:"Axolotl", label:"Axolotl mexický", continent:"Severná Amerika", sciName:"Ambystoma mexicanum",
+    fact:"Axolotl mexický dokáže regenerovať stratené končatiny, orgány, dokonca časti mozgu – a zostáva celý život v larválnom štádiu.",
+    falseFacts:["Axolotl mexický je ryba.","Axolotl mexický žije v mori.","Axolotl mexický nedokáže regenerovať tkanivá."] },
+  { name:"Markhor", label:"Markhor šróbovitý", continent:"Ázia", sciName:"Capra falconeri",
+    fact:"Markhor šróbovitý má impozantné šróbovité rohy dlhé až 160 cm a je národným zvieraťom Pakistanu.",
+    falseFacts:["Markhor šróbovitý má rovné rohy.","Markhor šróbovitý žije v Afrike.","Markhor šróbovitý je malé zviera."] },
+  { name:"Secretary bird", label:"Sekretár hadožravý", continent:"Afrika", sciName:"Sagittarius serpentarius",
+    fact:"Sekretár hadožravý zabíja hady silnými údermi nôh – dokáže kopnúť silou 5-krát väčšou ako jeho vlastná hmotnosť.",
+    falseFacts:["Sekretár hadožravý loví hady zobákom.","Sekretár hadožravý nedokáže lietať.","Sekretár hadožravý žije v Ázii."] },
+  { name:"Gharial", label:"Gaviál indický", continent:"Ázia", sciName:"Gavialis gangeticus",
+    fact:"Gaviál indický má extrémne úzku tlamu prispôsobenú na chytanie rýb a je jedným z najohrozenejších krokodílov.",
+    falseFacts:["Gaviál indický má širokú tlamu.","Gaviál indický loví veľkú korisť.","Gaviál indický žije v Afrike."] },
+  { name:"Quetzal", label:"Kvesal chocholatý", continent:"Severná Amerika", sciName:"Pharomachrus mocinno",
+    fact:"Kvesal chocholatý bol posvätným vtákom Mayov a Aztékov – samec má chvostové perá dlhé až 65 cm.",
+    falseFacts:["Kvesal chocholatý žije v Južnej Amerike.","Kvesal chocholatý je nelietavý vták.","Kvesal chocholatý je dravec."] },
+  { name:"Gerenuk", label:"Gerenuk", continent:"Afrika", sciName:"Litocranius walleri",
+    fact:"Gerenuk je 'žirafová gazela' s extrémne dlhým krkom – ako jediná antilopa sa pravidelne postaví na zadné nohy pri okusovaní stromov.",
+    falseFacts:["Gerenuk je príbuzný žiráf.","Gerenuk sa nikdy nepostaví na zadné nohy.","Gerenuk žije v pralesoch."] },
+  { name:"Hooded seal", label:"Tuleň čiapočkový", continent:"Oceány", sciName:"Cystophora cristata",
+    fact:"Tuleň čiapočkový dokáže nafúknuť nosovú membránu do veľkej ružovej bubliny na zastrašenie rivalov.",
+    falseFacts:["Tuleň čiapočkový nemá žiadne zvláštne znaky.","Tuleň čiapočkový žije v tropických moriach.","Tuleň čiapočkový je najmenší tuleň."] },
+  { name:"Sun bear", label:"Medveď malajský", continent:"Ázia", sciName:"Helarctos malayanus",
+    fact:"Medveď malajský je najmenší medveď na svete a má jazyk dlhý až 25 cm na vyberanie medu z úľov.",
+    falseFacts:["Medveď malajský je najväčší medveď na svete.","Medveď malajský žije v Európe.","Medveď malajský nemá rád med."] },
+  { name:"Shoebill", label:"Člnozobec kráľovský", continent:"Afrika", sciName:"Balaeniceps rex",
+    fact:"Člnozobec kráľovský má mohutný zobák v tvare dreváka a stojí nehybne aj hodiny, kým zaútočí na korisť bleskovou rýchlosťou.",
+    falseFacts:["Člnozobec kráľovský má malý zobák.","Člnozobec kráľovský žije v Ázii.","Člnozobec kráľovský je rýchly bežec."] }
 
 ];
 
